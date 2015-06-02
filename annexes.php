@@ -30,7 +30,6 @@
             <li><a href="contact.php">Membres</a></li>
         </ul>
 
-        <h3 class="center">Liste des animaux:</h3>
         <div class="col_12">
         </div> 
         <div id="footer">
