@@ -57,9 +57,9 @@
                     <li>relations : les liens que les objets peuvent avoir entre eux ;</li>
                     <li>événements : changements subis par des attributs ou des relations.</li>
                 </ul>
-                <p>La sémantique définie par signifier, indiqué où marque, étudie-les signifiés, soit ce dont parle un énoncé données. Grace au père fondateur de la sémantique moderne, Michel Jules Alfred Bréal,  le domaine linguistique reconnait une évolution prépondérante de nos jours.
+                <img class="align-left" src="/img/michelbreal.jpg" width="100" height="100" /></i> <p> La sémantique définie par signifier, indiqué où marque, étudie-les signifiés, soit ce dont parle un énoncé données. Grace au père fondateur dee la sémantique moderne, Michel Jules Alfred Bréal,  le domaine linguistique reconnait une évolution prépondérante de nos jours.
                     En particulier, la sémantique possède plusieurs objets d'étude :</p>
-                <ul>
+                <ul><br>
                     <li>la signification des mots composés ;</li>
                     <li>les rapports de sens entre les mots (relations d'homonymie, de synonymie, d'antonymie, de polysémie, d'hyperonymie, d'hyponymie, etc.) ;</li>
                     <li>la distribution des actants au sein d'un énoncé ;</li>
@@ -82,7 +82,7 @@
                     L’originalité de cette approche réside dans l’exploitation de relations syntaxiques profondes lors de la construction de la ressource d’EN, dans l’annotation à l’aide de groupes d’étiquettes plutôt qu’à l’aide d’étiquettes et dans la mise en œuvre d’une double annotation des EN offrant des informations de niveau tant général que particulier
                     Les phénomènes de pluralité interprétative sont légion en langue naturelle, concernant de nombreux types d’unités linguistiques (noms, verbes, etc.) et jouant à tous les niveaux (morphosyntaxique, lexical, phrastique). Largement décrits et étudiés pour les unités lexicales classiques, les changements, transferts ou superpositions de sens le sont en revanche très peu pour les unités de type EN. Or celles-ci semblent au contraire être régies par les mêmes phénomènes. Considérons les énoncés suivants :
                 </p>
-                <ul>
+                <ul class="alt">
                     <li>(1) Orange a invité M. Dupont.</li>
                     <li>(2) Leclerc a fermé ses magasins en Rhône-Alpes.</li>
                     <li>(3) La France a signé le traité de Kyoto.</li>
@@ -98,7 +98,7 @@
                 <p> Ce que nous appelons ressource d’EN est une liste d’EN avec pour chacune d’elles une liste d’étiquettes sémantiques fines potentielles (par exemple les étiquettes « porte avions », « maréchal », « avenue », « hôpital » pour l’entité nommée Foch) provenant d’un corpus.
                     Le principe général de construction de cette ressource est l’identification dans le corpus de mots ou groupes de mots étant en relation avec les EN et pouvant servir d’étiquettes sémantiques. Afin de repérer et d’associer pertinemment entités et étiquettes.
                     Le processus de construction de la ressource se déroule en trois étapes :</p>
-                <ul>
+                <ul >
                     <li>identification des relations syntaxiques pertinentes permettant d’associer des entités avec des étiquettes,</li>
                     <li>construction « effective » de la ressource</li>
                     <li>gestion des étiquettes par le calcul de cliques. Il convient de détailler chacune de ces étapes ; nous précisons auparavant les données et les outils utilisés.</li>
