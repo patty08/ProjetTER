@@ -20,7 +20,7 @@
                     <li><a href=""><i class="fa fa-download"></i><span> Docs</span></a>
                         <ul>
                             <li><a href="approche.php"><i class="fa fa-file-text"></i> Description</a></li>
-                            <li><a href="annexes.php"><i class="fa fa-file-text"></i> Annexes</a></li>
+                           
                         </ul>
                     </li>
                     <li class="divider"><a href="analyse.php"><i class="fa fa-file"></i> Application</a></li>
@@ -57,7 +57,8 @@
                     <li>relations : les liens que les objets peuvent avoir entre eux ;</li>
                     <li>événements : changements subis par des attributs ou des relations.</li>
                 </ul>
-                <img class="align-left" src="/img/michelbreal.jpg" width="100" height="100" /></i> <p> La sémantique définie par signifier, indiqué où marque, étudie-les signifiés, soit ce dont parle un énoncé données. Grace au père fondateur dee la sémantique moderne, Michel Jules Alfred Bréal,  le domaine linguistique reconnait une évolution prépondérante de nos jours.
+                <h4>Sémantique</h4>
+                <img class="align-left" src="/img/michelbreal.jpg" width="100" height="100" /><p>La sémantique définie par signifier, indiqué où marque, étudie-les signifiés, soit ce dont parle un énoncé données. Grace au père fondateur de la sémantique moderne, Michel Jules Alfred Bréal,  le domaine linguistique reconnait une évolution prépondérante de nos jours.
                     En particulier, la sémantique possède plusieurs objets d'étude :</p>
                 <ul><br>
                     <li>la signification des mots composés ;</li>
@@ -71,7 +72,7 @@
             </div>
             <div class="col_6">
                 <h4>Annotation sémantique</h4>
-                <p> Un des principaux enjeux actuels du Traitement Automatique du Langage Naturel (TALN) est de capter l’information portée par un texte et d’accéder à son sens. Ceci passe, entre autres, par le traitement des unités linguistiques à forte valeur informative (et/ou référentielle). Le cours de l’histoire, ou plutôt de la recherche, a voulu que l’on désigne un certain nombre d’entre elles sous le nom d’ « entités nommées » (EN). Ces dernières correspondent traditionnellement à l’ensemble des noms propres présents dans un texte, qu’il s’agisse de noms de personnes, de lieux ou d’organisations, ensemble auquel sont souvent ajoutées d’autres expressions comme les dates, les unités monétaires, les pourcentages et autres.</p>
+                <p> Un des principaux enjeux actuels du <code>Traitement Automatique du Langage Naturel</code> (TALN) est de capter l’information portée par un texte et d’accéder à son sens. Ceci passe, entre autres, par le traitement des unités linguistiques à forte valeur informative (et/ou référentielle). Le cours de l’histoire, ou plutôt de la recherche, a voulu que l’on désigne un certain nombre d’entre elles sous le nom d’ « entités nommées » (EN). Ces dernières correspondent traditionnellement à l’ensemble des noms propres présents dans un texte, qu’il s’agisse de noms de personnes, de lieux ou d’organisations, ensemble auquel sont souvent ajoutées d’autres expressions comme les dates, les unités monétaires, les pourcentages et autres.</p>
                 <p>
                     La reconnaissance et la catégorisation de ces entités apparaissent ainsi comme une tâche fondamentale pour diverses applications de TALN participant de l’analyse de contenu, à l’instar de la recherche et l’extraction d’information, le question-answering ou encore l’intelligence économique. Considérée à tort comme triviale, elle a fait cette dernière décennie l’objet d’une attention plus soutenue, consécutivement à la récente multiplication des demandes issues du secteur industriel, et à la définition de tâches spécifiques lors des dernières compétitions MUC (Message Understanding Conference) et ACE (Automatic Content Extraction).</p>
                 <p>	Les recherches menées jusqu’à ce jour ont ainsi permis l’élaboration de systèmes de reconnaissance d’EN relativement performants, permettant d’identifier dans des textes de nature journalistique des noms relevant de types généraux tels que « personne », « lieu » et « organisation », et ce avec un taux de F-mesure2 dépassant généralement les 0,90.
@@ -82,7 +83,7 @@
                     L’originalité de cette approche réside dans l’exploitation de relations syntaxiques profondes lors de la construction de la ressource d’EN, dans l’annotation à l’aide de groupes d’étiquettes plutôt qu’à l’aide d’étiquettes et dans la mise en œuvre d’une double annotation des EN offrant des informations de niveau tant général que particulier
                     Les phénomènes de pluralité interprétative sont légion en langue naturelle, concernant de nombreux types d’unités linguistiques (noms, verbes, etc.) et jouant à tous les niveaux (morphosyntaxique, lexical, phrastique). Largement décrits et étudiés pour les unités lexicales classiques, les changements, transferts ou superpositions de sens le sont en revanche très peu pour les unités de type EN. Or celles-ci semblent au contraire être régies par les mêmes phénomènes. Considérons les énoncés suivants :
                 </p>
-                <ul class="alt">
+                <ul>
                     <li>(1) Orange a invité M. Dupont.</li>
                     <li>(2) Leclerc a fermé ses magasins en Rhône-Alpes.</li>
                     <li>(3) La France a signé le traité de Kyoto.</li>
@@ -98,7 +99,7 @@
                 <p> Ce que nous appelons ressource d’EN est une liste d’EN avec pour chacune d’elles une liste d’étiquettes sémantiques fines potentielles (par exemple les étiquettes « porte avions », « maréchal », « avenue », « hôpital » pour l’entité nommée Foch) provenant d’un corpus.
                     Le principe général de construction de cette ressource est l’identification dans le corpus de mots ou groupes de mots étant en relation avec les EN et pouvant servir d’étiquettes sémantiques. Afin de repérer et d’associer pertinemment entités et étiquettes.
                     Le processus de construction de la ressource se déroule en trois étapes :</p>
-                <ul >
+                <ul>
                     <li>identification des relations syntaxiques pertinentes permettant d’associer des entités avec des étiquettes,</li>
                     <li>construction « effective » de la ressource</li>
                     <li>gestion des étiquettes par le calcul de cliques. Il convient de détailler chacune de ces étapes ; nous précisons auparavant les données et les outils utilisés.</li>

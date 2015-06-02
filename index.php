@@ -20,7 +20,6 @@
                     <li><a href=""><i class="fa fa-download"></i><span> Docs</span></a>
                         <ul>
                             <li><a href="approche.php"><i class="fa fa-file-text"></i> Description</a></li>
-                            <li><a href="annexes.php"><i class="fa fa-file-text"></i> Annexes</a></li>
                         </ul>
                     </li>
                     <li class="divider"><a href="analyse.php"><i class="fa fa-file"></i> Application</a></li>
