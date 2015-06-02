@@ -43,7 +43,7 @@
 		}
 
 		public function getId($verbe) {
-			$query=$this->pdo->prepare("SELECT ID from VERBE WHERE VERBE = ?");
+			$query=$this->pdo->prepare("SELECT DISTINCT V.ID FROM VERBE V, CONJUGAISON C WHERE C.VERBE = V.VERBE AND C.conj = ?");
 			$query->execute(array($verbe));
 			$result = $query->fetch(PDO::FETCH_ASSOC);
 			return ($result == FALSE) ? FALSE : $result['ID'];
@@ -59,8 +59,12 @@
 			$bornes = $query->fetch(PDO::FETCH_ASSOC);
 
 
-			$query=$this->pdo->prepare("SELECT * FROM LIENS_VERBES WHERE ID_VERBE = ?
-										AND ID_ANIMAL IN (SELECT ID FROM ANIMAL_TREE WHERE BG < ? AND BD > ?)");
+			$query=$this->pdo->prepare(
+                           "SELECT * 
+                            FROM LIENS_VERBES 
+                            WHERE ID_VERBE = ?
+                                AND ID_ANIMAL IN (SELECT ID FROM ANIMAL_TREE WHERE BG < ? AND BD > ?)");
+                        
 			$query->execute(array($id_verbe, $bornes['BG'], $bornes['BD']));
 			$result = $query->fetch(PDO::FETCH_ASSOC);
 			
