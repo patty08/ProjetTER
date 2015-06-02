@@ -1,10 +1,30 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Structure de la table `animaux`
+--
+
+CREATE TABLE IF NOT EXISTS `verbe` (
+  `nom` text COLLATE utf8_bin NOT NULL,
+  `classe` text COLLATE utf8_bin NOT NULL,
+  `genre` text COLLATE utf8_bin NOT NULL,
+  `sens` text COLLATE utf8_bin NOT NULL,
+  `etat` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
    
-		INSERT INTO verbe VALUES('abax',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('abax','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('abeille',\'entomologie','suc','apidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('abeille','entomologie','suc','apidé,hyménoptère','vivant');
 		
   
    
@@ -28,11 +48,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('abrasax',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('abrasax','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('abraxas',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('abraxas','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
@@ -52,15 +72,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('acalla',\'entomologie','suc','cryptorhynchidé,tordeus','vivant');
+		INSERT INTO verbe VALUES('acalla','entomologie','suc','cryptorhynchidé,tordeus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('acalles',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('acalles','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('acalyptère',\'entomologie','sang','tel drosophile,dacus','vivant');
+		INSERT INTO verbe VALUES('acalyptère','entomologie','sang','tel drosophile,dacus','vivant');
 		
   
    
@@ -104,7 +124,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acanthocine',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('acanthocine','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -196,7 +216,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acerentomon',\'entomologie','végé','protoure primitif','vivant');
+		INSERT INTO verbe VALUES('acerentomon','entomologie','végé','protoure primitif','vivant');
 		
   
    
@@ -216,7 +236,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acherontia',\'entomologie','suc','sphingidé,papillon','vivant');
+		INSERT INTO verbe VALUES('acherontia','entomologie','suc','sphingidé,papillon','vivant');
 		
   
    
@@ -228,11 +248,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('acidalie',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('acidalie','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('acilius',\'entomologie','herb','dytiscidé','vivant');
+		INSERT INTO verbe VALUES('acilius','entomologie','herb','dytiscidé','vivant');
 		
   
    
@@ -276,11 +296,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('acrididé',\'entomologie','végé','orthoptère,tel criquet','vivant');
+		INSERT INTO verbe VALUES('acrididé','entomologie','végé','orthoptère,tel criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('acridien',\'entomologie','végé','orthoptère,tel criquet','vivant');
+		INSERT INTO verbe VALUES('acridien','entomologie','végé','orthoptère,tel criquet','vivant');
 		
   
    
@@ -296,7 +316,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acrocine',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('acrocine','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -304,7 +324,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acronycte',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('acronycte','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -312,7 +332,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('acrothoracique','crustacé','cirr',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('acrothoracique','crustacé','cirr','entomostracé,cirripède','vivant');
 		
   
    
@@ -324,7 +344,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('actias',\'entomologie','suc','saturnidé,papillon','vivant');
+		INSERT INTO verbe VALUES('actias','entomologie','suc','saturnidé,papillon','vivant');
 		
   
    
@@ -400,7 +420,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aculéate',\'entomologie','suc','apidé,abeille,fourmi','vivant');
+		INSERT INTO verbe VALUES('aculéate','entomologie','suc','apidé,abeille,fourmi','vivant');
 		
   
    
@@ -420,11 +440,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('adèle',\'entomologie','suc','tinéidé,papillon','vivant');
+		INSERT INTO verbe VALUES('adèle','entomologie','suc','tinéidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('adelge',\'entomologie','sang','chermésidé,puceron','vivant');
+		INSERT INTO verbe VALUES('adelge','entomologie','sang','chermésidé,puceron','vivant');
 		
   
    
@@ -436,23 +456,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('adéphage',\'entomologie','carn','insecte carnivore','vivant');
+		INSERT INTO verbe VALUES('adéphage','entomologie','carn','insecte carnivore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('adonis',\'entomologie','suc','lycénidé,bélargus','vivant');
+		INSERT INTO verbe VALUES('adonis','entomologie','suc','lycénidé,bélargus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('adoxus',\'entomologie','végé','chrysomélidé','vivant');
+		INSERT INTO verbe VALUES('adoxus','entomologie','végé','chrysomélidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('adraste',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('adraste','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aède',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('aède','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -476,7 +496,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aegosome',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('aegosome','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -484,7 +504,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aelie',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('aelie','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -524,11 +544,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('aeschne',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('aeschne','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aeschnidé',\'entomologie','carn','tel agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('aeschnidé','entomologie','carn','tel agrionidé,libellule','vivant');
 		
   
    
@@ -552,7 +572,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('agapanthie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('agapanthie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -560,7 +580,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('agélastique',\'entomologie','herb','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('agélastique','entomologie','herb','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -568,15 +588,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ageniaspis',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ageniaspis','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agénie',\'entomologie','suc','pompilidé,pompile noir','vivant');
+		INSERT INTO verbe VALUES('agénie','entomologie','suc','pompilidé,pompile noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aglaope',\'entomologie','suc','zygénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('aglaope','entomologie','suc','zygénidé,papillon','vivant');
 		
   
    
@@ -584,29 +604,29 @@
 		
   
    
-		INSERT INTO verbe VALUES('aglène',\'entomologie','herb','colydiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('aglène','entomologie','herb','colydiidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aglie',\'entomologie','suc','saturnidé,papillon','vivant');
+		INSERT INTO verbe VALUES('aglie','entomologie','suc','saturnidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aglossa',\'entomologie','suc','tinéidé,papillon','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('aglosse','reptiles','amph','tel amphibien,crapaud','vivant');
-		
-   
-		INSERT INTO verbe VALUES('aglosse',\'entomologie','suc','tinéidé,papillon','vivant');
+		INSERT INTO verbe VALUES('aglossa','entomologie','suc','tinéidé,papillon','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('aglosse','reptiles','amph','tel amphibien,crapaud','vivant');
 		
    
-		INSERT INTO verbe VALUES('aglosse',\'entomologie','suc','tinéidé,papillon','vivant');
+		INSERT INTO verbe VALUES('aglosse','entomologie','suc','tinéidé,papillon','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('aglosse','reptiles','amph','tel amphibien,crapaud','vivant');
+		
+   
+		INSERT INTO verbe VALUES('aglosse','entomologie','suc','tinéidé,papillon','vivant');
 		
   
    
@@ -638,11 +658,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('agreste',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('agreste','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agrile',\'entomologie','herb','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('agrile','entomologie','herb','buprestidé,coléoptère','vivant');
 		
   
    
@@ -650,19 +670,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('agrion',\'entomologie','carn','agrionidé,libellule pte','vivant');
+		INSERT INTO verbe VALUES('agrion','entomologie','carn','agrionidé,libellule pte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agrionidé',\'entomologie','carn','tel libellule,agrion','vivant');
+		INSERT INTO verbe VALUES('agrionidé','entomologie','carn','tel libellule,agrion','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agriote',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('agriote','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agriotype',\'entomologie','suc','ichneumon,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('agriotype','entomologie','suc','ichneumon,hyménoptère','vivant');
 		
   
    
@@ -674,11 +694,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('agromyze',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('agromyze','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('agrotis',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('agrotis','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -740,7 +760,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aiguillonnier',\'entomologie','végé','cérambycidé,calamobius','vivant');
+		INSERT INTO verbe VALUES('aiguillonnier','entomologie','végé','cérambycidé,calamobius','vivant');
 		
   
    
@@ -768,7 +788,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('alaüs',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('alaüs','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -776,7 +796,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('albane',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('albane','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -792,7 +812,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('alcide',\'entomologie','suc','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('alcide','entomologie','suc','curculionidé,charançon','vivant');
 		
   
    
@@ -834,7 +854,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aléochare',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('aléochare','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -854,11 +874,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('aleurode',\'entomologie','sang','aleurodidé,puceron','vivant');
+		INSERT INTO verbe VALUES('aleurode','entomologie','sang','aleurodidé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aleurodidé',\'entomologie','sang','tel mouche homoptère','vivant');
+		INSERT INTO verbe VALUES('aleurodidé','entomologie','sang','tel mouche homoptère','vivant');
 		
   
    
@@ -882,7 +902,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('allante',\'entomologie','sang','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('allante','entomologie','sang','tenthrédinidé,mouche','vivant');
 		
   
    
@@ -890,7 +910,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('alléculidé',\'entomologie','herb','cistélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('alléculidé','entomologie','herb','cistélidé,coléoptère','vivant');
 		
   
    
@@ -922,7 +942,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('allotrie',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('allotrie','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -930,7 +950,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('alophore',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('alophore','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
@@ -966,7 +986,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('alphitobie',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('alphitobie','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -974,15 +994,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('alsophila',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('alsophila','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('altise',\'entomologie','herb','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('altise','entomologie','herb','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('alucite',\'entomologie','suc','ptérophoridé,sitotrogue','vivant');
+		INSERT INTO verbe VALUES('alucite','entomologie','suc','ptérophoridé,sitotrogue','vivant');
 		
   
    
@@ -994,11 +1014,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('alyde',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('alyde','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('alysie',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('alysie','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -1014,7 +1034,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('amaryllis',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('amaryllis','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -1086,7 +1106,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('amiral',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('amiral','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
@@ -1118,7 +1138,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ammophile',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ammophile','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -1162,7 +1182,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('amphidasis',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('amphidasis','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
@@ -1184,11 +1204,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('amphiline','OMB','ver',\'estode,parasite','vivant');
+		INSERT INTO verbe VALUES('amphiline','OMB','ver','estode,parasite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('amphimalle',\'entomologie','suc','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('amphimalle','entomologie','suc','scarabéidé,hanneton','vivant');
 		
   
    
@@ -1220,7 +1240,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('amphipyre',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('amphipyre','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -1252,7 +1272,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ampulex',\'entomologie','suc','ampulicidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ampulex','entomologie','suc','ampulicidé,hyménoptère','vivant');
 		
   
    
@@ -1324,7 +1344,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anapère',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('anapère','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
@@ -1348,14 +1368,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('anaspis',\'entomologie','herb','mordellidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('anaspis','entomologie','herb','mordellidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('anaspis','poisson','anas','anaspidé,fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anaspis',\'entomologie','herb','mordellidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('anaspis','entomologie','herb','mordellidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('anaspis','poisson','anas','anaspidé,fossile','vivant');
@@ -1370,15 +1390,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('anatife','crustacé','cirr',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('anatife','crustacé','cirr','entomostracé,cirripède','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anax',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('anax','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anchois','poisson',\'engr',\'engraulidé,type hareng','vivant');
+		INSERT INTO verbe VALUES('anchois','poisson','engr','engraulidé,type hareng','vivant');
 		
   
    
@@ -1386,7 +1406,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anchovette','poisson','clup',\'engraulidé,anchois Am S','vivant');
+		INSERT INTO verbe VALUES('anchovette','poisson','clup','engraulidé,anchois Am S','vivant');
 		
   
    
@@ -1422,7 +1442,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('andrène',\'entomologie','suc','apidé,abeille d sables','vivant');
+		INSERT INTO verbe VALUES('andrène','entomologie','suc','apidé,abeille d sables','vivant');
 		
   
    
@@ -1430,7 +1450,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('androphore',\'entomologie','herb','phylloxéra ailé','vivant');
+		INSERT INTO verbe VALUES('androphore','entomologie','herb','phylloxéra ailé','vivant');
 		
   
    
@@ -1438,7 +1458,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anergate',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('anergate','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -1542,19 +1562,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('anisoplie',\'entomologie','suc','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('anisoplie','entomologie','suc','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anisoptère',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('anisoptère','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anisoptéryx',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('anisoptéryx','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anisotome',\'entomologie','suc','silphidé','vivant');
+		INSERT INTO verbe VALUES('anisotome','entomologie','suc','silphidé','vivant');
 		
   
    
@@ -1582,11 +1602,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('anobie',\'entomologie','suc','anobiidé,vrillette','vivant');
+		INSERT INTO verbe VALUES('anobie','entomologie','suc','anobiidé,vrillette','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anobiidé',\'entomologie','suc','tel vrillette','vivant');
+		INSERT INTO verbe VALUES('anobiidé','entomologie','suc','tel vrillette','vivant');
 		
   
    
@@ -1598,7 +1618,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anomala',\'entomologie','suc','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('anomala','entomologie','suc','scarabéidé,scarabée','vivant');
 		
   
    
@@ -1622,7 +1642,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anomma',\'entomologie','sang','dorylidé,fourmi Afrique','vivant');
+		INSERT INTO verbe VALUES('anomma','entomologie','sang','dorylidé,fourmi Afrique','vivant');
 		
   
    
@@ -1638,11 +1658,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('anophèle',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('anophèle','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anophtalme',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('anophtalme','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -1650,7 +1670,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('anoploure',\'entomologie','sang','tel pou,insecte ss aile','vivant');
+		INSERT INTO verbe VALUES('anoploure','entomologie','sang','tel pou,insecte ss aile','vivant');
 		
   
    
@@ -1678,7 +1698,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('antaxius',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('antaxius','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
@@ -1698,23 +1718,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('anthaxie',\'entomologie','végé','buprestidé,bupreste pt','vivant');
+		INSERT INTO verbe VALUES('anthaxie','entomologie','végé','buprestidé,bupreste pt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthicidé',\'entomologie','suc','tel notoxus coléoptère','vivant');
+		INSERT INTO verbe VALUES('anthicidé','entomologie','suc','tel notoxus coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthidie',\'entomologie','suc','abeille','vivant');
+		INSERT INTO verbe VALUES('anthidie','entomologie','suc','abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthocaris',\'entomologie','suc','piéridé,aurore,papillon','vivant');
+		INSERT INTO verbe VALUES('anthocaris','entomologie','suc','piéridé,aurore,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthocoris',\'entomologie','sang','anthocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('anthocoris','entomologie','sang','anthocoridé,punaise','vivant');
 		
   
    
@@ -1722,15 +1742,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('anthomyie',\'entomologie','sang','muscidé,mouche diptère','vivant');
+		INSERT INTO verbe VALUES('anthomyie','entomologie','sang','muscidé,mouche diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthonome',\'entomologie','suc','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('anthonome','entomologie','suc','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthophore',\'entomologie','suc','abeille','vivant');
+		INSERT INTO verbe VALUES('anthophore','entomologie','suc','abeille','vivant');
 		
   
    
@@ -1746,15 +1766,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('anthrax',\'entomologie','sang','bombylidé,mouche','vivant');
+		INSERT INTO verbe VALUES('anthrax','entomologie','sang','bombylidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthrène',\'entomologie','herb','dermestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('anthrène','entomologie','herb','dermestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('anthribidé',\'entomologie','herb','rynchophore,coléoptère','vivant');
+		INSERT INTO verbe VALUES('anthribidé','entomologie','herb','rynchophore,coléoptère','vivant');
 		
   
    
@@ -1790,11 +1810,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('aoûtat',\'entomologie','sang','trombidion,larv acarien','vivant');
+		INSERT INTO verbe VALUES('aoûtat','entomologie','sang','trombidion,larv acarien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('apanteles',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('apanteles','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -1806,15 +1826,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('apatura',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('apatura','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphaniptère',\'entomologie','sang','pulex,tel puce','vivant');
+		INSERT INTO verbe VALUES('aphaniptère','entomologie','sang','pulex,tel puce','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphéline',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('aphéline','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -1822,38 +1842,38 @@
 		
   
    
-		INSERT INTO verbe VALUES('aphididé',\'entomologie','suc','tel puceron homoptère','vivant');
+		INSERT INTO verbe VALUES('aphididé','entomologie','suc','tel puceron homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphidien',\'entomologie','sang','tel chermésidé,aphididé','vivant');
+		INSERT INTO verbe VALUES('aphidien','entomologie','sang','tel chermésidé,aphididé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphidius',\'entomologie','suc','ichneumonidé térébrant','vivant');
+		INSERT INTO verbe VALUES('aphidius','entomologie','suc','ichneumonidé térébrant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphidoïde',\'entomologie','suc','tel puceron homoptère','vivant');
+		INSERT INTO verbe VALUES('aphidoïde','entomologie','suc','tel puceron homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphis',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('aphis','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphodius',\'entomologie','suc','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('aphodius','entomologie','suc','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphritis',\'entomologie','sang','sirphidé,diptère','vivant');
+		INSERT INTO verbe VALUES('aphritis','entomologie','sang','sirphidé,diptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('aphritis','poisson','acan','acanthoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphritis',\'entomologie','sang','sirphidé,diptère','vivant');
+		INSERT INTO verbe VALUES('aphritis','entomologie','sang','sirphidé,diptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('aphritis','poisson','acan','acanthoptère','vivant');
@@ -1864,7 +1884,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aphrode',\'entomologie','suc','cercopidé,hémiptère','vivant');
+		INSERT INTO verbe VALUES('aphrode','entomologie','suc','cercopidé,hémiptère','vivant');
 		
   
    
@@ -1876,11 +1896,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('aphrophore',\'entomologie','suc','cercopidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('aphrophore','entomologie','suc','cercopidé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aphtone',\'entomologie','végé','chrysomélidé,altise','vivant');
+		INSERT INTO verbe VALUES('aphtone','entomologie','végé','chrysomélidé,altise','vivant');
 		
   
    
@@ -1888,7 +1908,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('apidé',\'entomologie','suc','tel abeille,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('apidé','entomologie','suc','tel abeille,hyménoptère','vivant');
 		
   
    
@@ -1900,7 +1920,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('apion',\'entomologie','suc','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('apion','entomologie','suc','curculionidé,charançon','vivant');
 		
   
    
@@ -1928,25 +1948,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('apocrite',\'entomologie','suc','tel aculéate,térébrant','vivant');
+		INSERT INTO verbe VALUES('apocrite','entomologie','suc','tel aculéate,térébrant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('apode',\'entomologie','suc','tel holothurie,abeille','vivant');
+		INSERT INTO verbe VALUES('apode','entomologie','suc','tel holothurie,abeille','vivant');
 		
    
 		INSERT INTO verbe VALUES('apode','reptiles','amph','amphibien,tel cécilie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('apode',\'entomologie','suc','tel holothurie,abeille','vivant');
+		INSERT INTO verbe VALUES('apode','entomologie','suc','tel holothurie,abeille','vivant');
 		
    
 		INSERT INTO verbe VALUES('apode','reptiles','amph','amphibien,tel cécilie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('apodère',\'entomologie','suc','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('apodère','entomologie','suc','curculionidé,charançon','vivant');
 		
   
    
@@ -1962,11 +1982,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('apollon',\'entomologie','suc','papilionidé,parnassien','vivant');
+		INSERT INTO verbe VALUES('apollon','entomologie','suc','papilionidé,parnassien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('aporia',\'entomologie','suc','piéridé,piéride blanche','vivant');
+		INSERT INTO verbe VALUES('aporia','entomologie','suc','piéridé,piéride blanche','vivant');
 		
   
    
@@ -1998,7 +2018,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aptérygote',\'entomologie','herb','tel collembole insecte','vivant');
+		INSERT INTO verbe VALUES('aptérygote','entomologie','herb','tel collembole insecte','vivant');
 		
   
    
@@ -2025,7 +2045,7 @@
 		INSERT INTO verbe VALUES('araignée','ART','carn','arachnide,aranéide','vivant');
 		
    
-		INSERT INTO verbe VALUES('araignée',\'entomologie','hydr','hydromètre,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('araignée','entomologie','hydr','hydromètre,hétéroptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('araignée','crustacé','crus','majidé,crabe comestible','vivant');
@@ -2035,7 +2055,7 @@
 		INSERT INTO verbe VALUES('araignée d\'eau','ART','carn','arachnide,aranéide','vivant');
 		
    
-		INSERT INTO verbe VALUES('araignée d\'eau',\'entomologie','hydr','hydromètre,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('araignée d\'eau','entomologie','hydr','hydromètre,hétéroptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('araignée d\'eau','crustacé','crus','majidé,crabe comestible','vivant');
@@ -2045,7 +2065,7 @@
 		INSERT INTO verbe VALUES('araignée de mer','ART','carn','arachnide,aranéide','vivant');
 		
    
-		INSERT INTO verbe VALUES('araignée de mer',\'entomologie','hydr','hydromètre,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('araignée de mer','entomologie','hydr','hydromètre,hétéroptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('araignée de mer','crustacé','crus','majidé,crabe comestible','vivant');
@@ -2084,7 +2104,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('araschnia',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('araschnia','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
@@ -2148,7 +2168,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('archiptère',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('archiptère','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
@@ -2168,19 +2188,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('arctia',\'entomologie','suc','arctiidé,chelonia','vivant');
+		INSERT INTO verbe VALUES('arctia','entomologie','suc','arctiidé,chelonia','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('arctica',\'entomologie','suc','arcticidé bivalve','vivant');
+		INSERT INTO verbe VALUES('arctica','entomologie','suc','arcticidé bivalve','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('arcticidé',\'entomologie','suc','tel arctica','vivant');
+		INSERT INTO verbe VALUES('arcticidé','entomologie','suc','tel arctica','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('arctiidé',\'entomologie','suc','tel écaille,papillon','vivant');
+		INSERT INTO verbe VALUES('arctiidé','entomologie','suc','tel écaille,papillon','vivant');
 		
   
    
@@ -2196,7 +2216,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('arcyptère',\'entomologie','végé','acrididé,criquet grd','vivant');
+		INSERT INTO verbe VALUES('arcyptère','entomologie','végé','acrididé,criquet grd','vivant');
 		
   
    
@@ -2268,7 +2288,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('argynne',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('argynne','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -2280,7 +2300,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('argyroplocé',\'entomologie','suc','tordeuse,olethreutes','vivant');
+		INSERT INTO verbe VALUES('argyroplocé','entomologie','suc','tordeuse,olethreutes','vivant');
 		
   
    
@@ -2288,7 +2308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('arile',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('arile','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
@@ -2312,15 +2332,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('aromie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('aromie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('arpenteuse',\'entomologie','végé','chenille d phalène','vivant');
+		INSERT INTO verbe VALUES('arpenteuse','entomologie','végé','chenille d phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('arrangée',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('arrangée','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -2364,15 +2384,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('artison',\'entomologie','sang','tel teigne,psoque','vivant');
+		INSERT INTO verbe VALUES('artison','entomologie','sang','tel teigne,psoque','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('artoison',\'entomologie','sang','tel teigne,psoque','vivant');
+		INSERT INTO verbe VALUES('artoison','entomologie','sang','tel teigne,psoque','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('artuson',\'entomologie','sang','tel teigne,psoque','vivant');
+		INSERT INTO verbe VALUES('artuson','entomologie','sang','tel teigne,psoque','vivant');
 		
   
    
@@ -2416,7 +2436,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('asclère',\'entomologie','herb','oedéméridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('asclère','entomologie','herb','oedéméridé,coléoptère','vivant');
 		
   
    
@@ -2428,7 +2448,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ascothoracique','crustacé','cirr',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('ascothoracique','crustacé','cirr','entomostracé,cirripède','vivant');
 		
   
    
@@ -2440,19 +2460,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('asemum',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('asemum','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('asile',\'entomologie','sang','asilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('asile','entomologie','sang','asilidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('asilidé',\'entomologie','sang','tel mouche grande taille','vivant');
+		INSERT INTO verbe VALUES('asilidé','entomologie','sang','tel mouche grande taille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('asopia',\'entomologie','sang','tinéidé,teigne farine','vivant');
+		INSERT INTO verbe VALUES('asopia','entomologie','sang','tinéidé,teigne farine','vivant');
 		
   
    
@@ -2464,7 +2484,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aspidiotus',\'entomologie','suc','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('aspidiotus','entomologie','suc','coccidé,cochenille','vivant');
 		
   
    
@@ -2532,7 +2552,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('astroïde','animal','madr',\'eupsammidé,madréporaire','vivant');
+		INSERT INTO verbe VALUES('astroïde','animal','madr','eupsammidé,madréporaire','vivant');
 		
   
    
@@ -2544,7 +2564,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('atéleste',\'entomologie','herb','malachiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('atéleste','entomologie','herb','malachiidé,coléoptère','vivant');
 		
   
    
@@ -2552,7 +2572,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ateuchus',\'entomologie','suc','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('ateuchus','entomologie','suc','scarabéidé,scarabée','vivant');
 		
   
    
@@ -2560,7 +2580,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('athalie',\'entomologie','suc','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('athalie','entomologie','suc','tenthrédinidé,mouche','vivant');
 		
   
    
@@ -2582,7 +2602,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('athérix',\'entomologie','sang','leptidé,mouche','vivant');
+		INSERT INTO verbe VALUES('athérix','entomologie','sang','leptidé,mouche','vivant');
 		
   
    
@@ -2590,7 +2610,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('athous',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('athous','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -2606,11 +2626,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('atlas',\'entomologie','suc','saturnidé,papillon','vivant');
+		INSERT INTO verbe VALUES('atlas','entomologie','suc','saturnidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('atomaria',\'entomologie','suc','cryptophagidé','vivant');
+		INSERT INTO verbe VALUES('atomaria','entomologie','suc','cryptophagidé','vivant');
 		
   
    
@@ -2630,7 +2650,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('atropos',\'entomologie','suc','sphingidé,psocoptère','vivant');
+		INSERT INTO verbe VALUES('atropos','entomologie','suc','sphingidé,psocoptère','vivant');
 		
   
    
@@ -2638,19 +2658,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('atta',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('atta','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('attacus',\'entomologie','suc','saturnidé,papillon','vivant');
+		INSERT INTO verbe VALUES('attacus','entomologie','suc','saturnidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('attagène',\'entomologie','suc','dermestidé','vivant');
+		INSERT INTO verbe VALUES('attagène','entomologie','suc','dermestidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('attélabe',\'entomologie','suc','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('attélabe','entomologie','suc','curculionidé,charançon','vivant');
 		
   
    
@@ -2666,7 +2686,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('auchénorhynque',\'entomologie','suc','cicadidé homoptère','vivant');
+		INSERT INTO verbe VALUES('auchénorhynque','entomologie','suc','cicadidé homoptère','vivant');
 		
   
    
@@ -2674,7 +2694,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aulax',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('aulax','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -2710,7 +2730,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('aurore',\'entomologie','suc','piéridé,anthocaris','vivant');
+		INSERT INTO verbe VALUES('aurore','entomologie','suc','piéridé,anthocaris','vivant');
 		
   
    
@@ -2778,11 +2798,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('azteca',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('azteca','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('azuré',\'entomologie','suc','lycénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('azuré','entomologie','suc','lycénidé,papillon','vivant');
 		
   
    
@@ -2802,7 +2822,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('babotte',\'entomologie','suc','chenille d pyrale','vivant');
+		INSERT INTO verbe VALUES('babotte','entomologie','suc','chenille d pyrale','vivant');
 		
   
    
@@ -2818,7 +2838,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bacha',\'entomologie','sang','syrphidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('bacha','entomologie','sang','syrphidé,moucheron','vivant');
 		
   
    
@@ -2884,7 +2904,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bactériidé',\'entomologie','herb','tel insecte ss ailes','vivant');
+		INSERT INTO verbe VALUES('bactériidé','entomologie','herb','tel insecte ss ailes','vivant');
 		
   
    
@@ -2908,7 +2928,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('baëtis',\'entomologie','herb','baëtidé,éphémère 1 aile','vivant');
+		INSERT INTO verbe VALUES('baëtis','entomologie','herb','baëtidé,éphémère 1 aile','vivant');
 		
   
    
@@ -2944,11 +2964,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('balanidé','crustacé',\'ento','tel balane,entomostracé','vivant');
+		INSERT INTO verbe VALUES('balanidé','crustacé','ento','tel balane,entomostracé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('balanin',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('balanin','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -3028,7 +3048,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('barban',\'entomologie','carn','thysanoptère,thrips','vivant');
+		INSERT INTO verbe VALUES('barban','entomologie','carn','thysanoptère,thrips','vivant');
 		
   
    
@@ -3066,7 +3086,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('barbitiste',\'entomologie','suc','phanéroptéridé,sauterel','vivant');
+		INSERT INTO verbe VALUES('barbitiste','entomologie','suc','phanéroptéridé,sauterel','vivant');
 		
   
    
@@ -3098,7 +3118,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('baris',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('baris','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -3210,7 +3230,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('batrisus',\'entomologie','herb','psélaphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('batrisus','entomologie','herb','psélaphidé,coléoptère','vivant');
 		
   
    
@@ -3374,7 +3394,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('belargus',\'entomologie','suc','lycénidé,adonis','vivant');
+		INSERT INTO verbe VALUES('belargus','entomologie','suc','lycénidé,adonis','vivant');
 		
   
    
@@ -3398,7 +3418,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('béliner','mammifère','acte','lièvre s'accoupler','vivant');
+		INSERT INTO verbe VALUES('béliner','mammifère','acte','lièvre s\'accoupler','vivant');
 		
   
    
@@ -3406,7 +3426,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bélionote',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('bélionote','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -3414,15 +3434,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('belle-dame',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('belle-dame','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bellicositermes',\'entomologie','végé','termitidé,termite','vivant');
+		INSERT INTO verbe VALUES('bellicositermes','entomologie','végé','termitidé,termite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('belmonthia',\'entomologie','végé','mécoptère fossile','vivant');
+		INSERT INTO verbe VALUES('belmonthia','entomologie','végé','mécoptère fossile','vivant');
 		
   
    
@@ -3442,7 +3462,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bélonogaster',\'entomologie','sang','vespidé,guêpe','vivant');
+		INSERT INTO verbe VALUES('bélonogaster','entomologie','sang','vespidé,guêpe','vivant');
 		
   
    
@@ -3454,11 +3474,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('bélostomatidé',\'entomologie','sang','tel bélostome,punaise','vivant');
+		INSERT INTO verbe VALUES('bélostomatidé','entomologie','sang','tel bélostome,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bélostome',\'entomologie','sang','bélostomatidé,punaise','vivant');
+		INSERT INTO verbe VALUES('bélostome','entomologie','sang','bélostomatidé,punaise','vivant');
 		
   
    
@@ -3490,15 +3510,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('bembécidé',\'entomologie','suc','tel bembex','vivant');
+		INSERT INTO verbe VALUES('bembécidé','entomologie','suc','tel bembex','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bembex',\'entomologie','suc','bembécidé,abeille solit','vivant');
+		INSERT INTO verbe VALUES('bembex','entomologie','suc','bembécidé,abeille solit','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bembidion',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('bembidion','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -3522,7 +3542,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('béris',\'entomologie','sang','stratiomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('béris','entomologie','sang','stratiomyidé,mouche','vivant');
 		
   
    
@@ -3538,7 +3558,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('berne',\'entomologie','sang','larve dermatobie','vivant');
+		INSERT INTO verbe VALUES('berne','entomologie','sang','larve dermatobie','vivant');
 		
   
    
@@ -3566,7 +3586,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bérytidé',\'entomologie','sang','tel béryte hétéroptère','vivant');
+		INSERT INTO verbe VALUES('bérytidé','entomologie','sang','tel béryte hétéroptère','vivant');
 		
   
    
@@ -3590,10 +3610,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête','mammifère','bovi','boeuf','vivant');
@@ -3609,10 +3629,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête à bon Dieu','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête à bon Dieu','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête à bon Dieu',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête à bon Dieu','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête à bon Dieu','mammifère','bovi','boeuf','vivant');
@@ -3628,10 +3648,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête à cornes','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête à cornes','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête à cornes',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête à cornes','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête à cornes','mammifère','bovi','boeuf','vivant');
@@ -3647,10 +3667,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête de somme','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête de somme','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête de somme',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête de somme','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête de somme','mammifère','bovi','boeuf','vivant');
@@ -3666,10 +3686,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête de trait','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête de trait','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête de trait',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête de trait','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête de trait','mammifère','bovi','boeuf','vivant');
@@ -3685,10 +3705,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('bête fauve','ZOO','ani',\'espèce animale','vivant');
+		INSERT INTO verbe VALUES('bête fauve','ZOO','ani','espèce animale','vivant');
 		
    
-		INSERT INTO verbe VALUES('bête fauve',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('bête fauve','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
    
 		INSERT INTO verbe VALUES('bête fauve','mammifère','bovi','boeuf','vivant');
@@ -3734,7 +3754,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('béthyle',\'entomologie','suc','béthylidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('béthyle','entomologie','suc','béthylidé,hyménoptère','vivant');
 		
   
    
@@ -3754,11 +3774,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('bibion',\'entomologie','sang','bibionidé,mouche','vivant');
+		INSERT INTO verbe VALUES('bibion','entomologie','sang','bibionidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bibionidé',\'entomologie','sang','tel bibion nématocère','vivant');
+		INSERT INTO verbe VALUES('bibionidé','entomologie','sang','tel bibion nématocère','vivant');
 		
   
    
@@ -3840,7 +3860,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('biorhiza',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('biorhiza','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -3876,7 +3896,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('biston',\'entomologie','suc','géométridé,phalène Eur','vivant');
+		INSERT INTO verbe VALUES('biston','entomologie','suc','géométridé,phalène Eur','vivant');
 		
   
    
@@ -3888,7 +3908,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bittacus',\'entomologie','végé','bittacidé,mécoptère','vivant');
+		INSERT INTO verbe VALUES('bittacus','entomologie','végé','bittacidé,mécoptère','vivant');
 		
   
    
@@ -3900,7 +3920,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('blabère',\'entomologie','suc','blattidé,grde blatte','vivant');
+		INSERT INTO verbe VALUES('blabère','entomologie','suc','blattidé,grde blatte','vivant');
 		
   
    
@@ -3940,7 +3960,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('blaps',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('blaps','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -3952,7 +3972,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('blastophaga',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('blastophaga','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -3960,19 +3980,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('blatte',\'entomologie','suc','blattidé nocturne','vivant');
+		INSERT INTO verbe VALUES('blatte','entomologie','suc','blattidé nocturne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('blattidé',\'entomologie','suc','orthoptère,tel blatte','vivant');
+		INSERT INTO verbe VALUES('blattidé','entomologie','suc','orthoptère,tel blatte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('blattoptéroïde',\'entomologie','suc','paurométabole,blatte','vivant');
+		INSERT INTO verbe VALUES('blattoptéroïde','entomologie','suc','paurométabole,blatte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bledius',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('bledius','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -3984,11 +4004,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('blennocampe',\'entomologie','suc','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('blennocampe','entomologie','suc','tenthrédinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('blépharocère',\'entomologie','sang','culicidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('blépharocère','entomologie','sang','culicidé,moucheron','vivant');
 		
   
    
@@ -4000,7 +4020,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('blissus',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('blissus','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
@@ -4016,7 +4036,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('boarmie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('boarmie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -4050,27 +4070,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('bois-veiné',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('bois-veiné','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bolitobie',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('bolitobie','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bolitophage',\'entomologie','carn','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('bolitophage','entomologie','carn','ténébrionidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bolitophile',\'entomologie','carn','mycétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('bolitophile','entomologie','carn','mycétophilidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bombardier',\'entomologie','herb','tel aptine,coléoptère','vivant');
+		INSERT INTO verbe VALUES('bombardier','entomologie','herb','tel aptine,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bombidé',\'entomologie','suc','apidé,tel bourdon','vivant');
+		INSERT INTO verbe VALUES('bombidé','entomologie','suc','apidé,tel bourdon','vivant');
 		
   
    
@@ -4082,7 +4102,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bombycidé',\'entomologie','suc','tel bombyx,papillon','vivant');
+		INSERT INTO verbe VALUES('bombycidé','entomologie','suc','tel bombyx,papillon','vivant');
 		
   
    
@@ -4090,11 +4110,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('bombylidé',\'entomologie','sang','tel anthrax mouche','vivant');
+		INSERT INTO verbe VALUES('bombylidé','entomologie','sang','tel anthrax mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bombyx',\'entomologie','suc','bombycidé,papillon','vivant');
+		INSERT INTO verbe VALUES('bombyx','entomologie','suc','bombycidé,papillon','vivant');
 		
   
    
@@ -4150,11 +4170,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('borboridé',\'entomologie','sang','tel cypsèle,borborus','vivant');
+		INSERT INTO verbe VALUES('borboridé','entomologie','sang','tel cypsèle,borborus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('borborus',\'entomologie','sang','borboridé,mouche','vivant');
+		INSERT INTO verbe VALUES('borborus','entomologie','sang','borboridé,mouche','vivant');
 		
   
    
@@ -4170,11 +4190,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('borée',\'entomologie','végé','mécoptère,panorpidé','vivant');
+		INSERT INTO verbe VALUES('borée','entomologie','végé','mécoptère,panorpidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('borocère',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('borocère','entomologie','suc','lasiocampidé,papillon','vivant');
 		
   
    
@@ -4182,11 +4202,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('bostryche',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('bostryche','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('bostrychidé',\'entomologie','herb','tel bostryche','vivant');
+		INSERT INTO verbe VALUES('bostrychidé','entomologie','herb','tel bostryche','vivant');
 		
   
    
@@ -4214,7 +4234,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bothynodère',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('bothynodère','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -4278,7 +4298,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bourdon',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('bourdon','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -4318,7 +4338,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bousier',\'entomologie','herb','scarabéidé,épilissus','vivant');
+		INSERT INTO verbe VALUES('bousier','entomologie','herb','scarabéidé,épilissus','vivant');
 		
   
    
@@ -4386,23 +4406,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('brachycère',\'entomologie','sang','diptère nématocère','vivant');
+		INSERT INTO verbe VALUES('brachycère','entomologie','sang','diptère nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brachycerus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('brachycerus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brachyderes',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('brachyderes','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brachymyrmex',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('brachymyrmex','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brachyne',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('brachyne','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -4414,15 +4434,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('brachyptère',\'entomologie','herb','nitidiludé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('brachyptère','entomologie','herb','nitidiludé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brachytarse',\'entomologie','herb','anthribidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('brachytarse','entomologie','herb','anthribidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('braconidé',\'entomologie','suc','tel aphidius,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('braconidé','entomologie','suc','tel aphidius,hyménoptèr','vivant');
 		
   
    
@@ -4510,15 +4530,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('brassicaire',\'entomologie','suc','piéridé,papillon d chou','vivant');
+		INSERT INTO verbe VALUES('brassicaire','entomologie','suc','piéridé,papillon d chou','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brassolis',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('brassolis','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('braule',\'entomologie','sang','braulidé,mouche pupipar','vivant');
+		INSERT INTO verbe VALUES('braule','entomologie','sang','braulidé,mouche pupipar','vivant');
 		
   
    
@@ -4538,11 +4558,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('brenthe',\'entomologie','herb','brenthidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('brenthe','entomologie','herb','brenthidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('brenthidé',\'entomologie','herb','tel brenthe','vivant');
+		INSERT INTO verbe VALUES('brenthidé','entomologie','herb','tel brenthe','vivant');
 		
   
    
@@ -4640,7 +4660,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bruche',\'entomologie','herb','bruchidé,laria','vivant');
+		INSERT INTO verbe VALUES('bruche','entomologie','herb','bruchidé,laria','vivant');
 		
   
    
@@ -4648,7 +4668,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bryophile',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('bryophile','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -4664,7 +4684,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('bubas',\'entomologie','herb','scarabéidé,bousier noir','vivant');
+		INSERT INTO verbe VALUES('bubas','entomologie','herb','scarabéidé,bousier noir','vivant');
 		
   
    
@@ -4784,11 +4804,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('bupreste',\'entomologie','végé','buprestidé,enfle-boeuf','vivant');
+		INSERT INTO verbe VALUES('bupreste','entomologie','végé','buprestidé,enfle-boeuf','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('buprestidé',\'entomologie','herb','tel bupreste,richard','vivant');
+		INSERT INTO verbe VALUES('buprestidé','entomologie','herb','tel bupreste,richard','vivant');
 		
   
    
@@ -4824,7 +4844,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('butineuse',\'entomologie','suc','abeille q butine','vivant');
+		INSERT INTO verbe VALUES('butineuse','entomologie','suc','abeille q butine','vivant');
 		
   
    
@@ -4832,19 +4852,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('buveuse',\'entomologie','suc','lasiocampidé,cosmotrich','vivant');
+		INSERT INTO verbe VALUES('buveuse','entomologie','suc','lasiocampidé,cosmotrich','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('byctiscus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('byctiscus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('byrrhidé',\'entomologie','herb','tel byture','vivant');
+		INSERT INTO verbe VALUES('byrrhidé','entomologie','herb','tel byture','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('byture',\'entomologie','herb','byturidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('byture','entomologie','herb','byturidé,coléoptère','vivant');
 		
   
    
@@ -4860,7 +4880,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cabère',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('cabère','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -4910,7 +4930,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cacoecia',\'entomologie','suc','tortricidé,papillon','vivant');
+		INSERT INTO verbe VALUES('cacoecia','entomologie','suc','tortricidé,papillon','vivant');
 		
   
    
@@ -4930,7 +4950,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('caecilius',\'entomologie','végé','psocoptère d pin','vivant');
+		INSERT INTO verbe VALUES('caecilius','entomologie','végé','psocoptère d pin','vivant');
 		
   
    
@@ -4946,11 +4966,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('caenoptera',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('caenoptera','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cafard',\'entomologie','suc','blattidé,cancrelat','vivant');
+		INSERT INTO verbe VALUES('cafard','entomologie','suc','blattidé,cancrelat','vivant');
 		
   
    
@@ -4998,7 +5018,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('calamobius',\'entomologie','végé','cérambycidé,aiguillonni','vivant');
+		INSERT INTO verbe VALUES('calamobius','entomologie','végé','cérambycidé,aiguillonni','vivant');
 		
   
    
@@ -5006,14 +5026,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('calandre',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('calandre','entomologie','herb','curculionidé,charançon','vivant');
 		
    
 		INSERT INTO verbe VALUES('calandre','oiseau','pass','alaudidé,alouette','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calandre',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('calandre','entomologie','herb','curculionidé,charançon','vivant');
 		
    
 		INSERT INTO verbe VALUES('calandre','oiseau','pass','alaudidé,alouette','vivant');
@@ -5024,7 +5044,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('calanus','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('calanus','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -5036,7 +5056,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('calathus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('calathus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -5066,15 +5086,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('caligo',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('caligo','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caligus','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('caligus','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caliroa',\'entomologie','suc','tenthrédinidé hyménoptè','vivant');
+		INSERT INTO verbe VALUES('caliroa','entomologie','suc','tenthrédinidé hyménoptè','vivant');
 		
   
    
@@ -5090,7 +5110,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('callichrome',\'entomologie','végé','cérambycidé,capricorne','vivant');
+		INSERT INTO verbe VALUES('callichrome','entomologie','végé','cérambycidé,capricorne','vivant');
 		
   
    
@@ -5098,15 +5118,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('callicnémis',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('callicnémis','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('callidie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('callidie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('callidryade',\'entomologie','suc','piéridé,papillon','vivant');
+		INSERT INTO verbe VALUES('callidryade','entomologie','suc','piéridé,papillon','vivant');
 		
   
    
@@ -5114,7 +5134,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('callimorphe',\'entomologie','suc','callimorphidé,papillon','vivant');
+		INSERT INTO verbe VALUES('callimorphe','entomologie','suc','callimorphidé,papillon','vivant');
 		
   
    
@@ -5134,26 +5154,26 @@
 		
   
    
-		INSERT INTO verbe VALUES('calliphore',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('calliphore','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calliphoridé',\'entomologie','sang','tel calliphore,lucilie','vivant');
+		INSERT INTO verbe VALUES('calliphoridé','entomologie','sang','tel calliphore,lucilie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calliptamus',\'entomologie','herb','catantopidé,criquet','vivant');
+		INSERT INTO verbe VALUES('calliptamus','entomologie','herb','catantopidé,criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calliste',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('calliste','entomologie','carn','carabidé,carabe','vivant');
 		
    
 		INSERT INTO verbe VALUES('calliste','oiseau','pass','tanagridé,calospize','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calliste',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('calliste','entomologie','carn','carabidé,carabe','vivant');
 		
    
 		INSERT INTO verbe VALUES('calliste','oiseau','pass','tanagridé,calospize','vivant');
@@ -5172,19 +5192,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('calocoris',\'entomologie','sang','hétéroptère,punaise','vivant');
+		INSERT INTO verbe VALUES('calocoris','entomologie','sang','hétéroptère,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caloptenus',\'entomologie','herb','calantopidé,criquet','vivant');
+		INSERT INTO verbe VALUES('caloptenus','entomologie','herb','calantopidé,criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caloptérix',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('caloptérix','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('calosome',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('calosome','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -5196,7 +5216,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('calotermes',\'entomologie','végé','termitidé,termite','vivant');
+		INSERT INTO verbe VALUES('calotermes','entomologie','végé','termitidé,termite','vivant');
 		
   
    
@@ -5232,7 +5252,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('calyssozoaire','animal','prot',\'entoprocte','vivant');
+		INSERT INTO verbe VALUES('calyssozoaire','animal','prot','entoprocte','vivant');
 		
   
    
@@ -5280,15 +5300,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('campode',\'entomologie','carn','compodéidé,diploure','vivant');
+		INSERT INTO verbe VALUES('campode','entomologie','carn','compodéidé,diploure','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('campodéidé',\'entomologie','carn','tel diploure','vivant');
+		INSERT INTO verbe VALUES('campodéidé','entomologie','carn','tel diploure','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('camponote',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('camponote','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -5332,7 +5352,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cancrelat',\'entomologie','suc','blattidé,blatte,cafard','vivant');
+		INSERT INTO verbe VALUES('cancrelat','entomologie','suc','blattidé,blatte,cafard','vivant');
 		
   
    
@@ -5372,11 +5392,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cantharide',\'entomologie','herb','méloïdé,coléoptère vert','vivant');
+		INSERT INTO verbe VALUES('cantharide','entomologie','herb','méloïdé,coléoptère vert','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cantharis',\'entomologie','herb','téléphoridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cantharis','entomologie','herb','téléphoridé,coléoptère','vivant');
 		
   
    
@@ -5408,11 +5428,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('capnode',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('capnode','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('capnodis',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('capnodis','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -5424,7 +5444,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('capricorne',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('capricorne','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -5448,11 +5468,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('capsidé',\'entomologie','sang','tel capsus,punaise','vivant');
+		INSERT INTO verbe VALUES('capsidé','entomologie','sang','tel capsus,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('capsus',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('capsus','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -5506,19 +5526,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('carabe',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('carabe','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('carabidé',\'entomologie','carn','tel carabe,coléoptère','vivant');
+		INSERT INTO verbe VALUES('carabidé','entomologie','carn','tel carabe,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('carabique',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('carabique','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caraboïde',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('caraboïde','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
@@ -5554,7 +5574,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('carausius',\'entomologie','suc','chéleutoptère','vivant');
+		INSERT INTO verbe VALUES('carausius','entomologie','suc','chéleutoptère','vivant');
 		
   
    
@@ -5602,11 +5622,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cardiocondyle',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('cardiocondyle','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cardiophore',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('cardiophore','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -5710,7 +5730,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('carpocapse',\'entomologie','suc','tortricidé,pyrale','vivant');
+		INSERT INTO verbe VALUES('carpocapse','entomologie','suc','tortricidé,pyrale','vivant');
 		
   
    
@@ -5718,7 +5738,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('carpophile',\'entomologie','herb','nitidulidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('carpophile','entomologie','herb','nitidulidé,coléoptère','vivant');
 		
   
    
@@ -5740,7 +5760,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cartallum',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('cartallum','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -5748,15 +5768,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('carterus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('carterus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('carychium','mollusque','gast',\'ellobiidé,gastéropode','vivant');
+		INSERT INTO verbe VALUES('carychium','mollusque','gast','ellobiidé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('caryobore',\'entomologie','herb','bruchidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('caryobore','entomologie','herb','bruchidé,coléoptère','vivant');
 		
   
    
@@ -5768,7 +5788,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('caset',\'entomologie','suc','larve d phrygane','vivant');
+		INSERT INTO verbe VALUES('caset','entomologie','suc','larve d phrygane','vivant');
 		
   
    
@@ -5792,7 +5812,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('casside',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('casside','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -5800,7 +5820,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cassidule','mollusque','gast',\'ellobiidé,gastéropode','vivant');
+		INSERT INTO verbe VALUES('cassidule','mollusque','gast','ellobiidé,gastéropode','vivant');
 		
   
    
@@ -5854,7 +5874,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('castnie',\'entomologie','suc','castnidé,papillon','vivant');
+		INSERT INTO verbe VALUES('castnie','entomologie','suc','castnidé,papillon','vivant');
 		
   
    
@@ -5882,7 +5902,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cataclyste',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('cataclyste','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -5890,7 +5910,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('catharsius',\'entomologie','herb','scarabéidé,bousier noir','vivant');
+		INSERT INTO verbe VALUES('catharsius','entomologie','herb','scarabéidé,bousier noir','vivant');
 		
   
    
@@ -5898,7 +5918,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cathartus',\'entomologie','herb','cucujidé,silvanus','vivant');
+		INSERT INTO verbe VALUES('cathartus','entomologie','herb','cucujidé,silvanus','vivant');
 		
   
    
@@ -5906,15 +5926,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('catocale',\'entomologie','suc','noctuidé,lichébée','vivant');
+		INSERT INTO verbe VALUES('catocale','entomologie','suc','noctuidé,lichébée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('catopidé',\'entomologie','herb','tel catops coléoptère','vivant');
+		INSERT INTO verbe VALUES('catopidé','entomologie','herb','tel catops coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('catops',\'entomologie','herb','catopidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('catops','entomologie','herb','catopidé,coléoptère','vivant');
 		
   
    
@@ -5922,7 +5942,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('catoxanthe',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('catoxanthe','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -5946,7 +5966,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('caurale','oiseau','écha',\'eurypygidé gruiforme','vivant');
+		INSERT INTO verbe VALUES('caurale','oiseau','écha','eurypygidé gruiforme','vivant');
 		
   
    
@@ -5990,19 +6010,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cébrion',\'entomologie','herb','cébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cébrion','entomologie','herb','cébrionidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cébrionidé',\'entomologie','herb','tel cébrion,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cébrionidé','entomologie','herb','tel cébrion,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cécidomyidé',\'entomologie','sang','tel cécidomyie','vivant');
+		INSERT INTO verbe VALUES('cécidomyidé','entomologie','sang','tel cécidomyie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cécidomyie',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('cécidomyie','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
@@ -6018,11 +6038,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('célonite',\'entomologie','suc','masaridé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('célonite','entomologie','suc','masaridé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('célope',\'entomologie','sang','coelopidé,mouche','vivant');
+		INSERT INTO verbe VALUES('célope','entomologie','sang','coelopidé,mouche','vivant');
 		
   
    
@@ -6058,7 +6078,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('centrote',\'entomologie','suc','membracidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('centrote','entomologie','suc','membracidé,homoptère','vivant');
 		
   
    
@@ -6098,7 +6118,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('céphalopine',\'entomologie','sang','oestridé,mouche','vivant');
+		INSERT INTO verbe VALUES('céphalopine','entomologie','sang','oestridé,mouche','vivant');
 		
   
    
@@ -6110,11 +6130,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cèphe',\'entomologie','suc','céphidé hyménoptère','vivant');
+		INSERT INTO verbe VALUES('cèphe','entomologie','suc','céphidé hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('céphénémyie',\'entomologie','sang','oestridé,mouche','vivant');
+		INSERT INTO verbe VALUES('céphénémyie','entomologie','sang','oestridé,mouche','vivant');
 		
   
    
@@ -6130,11 +6150,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cérambycidé',\'entomologie','végé','tel capricorne','vivant');
+		INSERT INTO verbe VALUES('cérambycidé','entomologie','végé','tel capricorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cérambyx',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('cérambyx','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -6154,18 +6174,18 @@
 		
   
    
-		INSERT INTO verbe VALUES('cératine',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('cératine','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cératite',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('cératite','entomologie','sang','trypétidé,mouche','vivant');
 		
    
 		INSERT INTO verbe VALUES('cératite','mollusque','céph','ammonite fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cératite',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('cératite','entomologie','sang','trypétidé,mouche','vivant');
 		
    
 		INSERT INTO verbe VALUES('cératite','mollusque','céph','ammonite fossile','vivant');
@@ -6206,15 +6226,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ceratophyllus',\'entomologie','sang','pulicidé,puce d animaux','vivant');
+		INSERT INTO verbe VALUES('ceratophyllus','entomologie','sang','pulicidé,puce d animaux','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cératopogon',\'entomologie','sang','cératopogonidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('cératopogon','entomologie','sang','cératopogonidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cératopogonidé',\'entomologie','sang','tel cératopogon','vivant');
+		INSERT INTO verbe VALUES('cératopogonidé','entomologie','sang','tel cératopogon','vivant');
 		
   
    
@@ -6226,7 +6246,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cercéris',\'entomologie','sang','sphégidé,guêpe','vivant');
+		INSERT INTO verbe VALUES('cercéris','entomologie','sang','sphégidé,guêpe','vivant');
 		
   
    
@@ -6238,11 +6258,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cercope',\'entomologie','suc','cercopidé,cigale','vivant');
+		INSERT INTO verbe VALUES('cercope','entomologie','suc','cercopidé,cigale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cercopidé',\'entomologie','suc','tel cercope,cigale','vivant');
+		INSERT INTO verbe VALUES('cercopidé','entomologie','suc','tel cercope,cigale','vivant');
 		
   
    
@@ -6258,7 +6278,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cercyon',\'entomologie','herb','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cercyon','entomologie','herb','hydrophilidé,coléoptère','vivant');
 		
   
    
@@ -6288,7 +6308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cerf-volant',\'entomologie','végé','lucanidé,lucane','vivant');
+		INSERT INTO verbe VALUES('cerf-volant','entomologie','végé','lucanidé,lucane','vivant');
 		
   
    
@@ -6316,19 +6336,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cérocome',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cérocome','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('céropale',\'entomologie','suc','pompilidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('céropale','entomologie','suc','pompilidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('céroplaste',\'entomologie','suc','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('céroplaste','entomologie','suc','coccidé,cochenille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cérostome',\'entomologie','suc','plutellidé,papillon','vivant');
+		INSERT INTO verbe VALUES('cérostome','entomologie','suc','plutellidé,papillon','vivant');
 		
   
    
@@ -6336,15 +6356,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ceruchus',\'entomologie','végé','lucanidé,lucane noir','vivant');
+		INSERT INTO verbe VALUES('ceruchus','entomologie','végé','lucanidé,lucane noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cérure',\'entomologie','suc','céruridé,papillon','vivant');
+		INSERT INTO verbe VALUES('cérure','entomologie','suc','céruridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('céruridé',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('céruridé','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -6402,7 +6422,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cétoine',\'entomologie','herb','scarabéidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cétoine','entomologie','herb','scarabéidé,coléoptère','vivant');
 		
   
    
@@ -6418,11 +6438,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ceutohorhynque',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('ceutohorhynque','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ceutorynque',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('ceutorynque','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -6458,7 +6478,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chaetocnema',\'entomologie','végé','chrysomélidé,altise pte','vivant');
+		INSERT INTO verbe VALUES('chaetocnema','entomologie','végé','chrysomélidé,altise pte','vivant');
 		
   
    
@@ -6466,7 +6486,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chaitophorinus',\'entomologie','sang','chaitophoridé,puceron','vivant');
+		INSERT INTO verbe VALUES('chaitophorinus','entomologie','sang','chaitophoridé,puceron','vivant');
 		
   
    
@@ -6478,31 +6498,31 @@
 		
   
    
-		INSERT INTO verbe VALUES('chalcididé',\'entomologie','suc','tel chalcis hyménoptère','vivant');
+		INSERT INTO verbe VALUES('chalcididé','entomologie','suc','tel chalcis hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalcidien',\'entomologie','suc','tel chalcis hyménoptère','vivant');
+		INSERT INTO verbe VALUES('chalcidien','entomologie','suc','tel chalcis hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalcis',\'entomologie','sang','chalcididé,térébrant','vivant');
+		INSERT INTO verbe VALUES('chalcis','entomologie','sang','chalcididé,térébrant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalcoïde',\'entomologie','végé','chrysomélidé,altise','vivant');
+		INSERT INTO verbe VALUES('chalcoïde','entomologie','végé','chrysomélidé,altise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalcophore',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chalcophore','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalcosome',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('chalcosome','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chalicodome',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('chalicodome','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -6590,11 +6610,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('charaeas',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('charaeas','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('charançon',\'entomologie','herb','curculionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('charançon','entomologie','herb','curculionidé,coléoptère','vivant');
 		
   
    
@@ -6602,7 +6622,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('charaxes',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('charaxes','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -6638,7 +6658,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chartergue',\'entomologie','suc','vespidé,guêpe soc','vivant');
+		INSERT INTO verbe VALUES('chartergue','entomologie','suc','vespidé,guêpe soc','vivant');
 		
   
    
@@ -6726,11 +6746,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cheilosie',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('cheilosie','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cheimatobie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('cheimatobie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -6738,7 +6758,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chéleutoptère',\'entomologie','suc','orthoptéroïde,phasme','vivant');
+		INSERT INTO verbe VALUES('chéleutoptère','entomologie','suc','orthoptéroïde,phasme','vivant');
 		
   
    
@@ -6758,11 +6778,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('chélone',\'entomologie','suc','braconidé hyménoptère','vivant');
+		INSERT INTO verbe VALUES('chélone','entomologie','suc','braconidé hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chelonia',\'entomologie','suc','arctiidé,arctia','vivant');
+		INSERT INTO verbe VALUES('chelonia','entomologie','suc','arctiidé,arctia','vivant');
 		
   
    
@@ -6778,7 +6798,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chélonobie','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('chélonobie','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -6798,7 +6818,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chenille',\'entomologie','suc','larve d lépidoptère','vivant');
+		INSERT INTO verbe VALUES('chenille','entomologie','suc','larve d lépidoptère','vivant');
 		
   
    
@@ -6806,19 +6826,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cherfaix',\'entomologie','suc','larve d phrygane','vivant');
+		INSERT INTO verbe VALUES('cherfaix','entomologie','suc','larve d phrygane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chermes',\'entomologie','sang','chermésidé,puceron','vivant');
+		INSERT INTO verbe VALUES('chermes','entomologie','sang','chermésidé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chermès',\'entomologie','sang','chermésidé,puceron','vivant');
+		INSERT INTO verbe VALUES('chermès','entomologie','sang','chermésidé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chermésidé',\'entomologie','sang','tel chermès','vivant');
+		INSERT INTO verbe VALUES('chermésidé','entomologie','sang','tel chermès','vivant');
 		
   
    
@@ -6946,7 +6966,7 @@
 		INSERT INTO verbe VALUES('chevrette','mammifère','cerv','chevreuil fém','vivant');
 		
    
-		INSERT INTO verbe VALUES('chevrette',\'entomologie','herb','lucanidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chevrette','entomologie','herb','lucanidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('chevrette','poisson','serr','serranidé,téléostéen','vivant');
@@ -6959,7 +6979,7 @@
 		INSERT INTO verbe VALUES('chevrette','mammifère','cerv','chevreuil fém','vivant');
 		
    
-		INSERT INTO verbe VALUES('chevrette',\'entomologie','herb','lucanidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chevrette','entomologie','herb','lucanidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('chevrette','poisson','serr','serranidé,téléostéen','vivant');
@@ -6972,7 +6992,7 @@
 		INSERT INTO verbe VALUES('chevrette','mammifère','cerv','chevreuil fém','vivant');
 		
    
-		INSERT INTO verbe VALUES('chevrette',\'entomologie','herb','lucanidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chevrette','entomologie','herb','lucanidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('chevrette','poisson','serr','serranidé,téléostéen','vivant');
@@ -6985,7 +7005,7 @@
 		INSERT INTO verbe VALUES('chevrette','mammifère','cerv','chevreuil fém','vivant');
 		
    
-		INSERT INTO verbe VALUES('chevrette',\'entomologie','herb','lucanidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chevrette','entomologie','herb','lucanidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('chevrette','poisson','serr','serranidé,téléostéen','vivant');
@@ -7158,11 +7178,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('chilo',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('chilo','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chilocore',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('chilocore','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -7220,7 +7240,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chionaspis',\'entomologie','suc','diaspidiné homoptère','vivant');
+		INSERT INTO verbe VALUES('chionaspis','entomologie','suc','diaspidiné homoptère','vivant');
 		
   
    
@@ -7228,7 +7248,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chionée',\'entomologie','suc','tipulidé,tipule ss aile','vivant');
+		INSERT INTO verbe VALUES('chionée','entomologie','suc','tipulidé,tipule ss aile','vivant');
 		
   
    
@@ -7260,7 +7280,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chique',\'entomologie','sang','pulicidé,puce','vivant');
+		INSERT INTO verbe VALUES('chique','entomologie','sang','pulicidé,puce','vivant');
 		
   
    
@@ -7280,11 +7300,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('chironome',\'entomologie','sang','chironomidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('chironome','entomologie','sang','chironomidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chironomidé',\'entomologie','sang','tel chironome','vivant');
+		INSERT INTO verbe VALUES('chironomidé','entomologie','sang','tel chironome','vivant');
 		
   
    
@@ -7332,7 +7352,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chloridea',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('chloridea','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -7340,19 +7360,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('chloromyia',\'entomologie','sang','stratomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('chloromyia','entomologie','sang','stratomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chloroperle',\'entomologie','carn','perlidé,plécoptère','vivant');
+		INSERT INTO verbe VALUES('chloroperle','entomologie','carn','perlidé,plécoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chlorophane',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('chlorophane','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chloropidé',\'entomologie','sang','tel moucheron,diptère','vivant');
+		INSERT INTO verbe VALUES('chloropidé','entomologie','sang','tel moucheron,diptère','vivant');
 		
   
    
@@ -7364,11 +7384,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('choerocampe',\'entomologie','suc','sphingidé,papillon','vivant');
+		INSERT INTO verbe VALUES('choerocampe','entomologie','suc','sphingidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chondracanthus','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('chondracanthus','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -7404,11 +7424,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('chorthippus',\'entomologie','végé','acrididé,criquet Eur','vivant');
+		INSERT INTO verbe VALUES('chorthippus','entomologie','végé','acrididé,criquet Eur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chortophile',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('chortophile','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -7428,7 +7448,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysalide',\'entomologie','org','forme nymphale insecte','vivant');
+		INSERT INTO verbe VALUES('chrysalide','entomologie','org','forme nymphale insecte','vivant');
 		
   
    
@@ -7436,15 +7456,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysididé',\'entomologie','suc','hyménoptère,tel chrysis','vivant');
+		INSERT INTO verbe VALUES('chrysididé','entomologie','suc','hyménoptère,tel chrysis','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysis',\'entomologie','sang','chrysididé,guêpe dorée','vivant');
+		INSERT INTO verbe VALUES('chrysis','entomologie','sang','chrysididé,guêpe dorée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysobothris',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chrysobothris','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -7452,19 +7472,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysochraon',\'entomologie','végé','acrididé,criquet Eur','vivant');
+		INSERT INTO verbe VALUES('chrysochraon','entomologie','végé','acrididé,criquet Eur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysochroa',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chrysochroa','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysochroma',\'entomologie','sang','stratomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('chrysochroma','entomologie','sang','stratomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysochus',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chrysochus','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -7472,11 +7492,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysomèle',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('chrysomèle','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysomélidé',\'entomologie','végé','tel chrysomèle,altise','vivant');
+		INSERT INTO verbe VALUES('chrysomélidé','entomologie','végé','tel chrysomèle,altise','vivant');
 		
   
    
@@ -7484,23 +7504,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysomyia',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('chrysomyia','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysomyza',\'entomologie','sang','uludidé,mouche','vivant');
+		INSERT INTO verbe VALUES('chrysomyza','entomologie','sang','uludidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysope',\'entomologie','herb','planipenne vert','vivant');
+		INSERT INTO verbe VALUES('chrysope','entomologie','herb','planipenne vert','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysophore',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('chrysophore','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('chrysops',\'entomologie','sang','tabanidé,taon','vivant');
+		INSERT INTO verbe VALUES('chrysops','entomologie','sang','tabanidé,taon','vivant');
 		
   
    
@@ -7508,7 +7528,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('chrysozona',\'entomologie','sang','tabanidé,taon','vivant');
+		INSERT INTO verbe VALUES('chrysozona','entomologie','sang','tabanidé,taon','vivant');
 		
   
    
@@ -7536,19 +7556,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cicadelle',\'entomologie','suc','jassidé,homoptère saute','vivant');
+		INSERT INTO verbe VALUES('cicadelle','entomologie','suc','jassidé,homoptère saute','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cicadette',\'entomologie','suc','cicadidé,cigale noire','vivant');
+		INSERT INTO verbe VALUES('cicadette','entomologie','suc','cicadidé,cigale noire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cicadidé',\'entomologie','suc','homoptère,tel cigale','vivant');
+		INSERT INTO verbe VALUES('cicadidé','entomologie','suc','homoptère,tel cigale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cicadule',\'entomologie','suc','jassidé,cicadelle','vivant');
+		INSERT INTO verbe VALUES('cicadule','entomologie','suc','jassidé,cicadelle','vivant');
 		
   
    
@@ -7564,7 +7584,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cicindèle',\'entomologie','herb','cicindélidé,tricondyle','vivant');
+		INSERT INTO verbe VALUES('cicindèle','entomologie','herb','cicindélidé,tricondyle','vivant');
 		
   
    
@@ -7576,11 +7596,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cigale',\'entomologie','suc','cicadidé,insecte suceur','vivant');
+		INSERT INTO verbe VALUES('cigale','entomologie','suc','cicadidé,insecte suceur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cigarier',\'entomologie','herb','tel rhynchite,urbec','vivant');
+		INSERT INTO verbe VALUES('cigarier','entomologie','herb','tel rhynchite,urbec','vivant');
 		
   
    
@@ -7600,19 +7620,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cimbex',\'entomologie','sang','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('cimbex','entomologie','sang','tenthrédinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cimes',\'entomologie','sang','punaise,cimex','vivant');
+		INSERT INTO verbe VALUES('cimes','entomologie','sang','punaise,cimex','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cimex',\'entomologie','sang','punaise,cimes','vivant');
+		INSERT INTO verbe VALUES('cimex','entomologie','sang','punaise,cimes','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cimicidé',\'entomologie','sang','tel cimes,strachia','vivant');
+		INSERT INTO verbe VALUES('cimicidé','entomologie','sang','tel cimes,strachia','vivant');
 		
   
    
@@ -7640,7 +7660,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cionus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cionus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -7648,7 +7668,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cirière',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('cirière','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -7660,7 +7680,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cirripède','crustacé',\'ento',\'entomostracé,anatife','vivant');
+		INSERT INTO verbe VALUES('cirripède','crustacé','ento','entomostracé,anatife','vivant');
 		
   
    
@@ -7668,7 +7688,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cistélidé',\'entomologie','herb','alléculidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('cistélidé','entomologie','herb','alléculidé,longicorne','vivant');
 		
   
    
@@ -7704,7 +7724,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cixius',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('cixius','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
@@ -7732,7 +7752,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('clairon',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('clairon','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
@@ -7764,7 +7784,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('clausocalanus','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('clausocalanus','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -7784,11 +7804,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('clavelle','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('clavelle','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('clavicorne',\'entomologie','herb','coléoptère cucujoïde','vivant');
+		INSERT INTO verbe VALUES('clavicorne','entomologie','herb','coléoptère cucujoïde','vivant');
 		
   
    
@@ -7796,7 +7816,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('clavigère',\'entomologie','herb','clavigéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('clavigère','entomologie','herb','clavigéridé,coléoptère','vivant');
 		
   
    
@@ -7812,7 +7832,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cléonine',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cléonine','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -7820,7 +7840,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('clepte',\'entomologie','suc','chrysididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('clepte','entomologie','suc','chrysididé,hyménoptère','vivant');
 		
   
    
@@ -7828,7 +7848,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cléridé',\'entomologie','herb','tel clairon,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cléridé','entomologie','herb','tel clairon,coléoptère','vivant');
 		
   
    
@@ -7876,7 +7896,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('clunio',\'entomologie','sang','chironomidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('clunio','entomologie','sang','chironomidé,moucheron','vivant');
 		
   
    
@@ -7912,19 +7932,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('clysia',\'entomologie','suc','tortricidé,tordeuse','vivant');
+		INSERT INTO verbe VALUES('clysia','entomologie','suc','tortricidé,tordeuse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('clyte',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('clyte','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('clythre',\'entomologie','herb','clythriné,coléoptère','vivant');
+		INSERT INTO verbe VALUES('clythre','entomologie','herb','clythriné,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('clytre',\'entomologie','herb','clythriné,coléoptère','vivant');
+		INSERT INTO verbe VALUES('clytre','entomologie','herb','clythriné,coléoptère','vivant');
 		
   
    
@@ -7932,7 +7952,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cnephasia',\'entomologie','suc','tortricidé,tordeuse d','vivant');
+		INSERT INTO verbe VALUES('cnephasia','entomologie','suc','tortricidé,tordeuse d','vivant');
 		
   
    
@@ -7982,7 +8002,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('coccidé',\'entomologie','herb','tel cochenille homoptèr','vivant');
+		INSERT INTO verbe VALUES('coccidé','entomologie','herb','tel cochenille homoptèr','vivant');
 		
   
    
@@ -7990,15 +8010,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('coccidotrophus',\'entomologie','herb','cucujidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('coccidotrophus','entomologie','herb','cucujidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coccinelle',\'entomologie','herb','coccinellidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('coccinelle','entomologie','herb','coccinellidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coccinellidé',\'entomologie','herb','tel coccinelle,novius','vivant');
+		INSERT INTO verbe VALUES('coccinellidé','entomologie','herb','tel coccinelle,novius','vivant');
 		
   
    
@@ -8018,7 +8038,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cochenille',\'entomologie','herb','coccidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cochenille','entomologie','herb','coccidé,coléoptère','vivant');
 		
   
    
@@ -8042,7 +8062,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cochlidiidé',\'entomologie','suc','tel papillon,limocadidé','vivant');
+		INSERT INTO verbe VALUES('cochlidiidé','entomologie','suc','tel papillon,limocadidé','vivant');
 		
   
    
@@ -8076,7 +8096,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cochonne',\'entomologie','herb','nom donné aux chenilles','vivant');
+		INSERT INTO verbe VALUES('cochonne','entomologie','herb','nom donné aux chenilles','vivant');
 		
   
    
@@ -8084,7 +8104,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cochylis',\'entomologie','suc','phaloniidé,tordeuse','vivant');
+		INSERT INTO verbe VALUES('cochylis','entomologie','suc','phaloniidé,tordeuse','vivant');
 		
   
    
@@ -8116,11 +8136,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('coelifère',\'entomologie','suc','orthoptère','vivant');
+		INSERT INTO verbe VALUES('coelifère','entomologie','suc','orthoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coelioxys',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('coelioxys','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -8132,7 +8152,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('coelope',\'entomologie','sang','phycodromidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('coelope','entomologie','sang','phycodromidé,moucheron','vivant');
 		
   
    
@@ -8148,11 +8168,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('coenomyie',\'entomologie','sang','coenomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('coenomyie','entomologie','sang','coenomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coenonympha',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('coenonympha','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -8176,7 +8196,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('colaspidème',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('colaspidème','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -8184,11 +8204,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('coléophore',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('coléophore','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coléoptère',\'entomologie','herb','insecte élytre en étui','vivant');
+		INSERT INTO verbe VALUES('coléoptère','entomologie','herb','insecte élytre en étui','vivant');
 		
   
    
@@ -8196,11 +8216,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('coliade',\'entomologie','suc','piéridé,papillon diurne','vivant');
+		INSERT INTO verbe VALUES('coliade','entomologie','suc','piéridé,papillon diurne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('colias',\'entomologie','suc','piéridé,papillon diurne','vivant');
+		INSERT INTO verbe VALUES('colias','entomologie','suc','piéridé,papillon diurne','vivant');
 		
   
    
@@ -8224,7 +8244,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('colimaçon','mollusque','gast',\'escargot,gastéropode','vivant');
+		INSERT INTO verbe VALUES('colimaçon','mollusque','gast','escargot,gastéropode','vivant');
 		
   
    
@@ -8258,11 +8278,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('collembole',\'entomologie','herb','tel aptérygote','vivant');
+		INSERT INTO verbe VALUES('collembole','entomologie','herb','tel aptérygote','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('collète',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('collète','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -8310,7 +8330,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('colobopsis',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('colobopsis','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -8366,7 +8386,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('colydium',\'entomologie','herb','colydiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('colydium','entomologie','herb','colydiidé,coléoptère','vivant');
 		
   
    
@@ -8398,7 +8418,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('compsilura',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('compsilura','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
@@ -8414,7 +8434,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('conchylis',\'entomologie','végé','phaloniidé,tordeuse','vivant');
+		INSERT INTO verbe VALUES('conchylis','entomologie','végé','phaloniidé,tordeuse','vivant');
 		
   
    
@@ -8464,7 +8484,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('coniatus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('coniatus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -8476,7 +8496,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('conocéphale',\'entomologie','herb','conocéphalidé,sauterell','vivant');
+		INSERT INTO verbe VALUES('conocéphale','entomologie','herb','conocéphalidé,sauterell','vivant');
 		
   
    
@@ -8488,7 +8508,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('conopidé',\'entomologie','sang','tel conops,mouche','vivant');
+		INSERT INTO verbe VALUES('conopidé','entomologie','sang','tel conops,mouche','vivant');
 		
   
    
@@ -8500,7 +8520,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('conops',\'entomologie','sang','conopidé,mouche','vivant');
+		INSERT INTO verbe VALUES('conops','entomologie','sang','conopidé,mouche','vivant');
 		
   
    
@@ -8516,7 +8536,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('contarinia',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('contarinia','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
@@ -8532,19 +8552,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('copris',\'entomologie','herb','scarabéidé,bousier','vivant');
+		INSERT INTO verbe VALUES('copris','entomologie','herb','scarabéidé,bousier','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coprophage','ZOO','carn',\'excréments','vivant');
+		INSERT INTO verbe VALUES('coprophage','ZOO','carn','excréments','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coprophile',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('coprophile','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coptotermes',\'entomologie','végé','termitidé,termite Inde','vivant');
+		INSERT INTO verbe VALUES('coptotermes','entomologie','végé','termitidé,termite Inde','vivant');
 		
   
    
@@ -8700,7 +8720,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cordulie',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('cordulie','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
@@ -8712,11 +8732,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cordylobie',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('cordylobie','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cordylure',\'entomologie','sang','scatophagidé,mouche','vivant');
+		INSERT INTO verbe VALUES('cordylure','entomologie','sang','scatophagidé,mouche','vivant');
 		
   
    
@@ -8724,19 +8744,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('coréidé',\'entomologie','sang','tel corise','vivant');
+		INSERT INTO verbe VALUES('coréidé','entomologie','sang','tel corise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('corèthre',\'entomologie','sang','culicidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('corèthre','entomologie','sang','culicidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('corise',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('corise','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('corize',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('corize','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
@@ -8776,7 +8796,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('coroebus',\'entomologie','herb','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('coroebus','entomologie','herb','buprestidé,coléoptère','vivant');
 		
   
    
@@ -8784,7 +8804,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('coronule','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('coronule','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -8804,11 +8824,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('corycéidé','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('corycéidé','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('corydalis',\'entomologie','végé','mégaloptère gris','vivant');
+		INSERT INTO verbe VALUES('corydalis','entomologie','végé','mégaloptère gris','vivant');
 		
   
    
@@ -8816,7 +8836,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('corymbites',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('corymbites','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -8824,7 +8844,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('corynète',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('corynète','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
@@ -8840,23 +8860,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('coscinocera',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('coscinocera','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cosmotriche',\'entomologie','suc','lasiocampidé,buveause','vivant');
+		INSERT INTO verbe VALUES('cosmotriche','entomologie','suc','lasiocampidé,buveause','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cosson',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cosson','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cossus',\'entomologie','suc','cossidé,papillon','vivant');
+		INSERT INTO verbe VALUES('cossus','entomologie','suc','cossidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cossyphe',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cossyphe','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -8940,11 +8960,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('coupe-bourgeon',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('coupe-bourgeon','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('coupe-bourgeons',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('coupe-bourgeons','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -8955,14 +8975,14 @@
 		INSERT INTO verbe VALUES('coureur','oiseau','palm','anatidé,canard indien','vivant');
 		
    
-		INSERT INTO verbe VALUES('coureur',\'entomologiev','suc','orthoptéroïde','vivant');
+		INSERT INTO verbe VALUES('coureur','entomologiev','suc','orthoptéroïde','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('coureur','oiseau','palm','anatidé,canard indien','vivant');
 		
    
-		INSERT INTO verbe VALUES('coureur',\'entomologiev','suc','orthoptéroïde','vivant');
+		INSERT INTO verbe VALUES('coureur','entomologiev','suc','orthoptéroïde','vivant');
 		
   
    
@@ -8998,7 +9018,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('courtilière',\'entomologie','suc','gyllotalpidé,orthoptère','vivant');
+		INSERT INTO verbe VALUES('courtilière','entomologie','suc','gyllotalpidé,orthoptère','vivant');
 		
   
    
@@ -9006,7 +9026,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cousin',\'entomologie','sang','culicidé,nématocère','vivant');
+		INSERT INTO verbe VALUES('cousin','entomologie','sang','culicidé,nématocère','vivant');
 		
   
    
@@ -9030,11 +9050,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('crabro',\'entomologie','suc','crabonidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('crabro','entomologie','suc','crabonidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('crabron',\'entomologie','suc','crabonidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('crabron','entomologie','suc','crabonidé,hyménoptère','vivant');
 		
   
    
@@ -9050,7 +9070,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('crambe',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('crambe','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -9114,11 +9134,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cremastochilus',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('cremastochilus','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('crémastogaster',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('crémastogaster','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -9134,11 +9154,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('créophile',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('créophile','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('crépidodéra',\'entomologie','végé','chrysomélidé,chrysomèle','vivant');
+		INSERT INTO verbe VALUES('crépidodéra','entomologie','végé','chrysomélidé,chrysomèle','vivant');
 		
   
    
@@ -9170,7 +9190,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cri-cri',\'entomologie','suc','orthoptère, grillon','vivant');
+		INSERT INTO verbe VALUES('cri-cri','entomologie','suc','orthoptère, grillon','vivant');
 		
   
    
@@ -9186,11 +9206,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cricotopus',\'entomologie','sang','chironomidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('cricotopus','entomologie','sang','chironomidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cricri',\'entomologie','suc','orthoptère,grillon,gri-','vivant');
+		INSERT INTO verbe VALUES('cricri','entomologie','suc','orthoptère,grillon,gri-','vivant');
 		
   
    
@@ -9202,15 +9222,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('criocéphale',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('criocéphale','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('criocère',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('criocère','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('criquet',\'entomologie','végé','acrididé,orthoptère','vivant');
+		INSERT INTO verbe VALUES('criquet','entomologie','végé','acrididé,orthoptère','vivant');
 		
   
    
@@ -9222,7 +9242,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('crocallis',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('crocallis','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -9250,7 +9270,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('crossocosmie',\'entomologie','sang','tachinidé,diptère','vivant');
+		INSERT INTO verbe VALUES('crossocosmie','entomologie','sang','tachinidé,diptère','vivant');
 		
   
    
@@ -9274,7 +9294,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cryptiné',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('cryptiné','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -9282,15 +9302,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('cryptocéphale',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cryptocéphale','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptocérate',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('cryptocérate','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptocercus',\'entomologie','suc','blattidé,blatte','vivant');
+		INSERT INTO verbe VALUES('cryptocercus','entomologie','suc','blattidé,blatte','vivant');
 		
   
    
@@ -9298,7 +9318,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cryptolaemus',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('cryptolaemus','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -9306,11 +9326,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cryptophage',\'entomologie','herb','cryptophagidé,coléoptèr','vivant');
+		INSERT INTO verbe VALUES('cryptophage','entomologie','herb','cryptophagidé,coléoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptophagus',\'entomologie','herb','cryptophagidé,coléoptèr','vivant');
+		INSERT INTO verbe VALUES('cryptophagus','entomologie','herb','cryptophagidé,coléoptèr','vivant');
 		
   
    
@@ -9318,19 +9338,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cryptopse',\'entomologie','herb','scolopendridé,chilopode','vivant');
+		INSERT INTO verbe VALUES('cryptopse','entomologie','herb','scolopendridé,chilopode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptorhynchus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cryptorhynchus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptorhynque',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cryptorhynque','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cryptus',\'entomologie','suc','incheumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('cryptus','entomologie','suc','incheumonidé,hyménoptèr','vivant');
 		
   
    
@@ -9362,7 +9382,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cténocéphale',\'entomologie','sang','pulicidé,puce d chien','vivant');
+		INSERT INTO verbe VALUES('cténocéphale','entomologie','sang','pulicidé,puce d chien','vivant');
 		
   
    
@@ -9385,14 +9405,14 @@
 		INSERT INTO verbe VALUES('cténophore','animal','prot','cténaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('cténophore',\'entomologie','suc','tipulidé,tipule','vivant');
+		INSERT INTO verbe VALUES('cténophore','entomologie','suc','tipulidé,tipule','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('cténophore','animal','prot','cténaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('cténophore',\'entomologie','suc','tipulidé,tipule','vivant');
+		INSERT INTO verbe VALUES('cténophore','entomologie','suc','tipulidé,tipule','vivant');
 		
   
    
@@ -9408,15 +9428,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('cuceron',\'entomologie','herb','insecte q ravage légume','vivant');
+		INSERT INTO verbe VALUES('cuceron','entomologie','herb','insecte q ravage légume','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cucujidé',\'entomologie','herb','tel clavicorne','vivant');
+		INSERT INTO verbe VALUES('cucujidé','entomologie','herb','tel clavicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cucujoïde',\'entomologie','herb','clavicorne,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cucujoïde','entomologie','herb','clavicorne,coléoptère','vivant');
 		
   
    
@@ -9428,7 +9448,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cucullie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('cucullie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -9440,7 +9460,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cul-brun',\'entomologie','suc','bombyx fruitier','vivant');
+		INSERT INTO verbe VALUES('cul-brun','entomologie','suc','bombyx fruitier','vivant');
 		
   
    
@@ -9448,7 +9468,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cul-doré',\'entomologie','suc','bombyx fruitier','vivant');
+		INSERT INTO verbe VALUES('cul-doré','entomologie','suc','bombyx fruitier','vivant');
 		
   
    
@@ -9460,15 +9480,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('culex',\'entomologie','sang','culicidé,nématocère','vivant');
+		INSERT INTO verbe VALUES('culex','entomologie','sang','culicidé,nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('culicidé',\'entomologie','sang','diptère,tel moustique','vivant');
+		INSERT INTO verbe VALUES('culicidé','entomologie','sang','diptère,tel moustique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('culicoïde',\'entomologie','sang','diptère,tel moustique','vivant');
+		INSERT INTO verbe VALUES('culicoïde','entomologie','sang','diptère,tel moustique','vivant');
 		
   
    
@@ -9480,11 +9500,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cupédidé',\'entomologie','herb','tel coléoptère archaïq','vivant');
+		INSERT INTO verbe VALUES('cupédidé','entomologie','herb','tel coléoptère archaïq','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cupésidé',\'entomologie','herb','tel coléoptère archaïq','vivant');
+		INSERT INTO verbe VALUES('cupésidé','entomologie','herb','tel coléoptère archaïq','vivant');
 		
   
    
@@ -9492,7 +9512,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('curculionidé',\'entomologie','herb','tel charançon coléoptèr','vivant');
+		INSERT INTO verbe VALUES('curculionidé','entomologie','herb','tel charançon coléoptèr','vivant');
 		
   
    
@@ -9504,19 +9524,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cusseron',\'entomologie','végé','insecte q ravage légume','vivant');
+		INSERT INTO verbe VALUES('cusseron','entomologie','végé','insecte q ravage légume','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cusson',\'entomologie','végé','insecte q ravage légume','vivant');
+		INSERT INTO verbe VALUES('cusson','entomologie','végé','insecte q ravage légume','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cutérèbre',\'entomologie','sang','cutérébridé,mouche','vivant');
+		INSERT INTO verbe VALUES('cutérèbre','entomologie','sang','cutérébridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cutérébridé',\'entomologie','sang','tel mouche,brachycère','vivant');
+		INSERT INTO verbe VALUES('cutérébridé','entomologie','sang','tel mouche,brachycère','vivant');
 		
   
    
@@ -9560,19 +9580,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('cybister',\'entomologie','carn','dytiscidé,dytique grd','vivant');
+		INSERT INTO verbe VALUES('cybister','entomologie','carn','dytiscidé,dytique grd','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cybocéphale',\'entomologie','herb','nitidulidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('cybocéphale','entomologie','herb','nitidulidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cychre',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('cychre','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cychrus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('cychrus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -9588,7 +9608,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cyclope','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('cyclope','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -9600,11 +9620,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cyclopoïde','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('cyclopoïde','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cyclops','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('cyclops','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -9612,15 +9632,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('cycloraphe',\'entomologie','carn','diptère brachycère','vivant');
+		INSERT INTO verbe VALUES('cycloraphe','entomologie','carn','diptère brachycère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cyclorhaphe',\'entomologie','carn','diptère brachycère','vivant');
+		INSERT INTO verbe VALUES('cyclorhaphe','entomologie','carn','diptère brachycère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cyclorrhaphe',\'entomologie','carn','diptère brachycère','vivant');
+		INSERT INTO verbe VALUES('cyclorrhaphe','entomologie','carn','diptère brachycère','vivant');
 		
   
    
@@ -9658,7 +9678,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cydne',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('cydne','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -9670,11 +9690,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cylade',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cylade','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cylas',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('cylas','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -9686,7 +9706,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cyllocoris',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('cyllocoris','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -9694,7 +9714,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cymatophore',\'entomologie','suc','thyatiridé,papillon','vivant');
+		INSERT INTO verbe VALUES('cymatophore','entomologie','suc','thyatiridé,papillon','vivant');
 		
   
    
@@ -9702,7 +9722,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cymindis',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('cymindis','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -9718,11 +9738,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('cynipidé',\'entomologie','suc','tel cynips hyménoptère','vivant');
+		INSERT INTO verbe VALUES('cynipidé','entomologie','suc','tel cynips hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('cynips',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('cynips','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -9840,7 +9860,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('cystozoïde','ZOO','cyst',\'excréteur','vivant');
+		INSERT INTO verbe VALUES('cystozoïde','ZOO','cyst','excréteur','vivant');
 		
   
    
@@ -9864,7 +9884,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dacnusa',\'entomologie','suc','hyménoptère,braconidé','vivant');
+		INSERT INTO verbe VALUES('dacnusa','entomologie','suc','hyménoptère,braconidé','vivant');
 		
   
    
@@ -9884,7 +9904,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dactylopius',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('dactylopius','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -9904,7 +9924,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dacus',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dacus','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
@@ -9960,11 +9980,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('danacaea',\'entomologie','herb','téléphoridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('danacaea','entomologie','herb','téléphoridé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('danaïde',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('danaïde','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -9980,11 +10000,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('daphnie','crustacé',\'ento',\'entomostracé eau douce','vivant');
+		INSERT INTO verbe VALUES('daphnie','crustacé','ento','entomostracé eau douce','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('daphnis',\'entomologie','suc','sphingidé,sphinx','vivant');
+		INSERT INTO verbe VALUES('daphnis','entomologie','suc','sphingidé,sphinx','vivant');
 		
   
    
@@ -9996,11 +10016,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dascille',\'entomologie','herb','dascillidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dascille','entomologie','herb','dascillidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dascillidé',\'entomologie','herb','tel dascille coléoptère','vivant');
+		INSERT INTO verbe VALUES('dascillidé','entomologie','herb','tel dascille coléoptère','vivant');
 		
   
    
@@ -10012,7 +10032,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dasychira',\'entomologie','suc','lymantriidé,papillon','vivant');
+		INSERT INTO verbe VALUES('dasychira','entomologie','suc','lymantriidé,papillon','vivant');
 		
   
    
@@ -10028,7 +10048,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dasypogoniné',\'entomologie','sang','asilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dasypogoniné','entomologie','sang','asilidé,mouche','vivant');
 		
   
    
@@ -10036,7 +10056,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dasyte',\'entomologie','herb','malachiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dasyte','entomologie','herb','malachiidé,coléoptère','vivant');
 		
   
    
@@ -10063,10 +10083,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('daurade de l'Atlantique','poisson','ali','sparidé,dorade,pagre','vivant');
+		INSERT INTO verbe VALUES('daurade de l\'Atlantique','poisson','ali','sparidé,dorade,pagre','vivant');
 		
    
-		INSERT INTO verbe VALUES('daurade de l'Atlantique','poisson','béry','bérycidé','vivant');
+		INSERT INTO verbe VALUES('daurade de l\'Atlantique','poisson','béry','bérycidé','vivant');
 		
   
    
@@ -10078,7 +10098,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dectique',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('dectique','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
@@ -10098,19 +10118,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('deiléphila',\'entomologie','suc','sphingidé,papillon rose','vivant');
+		INSERT INTO verbe VALUES('deiléphila','entomologie','suc','sphingidé,papillon rose','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('deilinia',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('deilinia','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('delphacidé',\'entomologie','suc','homoptère sauteur','vivant');
+		INSERT INTO verbe VALUES('delphacidé','entomologie','suc','homoptère sauteur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('delphax',\'entomologie','suc','homoptère sauteur','vivant');
+		INSERT INTO verbe VALUES('delphax','entomologie','suc','homoptère sauteur','vivant');
 		
   
    
@@ -10126,7 +10146,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('deltocéphale',\'entomologie','suc','homoptère commun','vivant');
+		INSERT INTO verbe VALUES('deltocéphale','entomologie','suc','homoptère commun','vivant');
 		
   
    
@@ -10134,11 +10154,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('demi-deuil',\'entomologie','suc','satyridé,mélanargia','vivant');
+		INSERT INTO verbe VALUES('demi-deuil','entomologie','suc','satyridé,mélanargia','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('demi-paon',\'entomologie','herb','sphingidé,sphinx ocellé','vivant');
+		INSERT INTO verbe VALUES('demi-paon','entomologie','herb','sphingidé,sphinx ocellé','vivant');
 		
   
    
@@ -10154,14 +10174,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('demoiselle',\'entomologie','carn','agrionidé,démoiselle','vivant');
+		INSERT INTO verbe VALUES('demoiselle','entomologie','carn','agrionidé,démoiselle','vivant');
 		
    
 		INSERT INTO verbe VALUES('demoiselle','oiseau','écha','gruidé,lges rémiges','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('demoiselle',\'entomologie','carn','agrionidé,démoiselle','vivant');
+		INSERT INTO verbe VALUES('demoiselle','entomologie','carn','agrionidé,démoiselle','vivant');
 		
    
 		INSERT INTO verbe VALUES('demoiselle','oiseau','écha','gruidé,lges rémiges','vivant');
@@ -10200,7 +10220,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dendroctone',\'entomologie','herb','scolytidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dendroctone','entomologie','herb','scolytidé,coléoptère','vivant');
 		
   
    
@@ -10224,7 +10244,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dendrolimus',\'entomologie','suc','bombycidé,bombyx d pin','vivant');
+		INSERT INTO verbe VALUES('dendrolimus','entomologie','suc','bombycidé,bombyx d pin','vivant');
 		
   
    
@@ -10236,7 +10256,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dendrophile',\'entomologie','herb','histéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dendrophile','entomologie','herb','histéridé,coléoptère','vivant');
 		
   
    
@@ -10260,11 +10280,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('deporaus',\'entomologie','végé','rynchite bouleau','vivant');
+		INSERT INTO verbe VALUES('deporaus','entomologie','végé','rynchite bouleau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('depressaria',\'entomologie','sang','tinéidé,teigne Eur','vivant');
+		INSERT INTO verbe VALUES('depressaria','entomologie','sang','tinéidé,teigne Eur','vivant');
 		
   
    
@@ -10272,7 +10292,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dermaptère',\'entomologie','omni','insecte broyeur','vivant');
+		INSERT INTO verbe VALUES('dermaptère','entomologie','omni','insecte broyeur','vivant');
 		
   
    
@@ -10280,7 +10300,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dermatobie',\'entomologie','sang','limnobiidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dermatobie','entomologie','sang','limnobiidé,mouche','vivant');
 		
   
    
@@ -10288,7 +10308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dermatophilus',\'entomologie','suc','homoptère,chique','vivant');
+		INSERT INTO verbe VALUES('dermatophilus','entomologie','suc','homoptère,chique','vivant');
 		
   
    
@@ -10296,11 +10316,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dermeste',\'entomologie','herb','dermestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dermeste','entomologie','herb','dermestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dermestidé',\'entomologie','herb','tel dermeste','vivant');
+		INSERT INTO verbe VALUES('dermestidé','entomologie','herb','tel dermeste','vivant');
 		
   
    
@@ -10320,7 +10340,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('derolomus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('derolomus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -10364,7 +10384,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dexie',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dexie','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
@@ -10376,7 +10396,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diabrotica',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('diabrotica','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -10396,7 +10416,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dialeurode',\'entomologie','suc','homoptère','vivant');
+		INSERT INTO verbe VALUES('dialeurode','entomologie','suc','homoptère','vivant');
 		
   
    
@@ -10408,14 +10428,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('diane',\'entomologie','suc','papilionidé,thaïs','vivant');
+		INSERT INTO verbe VALUES('diane','entomologie','suc','papilionidé,thaïs','vivant');
 		
    
 		INSERT INTO verbe VALUES('diane','mammifère','simi','cercopithécidé,singe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('diane',\'entomologie','suc','papilionidé,thaïs','vivant');
+		INSERT INTO verbe VALUES('diane','entomologie','suc','papilionidé,thaïs','vivant');
 		
    
 		INSERT INTO verbe VALUES('diane','mammifère','simi','cercopithécidé,singe','vivant');
@@ -10426,11 +10446,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dianthoecia',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('dianthoecia','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('diapriiné',\'entomologie','suc','hyménoptère parasite','vivant');
+		INSERT INTO verbe VALUES('diapriiné','entomologie','suc','hyménoptère parasite','vivant');
 		
   
    
@@ -10438,7 +10458,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diaptomus','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('diaptomus','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -10446,7 +10466,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diaspis',\'entomologie','herb','coccidé,cochenille pte','vivant');
+		INSERT INTO verbe VALUES('diaspis','entomologie','herb','coccidé,cochenille pte','vivant');
 		
   
    
@@ -10474,7 +10494,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dibolie',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dibolie','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -10498,19 +10518,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('dicerque',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dicerque','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dichirotrichus',\'entomologie','carn','carabidé,carabe brun','vivant');
+		INSERT INTO verbe VALUES('dichirotrichus','entomologie','carn','carabidé,carabe brun','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dicranomyia',\'entomologie','sang','limnobiidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('dicranomyia','entomologie','sang','limnobiidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dicranure',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('dicranure','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
@@ -10530,7 +10550,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dictyoptère',\'entomologie','herb','lycidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dictyoptère','entomologie','herb','lycidé,coléoptère','vivant');
 		
   
    
@@ -10542,7 +10562,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dicyrtoma',\'entomologie','herb','collembole','vivant');
+		INSERT INTO verbe VALUES('dicyrtoma','entomologie','herb','collembole','vivant');
 		
   
    
@@ -10570,7 +10590,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diglosse',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('diglosse','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -10582,15 +10602,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('diloba',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('diloba','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dilophus',\'entomologie','sang','bibionidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('dilophus','entomologie','sang','bibionidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dilus',\'entomologie','végé','cérambycidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dilus','entomologie','végé','cérambycidé,coléoptère','vivant');
 		
   
    
@@ -10602,11 +10622,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dinapate',\'entomologie','végé','bostryche','vivant');
+		INSERT INTO verbe VALUES('dinapate','entomologie','végé','bostryche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dinarda',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dinarda','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -10626,11 +10646,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dinergate',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('dinergate','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dineutes',\'entomologie','carn','gyrin rég chaudes','vivant');
+		INSERT INTO verbe VALUES('dineutes','entomologie','carn','gyrin rég chaudes','vivant');
 		
   
    
@@ -10682,7 +10702,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dinoptera',\'entomologie','végé','cérambycidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dinoptera','entomologie','végé','cérambycidé,coléoptère','vivant');
 		
   
    
@@ -10702,7 +10722,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dioctrie',\'entomologie','sang','asilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dioctrie','entomologie','sang','asilidé,mouche','vivant');
 		
   
    
@@ -10734,11 +10754,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('diopsis',\'entomologie','sang','diopsidé,mouche','vivant');
+		INSERT INTO verbe VALUES('diopsis','entomologie','sang','diopsidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('diphtère',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('diphtère','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -10786,7 +10806,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diplognathe',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('diplognathe','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -10818,7 +10838,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diploure',\'entomologie','carn','aptère,aveugle','vivant');
+		INSERT INTO verbe VALUES('diploure','entomologie','carn','aptère,aveugle','vivant');
 		
   
    
@@ -10842,7 +10862,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diprion',\'entomologie','suc','hyménoptère symphyte','vivant');
+		INSERT INTO verbe VALUES('diprion','entomologie','suc','hyménoptère symphyte','vivant');
 		
   
    
@@ -10854,7 +10874,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('diptère',\'entomologie','herb','insecte à 2 ailes','vivant');
+		INSERT INTO verbe VALUES('diptère','entomologie','herb','insecte à 2 ailes','vivant');
 		
   
    
@@ -10882,7 +10902,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dismorphia',\'entomologie','suc','piéridé,papillon','vivant');
+		INSERT INTO verbe VALUES('dismorphia','entomologie','suc','piéridé,papillon','vivant');
 		
   
    
@@ -10894,15 +10914,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ditoma',\'entomologie','herb','colydiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ditoma','entomologie','herb','colydiidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ditomus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('ditomus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('diversicorne',\'entomologiev','herb','coléoptère polyphage','vivant');
+		INSERT INTO verbe VALUES('diversicorne','entomologiev','herb','coléoptère polyphage','vivant');
 		
   
    
@@ -10910,7 +10930,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dixa',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('dixa','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -10918,7 +10938,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dociostaurus',\'entomologie','végé','acrididé,criquet gris','vivant');
+		INSERT INTO verbe VALUES('dociostaurus','entomologie','végé','acrididé,criquet gris','vivant');
 		
   
    
@@ -10926,7 +10946,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('docophorus',\'entomologie','sang','mallophage,pou','vivant');
+		INSERT INTO verbe VALUES('docophorus','entomologie','sang','mallophage,pou','vivant');
 		
   
    
@@ -10946,15 +10966,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('dolerus',\'entomologie','suc','hyménopt,tenthrédinidé','vivant');
+		INSERT INTO verbe VALUES('dolerus','entomologie','suc','hyménopt,tenthrédinidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dolichodéridé',\'entomologie','suc','tel aculéate,fourmi','vivant');
+		INSERT INTO verbe VALUES('dolichodéridé','entomologie','suc','tel aculéate,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dolichoderus',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('dolichoderus','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -10962,15 +10982,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('dolichopode',\'entomologie','herb','gryllacrididé,sauterell','vivant');
+		INSERT INTO verbe VALUES('dolichopode','entomologie','herb','gryllacrididé,sauterell','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dolichopodidé',\'entomologie','sang','tel dolichopus','vivant');
+		INSERT INTO verbe VALUES('dolichopodidé','entomologie','sang','tel dolichopus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dolichopus',\'entomologie','sang','dilochopodidé,mouche','vivant');
+		INSERT INTO verbe VALUES('dolichopus','entomologie','sang','dilochopodidé,mouche','vivant');
 		
   
    
@@ -11002,7 +11022,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('donacie',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('donacie','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -11026,7 +11046,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dorcadion',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('dorcadion','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -11034,7 +11054,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dorcus',\'entomologie','végé','lucanidé,lucane robuste','vivant');
+		INSERT INTO verbe VALUES('dorcus','entomologie','végé','lucanidé,lucane robuste','vivant');
 		
   
    
@@ -11084,15 +11104,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('dorylidé',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('dorylidé','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('doryphore',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('doryphore','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dorytome',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('dorytome','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -11166,7 +11186,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dreissena','mollusque','coqu',\'edreissénidé,bivalve','vivant');
+		INSERT INTO verbe VALUES('dreissena','mollusque','coqu','edreissénidé,bivalve','vivant');
 		
   
    
@@ -11186,7 +11206,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('drepana',\'entomologie','suc','drépanidé,papillon','vivant');
+		INSERT INTO verbe VALUES('drepana','entomologie','suc','drépanidé,papillon','vivant');
 		
   
    
@@ -11194,7 +11214,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('drépanidé',\'entomologie','suc','tel drepana,papillon','vivant');
+		INSERT INTO verbe VALUES('drépanidé','entomologie','suc','tel drepana,papillon','vivant');
 		
   
    
@@ -11202,7 +11222,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dreyfusia',\'entomologie','sang','chermésidé,puceron','vivant');
+		INSERT INTO verbe VALUES('dreyfusia','entomologie','sang','chermésidé,puceron','vivant');
 		
   
    
@@ -11210,11 +11230,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('drile',\'entomologie','herb','drilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('drile','entomologie','herb','drilidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('drilidé',\'entomologie','herb','tel drile','vivant');
+		INSERT INTO verbe VALUES('drilidé','entomologie','herb','tel drile','vivant');
 		
   
    
@@ -11246,7 +11266,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dromus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('dromus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -11258,11 +11278,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('drosophile',\'entomologie','sang','drosophilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('drosophile','entomologie','sang','drosophilidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('drosophilidé',\'entomologie','sang','tel drosophile diptère','vivant');
+		INSERT INTO verbe VALUES('drosophilidé','entomologie','sang','tel drosophile diptère','vivant');
 		
   
    
@@ -11270,11 +11290,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dryinus',\'entomologie','suc','hyménoptère,dryiidé','vivant');
+		INSERT INTO verbe VALUES('dryinus','entomologie','suc','hyménoptère,dryiidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dryocoetes',\'entomologie','herb','scolytidé xylophage','vivant');
+		INSERT INTO verbe VALUES('dryocoetes','entomologie','herb','scolytidé xylophage','vivant');
 		
   
    
@@ -11282,15 +11302,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('dryophanta',\'entomologie','suc','hyménoptère,cynipidé','vivant');
+		INSERT INTO verbe VALUES('dryophanta','entomologie','suc','hyménoptère,cynipidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dryophile',\'entomologie','herb','anobiidé coléoptère','vivant');
+		INSERT INTO verbe VALUES('dryophile','entomologie','herb','anobiidé coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dryopidé',\'entomologie','herb','tel dryops coléoptère','vivant');
+		INSERT INTO verbe VALUES('dryopidé','entomologie','herb','tel dryops coléoptère','vivant');
 		
   
    
@@ -11298,7 +11318,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('drypte',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('drypte','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -11322,7 +11342,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('dun',\'entomologie','herb','subimago d éphémère','vivant');
+		INSERT INTO verbe VALUES('dun','entomologie','herb','subimago d éphémère','vivant');
 		
   
    
@@ -11330,7 +11350,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('duomite',\'entomologie','suc','cossidé,papillon','vivant');
+		INSERT INTO verbe VALUES('duomite','entomologie','suc','cossidé,papillon','vivant');
 		
   
    
@@ -11358,11 +11378,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dymasus',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('dymasus','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dynaste',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('dynaste','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -11370,11 +11390,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dyschirius',\'entomologie','carn','carabidé,carabe brun','vivant');
+		INSERT INTO verbe VALUES('dyschirius','entomologie','carn','carabidé,carabe brun','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dysdercus',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('dysdercus','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
@@ -11386,11 +11406,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('dytique',\'entomologie','herb','dytiscidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('dytique','entomologie','herb','dytiscidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('dytiscidé',\'entomologie','herb','tel dytique','vivant');
+		INSERT INTO verbe VALUES('dytiscidé','entomologie','herb','tel dytique','vivant');
 		
   
    
@@ -11450,7 +11470,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('échinoconus',\'entomologie','carn','carabidé,galérite','vivant');
+		INSERT INTO verbe VALUES('échinoconus','entomologie','carn','carabidé,galérite','vivant');
 		
   
    
@@ -11466,7 +11486,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'echinocyamus','animal','échi','échinoderme,oursin','vivant');
+		INSERT INTO verbe VALUES('echinocyamus','animal','échi','échinoderme,oursin','vivant');
 		
   
    
@@ -11478,7 +11498,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('échinomyie',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('échinomyie','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
@@ -11518,7 +11538,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('éciton',\'entomologie','carn','dorylidé,fourmi Amér','vivant');
+		INSERT INTO verbe VALUES('éciton','entomologie','carn','dorylidé,fourmi Amér','vivant');
 		
   
    
@@ -11534,23 +11554,23 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'ectobie',\'entomologie','suc','orthoptère,blatte brune','vivant');
+		INSERT INTO verbe VALUES('ectobie','entomologie','suc','orthoptère,blatte brune','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ectoparasite','ZOO','végé','parasite sr surface','vivant');
+		INSERT INTO verbe VALUES('ectoparasite','ZOO','végé','parasite sr surface','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ectopiste','oiseau','coly','colymbidé,pigeon','vivant');
+		INSERT INTO verbe VALUES('ectopiste','oiseau','coly','colymbidé,pigeon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ectoprocte','animal','prot','coelomate lophophorien','vivant');
+		INSERT INTO verbe VALUES('ectoprocte','animal','prot','coelomate lophophorien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ectotrophe',\'entomologie','végé','tel aptérygote','vivant');
+		INSERT INTO verbe VALUES('ectotrophe','entomologie','végé','tel aptérygote','vivant');
 		
   
    
@@ -11574,15 +11594,15 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'effarvate','oiseau','pass','sylvidé,fauvette,-atte','vivant');
+		INSERT INTO verbe VALUES('effarvate','oiseau','pass','sylvidé,fauvette,-atte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'effarvatte','oiseau','pass','sylvidé,fauvette,-ate','vivant');
+		INSERT INTO verbe VALUES('effarvatte','oiseau','pass','sylvidé,fauvette,-ate','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'effraie','oiseau','carn','tytonidé,strigiforme','vivant');
+		INSERT INTO verbe VALUES('effraie','oiseau','carn','tytonidé,strigiforme','vivant');
 		
   
    
@@ -11598,23 +11618,23 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'eider','oiseau','palm','anatidé,canard marin','vivant');
+		INSERT INTO verbe VALUES('eider','oiseau','palm','anatidé,canard marin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eimeria','animal','prot','protozoaire,coccidie','vivant');
+		INSERT INTO verbe VALUES('eimeria','animal','prot','protozoaire,coccidie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eisénie','OMB','ver','annélide oligocète','vivant');
+		INSERT INTO verbe VALUES('eisénie','OMB','ver','annélide oligocète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('élachiptera',\'entomologie','sang','chloropidé,mouche','vivant');
+		INSERT INTO verbe VALUES('élachiptera','entomologie','sang','chloropidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('élachiste',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('élachiste','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -11644,7 +11664,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('élaphre',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('élaphre','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -11664,37 +11684,37 @@
 		
   
    
-		INSERT INTO verbe VALUES('élasmotéthus',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('élasmotéthus','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('élater',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('élater','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('élatéridé',\'entomologie','végé','tel taupin,cucuyo','vivant');
+		INSERT INTO verbe VALUES('élatéridé','entomologie','végé','tel taupin,cucuyo','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'elbot','poissonb','pleu','pleuronectidé,téléostée','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('élédone','mollusque','octo','octopode,poulpe pt','vivant');
-		
-   
-		INSERT INTO verbe VALUES('élédone',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('elbot','poissonb','pleu','pleuronectidé,téléostée','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('élédone','mollusque','octo','octopode,poulpe pt','vivant');
 		
    
-		INSERT INTO verbe VALUES('élédone',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('élédone','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('élénophore',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('élédone','mollusque','octo','octopode,poulpe pt','vivant');
+		
+   
+		INSERT INTO verbe VALUES('élédone','entomologie','herb','ténébrionidé,coléoptère','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('élénophore','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -11736,23 +11756,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('élis',\'entomologie','suc','hyménoptère,scoliidé','vivant');
+		INSERT INTO verbe VALUES('élis','entomologie','suc','hyménoptère,scoliidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ellampus',\'entomologie','suc','hyménoptère,chrysididé','vivant');
+		INSERT INTO verbe VALUES('ellampus','entomologie','suc','hyménoptère,chrysididé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ellipsocephallus','ART','arth','trilobite cambrien','vivant');
+		INSERT INTO verbe VALUES('ellipsocephallus','ART','arth','trilobite cambrien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ellobiidé','mollusque','gast','gastéropode pulmoné','vivant');
+		INSERT INTO verbe VALUES('ellobiidé','mollusque','gast','gastéropode pulmoné','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'elmis',\'entomologie','herb','parnidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('elmis','entomologie','herb','parnidé,coléoptère','vivant');
 		
   
    
@@ -11772,39 +11792,39 @@
 		
   
    
-		INSERT INTO verbe VALUES('ématurga',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('ématurga','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'emballonuridé','mammifère','carn','tel chauve-souris','vivant');
+		INSERT INTO verbe VALUES('emballonuridé','mammifère','carn','tel chauve-souris','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embérizidé','oiseau','pass','tel zizi','vivant');
+		INSERT INTO verbe VALUES('embérizidé','oiseau','pass','tel zizi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embie',\'entomologie','carn',\'embidé,insecte ailé','vivant');
+		INSERT INTO verbe VALUES('embie','entomologie','carn','embidé,insecte ailé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embioptère',\'entomologie','végé','à lg antennes','vivant');
+		INSERT INTO verbe VALUES('embioptère','entomologie','végé','à lg antennes','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embiosiphoné','poisson',\'embi','tel embiotocidé','vivant');
+		INSERT INTO verbe VALUES('embiosiphoné','poisson','embi','tel embiotocidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embiotocidé','poisson',\'embi',\'embiosiphoné,téléostéen','vivant');
+		INSERT INTO verbe VALUES('embiotocidé','poisson','embi','embiosiphoné,téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embolomère','reptiles','amph','amphibien fossile','vivant');
+		INSERT INTO verbe VALUES('embolomère','reptiles','amph','amphibien fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'embrithopode','mammifère','rhin','rhinocéros fossile','vivant');
+		INSERT INTO verbe VALUES('embrithopode','mammifère','rhin','rhinocéros fossile','vivant');
 		
   
    
@@ -11832,19 +11852,19 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'empereur','poisson','ali','berycidé,acanthoptère','vivant');
+		INSERT INTO verbe VALUES('empereur','poisson','ali','berycidé,acanthoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'emphytus',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('emphytus','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'empididé',\'entomologie','sang','tel mouche saprophage','vivant');
+		INSERT INTO verbe VALUES('empididé','entomologie','sang','tel mouche saprophage','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'empis',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('empis','entomologie','sang','empididé,mouche','vivant');
 		
   
    
@@ -11852,71 +11872,71 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'enarmonia',\'entomologie','végé','larve ver carpocapse','vivant');
+		INSERT INTO verbe VALUES('enarmonia','entomologie','végé','larve ver carpocapse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encarsia',\'entomologie','suc','hyménoptère,chalcididé','vivant');
+		INSERT INTO verbe VALUES('encarsia','entomologie','suc','hyménoptère,chalcididé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'enchythrée','OMB','vers','annélide,oligochète','vivant');
+		INSERT INTO verbe VALUES('enchythrée','OMB','vers','annélide,oligochète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encornet','mollusque','prot','céphalopode,calmar','vivant');
+		INSERT INTO verbe VALUES('encornet','mollusque','prot','céphalopode,calmar','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encoubert','mammifère','carn','dasypodidé,tatou','vivant');
+		INSERT INTO verbe VALUES('encoubert','mammifère','carn','dasypodidé,tatou','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encrine','animal','échi','échinoderme','vivant');
+		INSERT INTO verbe VALUES('encrine','animal','échi','échinoderme','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encyrtidé',\'entomologie','suc','tel encyrtus','vivant');
+		INSERT INTO verbe VALUES('encyrtidé','entomologie','suc','tel encyrtus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'encyrtus',\'entomologie','suc','hyménoptère,encyrtidé','vivant');
+		INSERT INTO verbe VALUES('encyrtus','entomologie','suc','hyménoptère,encyrtidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'endamoebidé','animal','prot','protiste amibien','vivant');
+		INSERT INTO verbe VALUES('endamoebidé','animal','prot','protiste amibien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'endoceras','mollusque','prot','céphalopode fossile','vivant');
+		INSERT INTO verbe VALUES('endoceras','mollusque','prot','céphalopode fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'endodontidé','mollusque','gast','gastéropode pulmoné','vivant');
+		INSERT INTO verbe VALUES('endodontidé','mollusque','gast','gastéropode pulmoné','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'endomychus',\'entomologie','herb',\'endomychidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('endomychus','entomologie','herb','endomychidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'endromis',\'entomologie','suc','noctuidé,versicolore','vivant');
+		INSERT INTO verbe VALUES('endromis','entomologie','suc','noctuidé,versicolore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'enfle-boeuf',\'entomologie','végé','buprestidé,bupreste','vivant');
+		INSERT INTO verbe VALUES('enfle-boeuf','entomologie','végé','buprestidé,bupreste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'engoulevent','oiseau','pass','caprimulgidé guacharo','vivant');
+		INSERT INTO verbe VALUES('engoulevent','oiseau','pass','caprimulgidé guacharo','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'engraulidé','poisson',\'engr','tel anchois téléostéen','vivant');
+		INSERT INTO verbe VALUES('engraulidé','poisson','engr','tel anchois téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'enhydre','mammifère','carn','mustélidé,loutre marine','vivant');
+		INSERT INTO verbe VALUES('enhydre','mammifère','carn','mustélidé,loutre marine','vivant');
 		
   
    
@@ -11928,15 +11948,15 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'ennomos',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('ennomos','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'enoicycla',\'entomologie','végé','limnophyllidé,phrygane','vivant');
+		INSERT INTO verbe VALUES('enoicycla','entomologie','végé','limnophyllidé,phrygane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('énoplocère',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('énoplocère','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -11944,111 +11964,111 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'ensatine','reptiles','amph','amphibien,salamandre','vivant');
+		INSERT INTO verbe VALUES('ensatine','reptiles','amph','amphibien,salamandre','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ensifère',\'entomologie','suc','tel orthoptère','vivant');
+		INSERT INTO verbe VALUES('ensifère','entomologie','suc','tel orthoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ensis','mollusque','solé','solénidé,bivalv,couteau','vivant');
+		INSERT INTO verbe VALUES('ensis','mollusque','solé','solénidé,bivalv,couteau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entamoeba','animal','prot','protiste amibiase','vivant');
+		INSERT INTO verbe VALUES('entamoeba','animal','prot','protiste amibiase','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entélégyne','ART','carn','écribellate,araignée','vivant');
+		INSERT INTO verbe VALUES('entélégyne','ART','carn','écribellate,araignée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entelle','mammifère','simi','colobidé,langur','vivant');
+		INSERT INTO verbe VALUES('entelle','mammifère','simi','colobidé,langur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entélodonte','mammifère','ongu','artiodactyle fossile','vivant');
+		INSERT INTO verbe VALUES('entélodonte','mammifère','ongu','artiodactyle fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entélure','poisson','syng','syngnathidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('entélure','poisson','syng','syngnathidé,téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entérobacter','BAC','bact','bactérie','vivant');
+		INSERT INTO verbe VALUES('entérobacter','BAC','bact','bactérie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'enterobacteriaceae','BAC','bact','bactérie','vivant');
+		INSERT INTO verbe VALUES('enterobacteriaceae','BAC','bact','bactérie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entérobactérie','BAC','bact','bactérie','vivant');
+		INSERT INTO verbe VALUES('entérobactérie','BAC','bact','bactérie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entérocoque','BAC','bact','bactérie','vivant');
+		INSERT INTO verbe VALUES('entérocoque','BAC','bact','bactérie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entérogone','animal','prot','ascidie,clone,clavie','vivant');
+		INSERT INTO verbe VALUES('entérogone','animal','prot','ascidie,clone,clavie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entéropneuste','animal','prot','stomocordé vermiforme','vivant');
+		INSERT INTO verbe VALUES('entéropneuste','animal','prot','stomocordé vermiforme','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entérovirus','BAC','type','virus','vivant');
+		INSERT INTO verbe VALUES('entérovirus','BAC','type','virus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entime',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('entime','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entoconcha','mollusque','gast','gastéropode','vivant');
+		INSERT INTO verbe VALUES('entoconcha','mollusque','gast','gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entodesma','mollusque','coqu','bivalve Amér','vivant');
+		INSERT INTO verbe VALUES('entodesma','mollusque','coqu','bivalve Amér','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entodinium','animal','prot','protiste','vivant');
+		INSERT INTO verbe VALUES('entodinium','animal','prot','protiste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entomobryia',\'entomologie','suc','collembole cylindrique','vivant');
+		INSERT INTO verbe VALUES('entomobryia','entomologie','suc','collembole cylindrique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entomoscelis',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('entomoscelis','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entomostracé','crustacé',\'ento','tel daphnie,cyclope','vivant');
+		INSERT INTO verbe VALUES('entomostracé','crustacé','ento','tel daphnie,cyclope','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entoniscidé','crustacé','isop','isopode épicaride','vivant');
+		INSERT INTO verbe VALUES('entoniscidé','crustacé','isop','isopode épicaride','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entoprocte','animal','prot','calyssozoaire','vivant');
+		INSERT INTO verbe VALUES('entoprocte','animal','prot','calyssozoaire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entotrophe',\'entomologie','suc','tel collembole,protoure','vivant');
+		INSERT INTO verbe VALUES('entotrophe','entomologie','suc','tel collembole,protoure','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'entozoaire','animal','prot','parasite animal','vivant');
+		INSERT INTO verbe VALUES('entozoaire','animal','prot','parasite animal','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eohippus','mammifère','équi','équidé fossile','vivant');
+		INSERT INTO verbe VALUES('eohippus','mammifère','équi','équidé fossile','vivant');
 		
   
    
@@ -12064,7 +12084,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('épacromia',\'entomologie','végé','acrididé,criquet commun','vivant');
+		INSERT INTO verbe VALUES('épacromia','entomologie','végé','acrididé,criquet commun','vivant');
 		
   
    
@@ -12104,19 +12124,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('éphémère',\'entomologie','végé','éphéméridé,ailes inégal','vivant');
+		INSERT INTO verbe VALUES('éphémère','entomologie','végé','éphéméridé,ailes inégal','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('éphéméroptère',\'entomologie','végé','tel insecte vie brève','vivant');
+		INSERT INTO verbe VALUES('éphéméroptère','entomologie','végé','tel insecte vie brève','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ephestia',\'entomologie','suc','pyralidé,papillon gris','vivant');
+		INSERT INTO verbe VALUES('ephestia','entomologie','suc','pyralidé,papillon gris','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ephialtes',\'entomologie','végé','ichneumonidé térébrant','vivant');
+		INSERT INTO verbe VALUES('ephialtes','entomologie','végé','ichneumonidé térébrant','vivant');
 		
   
    
@@ -12124,11 +12144,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('éphippigère',\'entomologie','végé','éphippigéridé,sauterell','vivant');
+		INSERT INTO verbe VALUES('éphippigère','entomologie','végé','éphippigéridé,sauterell','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('éphydridé',\'entomologie','sang','tel mouche cycloraphe','vivant');
+		INSERT INTO verbe VALUES('éphydridé','entomologie','sang','tel mouche cycloraphe','vivant');
 		
   
    
@@ -12148,7 +12168,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('épicaute',\'entomologie','herb','méloïdé,cantharide','vivant');
+		INSERT INTO verbe VALUES('épicaute','entomologie','herb','méloïdé,cantharide','vivant');
 		
   
    
@@ -12160,11 +12180,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('épilachne',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('épilachne','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('épilissus',\'entomologie','herb','scarabéidé,bousier Afrique','vivant');
+		INSERT INTO verbe VALUES('épilissus','entomologie','herb','scarabéidé,bousier Afrique','vivant');
 		
   
    
@@ -12172,7 +12192,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('épinéphélé',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('épinéphélé','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -12188,11 +12208,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('épiphile',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('épiphile','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('épiphore',\'entomologie','suc','saturnidé,lépidoptère','vivant');
+		INSERT INTO verbe VALUES('épiphore','entomologie','suc','saturnidé,lépidoptère','vivant');
 		
   
    
@@ -12220,7 +12240,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('érastria',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('érastria','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -12228,11 +12248,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('érébia',\'entomologie','suc','satyridé,papillon diurn','vivant');
+		INSERT INTO verbe VALUES('érébia','entomologie','suc','satyridé,papillon diurn','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('érébus',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('érébus','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -12248,7 +12268,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'eretes',\'entomologie','herb','dytiscidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('eretes','entomologie','herb','dytiscidé,coléoptère','vivant');
 		
   
    
@@ -12260,15 +12280,15 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'ergasilidé','crustacé','copé',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('ergasilidé','crustacé','copé','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'ergate',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('ergate','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('éricicole',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('éricicole','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -12284,19 +12304,19 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'eriocampa',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('eriocampa','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eriocheir','crustacé','mala','malacostracé,crabe','vivant');
+		INSERT INTO verbe VALUES('eriocheir','crustacé','mala','malacostracé,crabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ériocraniidé',\'entomologie','suc','lépidoptère homoneure','vivant');
+		INSERT INTO verbe VALUES('ériocraniidé','entomologie','suc','lépidoptère homoneure','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ériogaster',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('ériogaster','entomologie','suc','lasiocampidé,papillon','vivant');
 		
   
    
@@ -12304,7 +12324,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('érirrhinus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('érirrhinus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -12312,19 +12332,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('éristale',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('éristale','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('érotylidé',\'entomologie','herb','tel langunia,coléoptère','vivant');
+		INSERT INTO verbe VALUES('érotylidé','entomologie','herb','tel langunia,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'errante','OMB','ver','annélide polychète','vivant');
+		INSERT INTO verbe VALUES('errante','OMB','ver','annélide polychète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'erwinia','BAC','bact',\'entérobacter','vivant');
+		INSERT INTO verbe VALUES('erwinia','BAC','bact','entérobacter','vivant');
 		
   
    
@@ -12340,7 +12360,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'eryma','crustacé','déca','décapode fossile','vivant');
+		INSERT INTO verbe VALUES('eryma','crustacé','déca','décapode fossile','vivant');
 		
   
    
@@ -12360,7 +12380,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'erythréidé','ART','sang','tel érythrée,acarien','vivant');
+		INSERT INTO verbe VALUES('erythréidé','ART','sang','tel érythrée,acarien','vivant');
 		
   
    
@@ -12376,43 +12396,43 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'escarbot',\'entomologie','herb','histéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('escarbot','entomologie','herb','histéridé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'escargot','mollusque','gast',\'ellobéidé,gastéropode','vivant');
+		INSERT INTO verbe VALUES('escargot','mollusque','gast','ellobéidé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'escavène','OMB','ver','néréide','vivant');
+		INSERT INTO verbe VALUES('escavène','OMB','ver','néréide','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eschare','animal','prot','bryozoaire','vivant');
+		INSERT INTO verbe VALUES('eschare','animal','prot','bryozoaire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'escharine','animal','prot','bryozoaire','vivant');
+		INSERT INTO verbe VALUES('escharine','animal','prot','bryozoaire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'escherichia','BAC','type','colibacille','vivant');
+		INSERT INTO verbe VALUES('escherichia','BAC','type','colibacille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eschrichtiidé','mammifère','céta','tel baleine grise','vivant');
+		INSERT INTO verbe VALUES('eschrichtiidé','mammifère','céta','tel baleine grise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'esclavon','oiseau','pass','podicipédidé,grèbe','vivant');
+		INSERT INTO verbe VALUES('esclavon','oiseau','pass','podicipédidé,grèbe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'escolar','poisson','gemp','gempylidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('escolar','poisson','gemp','gempylidé,téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'esculape','reptiles','rept','colubridé,couleuvre','vivant');
+		INSERT INTO verbe VALUES('esculape','reptiles','rept','colubridé,couleuvre','vivant');
 		
   
    
@@ -12420,31 +12440,31 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'espadon','poisson','xiph','perciforme,xiphidé','vivant');
+		INSERT INTO verbe VALUES('espadon','poisson','xiph','perciforme,xiphidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'esprot','poisson','clup','clupéidé,proche sardine','vivant');
+		INSERT INTO verbe VALUES('esprot','poisson','clup','clupéidé,proche sardine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'estheria','crustacé','conc','conchostracé dulcicole','vivant');
+		INSERT INTO verbe VALUES('estheria','crustacé','conc','conchostracé dulcicole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'esthérie','crustacé','conc','conchostracé dulcicole','vivant');
+		INSERT INTO verbe VALUES('esthérie','crustacé','conc','conchostracé dulcicole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'estivaux','poisson','ésoc','ésocidé,truitelles été','vivant');
+		INSERT INTO verbe VALUES('estivaux','poisson','ésoc','ésocidé,truitelles été','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'estrildiné','oiseau','pass','plocéidé,tel bengali','vivant');
+		INSERT INTO verbe VALUES('estrildiné','oiseau','pass','plocéidé,tel bengali','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'esturgeon','poisson','acip','acipenséridé,sterlet','vivant');
+		INSERT INTO verbe VALUES('esturgeon','poisson','acip','acipenséridé,sterlet','vivant');
 		
   
    
@@ -12452,7 +12472,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'eteophilus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('eteophilus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -12468,7 +12488,7 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'etmopterus','poisson','squa','squalidé,pt requin','vivant');
+		INSERT INTO verbe VALUES('etmopterus','poisson','squa','squalidé,pt requin','vivant');
 		
   
    
@@ -12476,7 +12496,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('étoilé',\'entomologie','suc','lymantriidé,orgye','vivant');
+		INSERT INTO verbe VALUES('étoilé','entomologie','suc','lymantriidé,orgye','vivant');
 		
   
    
@@ -12488,367 +12508,367 @@
 		
   
    
-		INSERT INTO verbe VALUES(\'euarthropode','ART','carn','arthropode,tel arachnide','vivant');
+		INSERT INTO verbe VALUES('euarthropode','ART','carn','arthropode,tel arachnide','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eubactériale','BAC','bact','bactérie asporulée','vivant');
+		INSERT INTO verbe VALUES('eubactériale','BAC','bact','bactérie asporulée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eubactérie','BAC','type','procaryote','vivant');
+		INSERT INTO verbe VALUES('eubactérie','BAC','type','procaryote','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucalyptocrinus','animal','prot','crinoïde fossile','vivant');
+		INSERT INTO verbe VALUES('eucalyptocrinus','animal','prot','crinoïde fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucamptognathe',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('eucamptognathe','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucaride','crustacé','mala','malacostracé,décapode','vivant');
+		INSERT INTO verbe VALUES('eucaride','crustacé','mala','malacostracé,décapode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucère',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('eucère','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucharis','animal','coel','cténaire ovoïde','vivant');
+		INSERT INTO verbe VALUES('eucharis','animal','coel','cténaire ovoïde','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucheira',\'entomologie','suc','piéridé,papillon Amér','vivant');
+		INSERT INTO verbe VALUES('eucheira','entomologie','suc','piéridé,papillon Amér','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euchirus',\'entomologie','carn','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('euchirus','entomologie','carn','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euchoreutiné','mammifère','omni','rongeur,tel gerboise','vivant');
+		INSERT INTO verbe VALUES('euchoreutiné','mammifère','omni','rongeur,tel gerboise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euchroma',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('euchroma','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euclidia',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('euclidia','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eucnémididé',\'entomologie','herb','tel taupin,coléoptère','vivant');
+		INSERT INTO verbe VALUES('eucnémididé','entomologie','herb','tel taupin,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eudémis',\'entomologie','suc','tortricidé,papillon','vivant');
+		INSERT INTO verbe VALUES('eudémis','entomologie','suc','tortricidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eudorina','animal','prot','protiste flagellé','vivant');
+		INSERT INTO verbe VALUES('eudorina','animal','prot','protiste flagellé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eudorinidé','animal','prot','protiste flagellé','vivant');
+		INSERT INTO verbe VALUES('eudorinidé','animal','prot','protiste flagellé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eudoxie','animal','prot','siphonophore','vivant');
+		INSERT INTO verbe VALUES('eudoxie','animal','prot','siphonophore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eugeniacrinus','animal','prot','crinoïde fixé fossile','vivant');
+		INSERT INTO verbe VALUES('eugeniacrinus','animal','prot','crinoïde fixé fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eugereon',\'entomologie','herb','hémiptéroïde fossile','vivant');
+		INSERT INTO verbe VALUES('eugereon','entomologie','herb','hémiptéroïde fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euglène','animal','prot','protiste','vivant');
+		INSERT INTO verbe VALUES('euglène','animal','prot','protiste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euglosse',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('euglosse','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euglypha','animal','prot','rhizopode,amibe mousses','vivant');
+		INSERT INTO verbe VALUES('euglypha','animal','prot','rhizopode,amibe mousses','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulalia',\'entomologie','sang','stratiomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('eulalia','entomologie','sang','stratiomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulalie','OMB','ver','annélide polychète','vivant');
+		INSERT INTO verbe VALUES('eulalie','OMB','ver','annélide polychète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulamellibranche','mollusque','coqu','bivalve hétérodonte','vivant');
+		INSERT INTO verbe VALUES('eulamellibranche','mollusque','coqu','bivalve hétérodonte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulecanium',\'entomologie','herb','lécanidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('eulecanium','entomologie','herb','lécanidé,cochenille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulima','mollusque','gast','gastéropode prosobranch','vivant');
+		INSERT INTO verbe VALUES('eulima','mollusque','gast','gastéropode prosobranch','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eulophidé',\'entomologie','suc','hyménoptère térébrant','vivant');
+		INSERT INTO verbe VALUES('eulophidé','entomologie','suc','hyménoptère térébrant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eumalacostracé','crustacé','mala','malacostracé','vivant');
+		INSERT INTO verbe VALUES('eumalacostracé','crustacé','mala','malacostracé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eumèce','reptiles','rept','scincidé,lézard','vivant');
+		INSERT INTO verbe VALUES('eumèce','reptiles','rept','scincidé,lézard','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eumène',\'entomologie','suc','vespidé,guêpe','vivant');
+		INSERT INTO verbe VALUES('eumène','entomologie','suc','vespidé,guêpe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euménidé',\'entomologie','suc','hyménoptère,tel guêpe','vivant');
+		INSERT INTO verbe VALUES('euménidé','entomologie','suc','hyménoptère,tel guêpe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eumerus',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('eumerus','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eumolpe',\'entomologie','végé','chrysomélidé,gribouri','vivant');
+		INSERT INTO verbe VALUES('eumolpe','entomologie','végé','chrysomélidé,gribouri','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eunausibius',\'entomologie','herb','cucujidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('eunausibius','entomologie','herb','cucujidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eunecte','reptiles','rept','aglyphe,anaconda,boa','vivant');
+		INSERT INTO verbe VALUES('eunecte','reptiles','rept','aglyphe,anaconda,boa','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eunice','OMB','ver','annélide polychète','vivant');
+		INSERT INTO verbe VALUES('eunice','OMB','ver','annélide polychète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euomphalus','mollusque','gast','gastéropode fossile','vivant');
+		INSERT INTO verbe VALUES('euomphalus','mollusque','gast','gastéropode fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eupelme',\'entomologie','suc',\'eucertidé aile rudim','vivant');
+		INSERT INTO verbe VALUES('eupelme','entomologie','suc','eucertidé aile rudim','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euphausiacé','crustacé',\'euca',\'eucaride,tel krill','vivant');
+		INSERT INTO verbe VALUES('euphausiacé','crustacé','euca','eucaride,tel krill','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euphole',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('euphole','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euphone','oiseau','pass','tanagridé,passereau','vivant');
+		INSERT INTO verbe VALUES('euphone','oiseau','pass','tanagridé,passereau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euplecte','oiseau','pass','plocéidé,passereau','vivant');
+		INSERT INTO verbe VALUES('euplecte','oiseau','pass','plocéidé,passereau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euplectelle','animal','spon','spongiaire,éponge','vivant');
+		INSERT INTO verbe VALUES('euplectelle','animal','spon','spongiaire,éponge','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euplectus',\'entomologie','herb','psélaphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('euplectus','entomologie','herb','psélaphidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euplère','mammifère','carn','viverridé,mangouste','vivant');
+		INSERT INTO verbe VALUES('euplère','mammifère','carn','viverridé,mangouste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euplotes','animal','prot','protiste','vivant');
+		INSERT INTO verbe VALUES('euplotes','animal','prot','protiste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euporus',\'entomologie','végé','cérambycidé,capricorne','vivant');
+		INSERT INTO verbe VALUES('euporus','entomologie','végé','cérambycidé,capricorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euprocte','reptiles','amph','amphibien,triton','vivant');
+		INSERT INTO verbe VALUES('euprocte','reptiles','amph','amphibien,triton','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euproctis',\'entomologie','suc','lymantridé,bombyx','vivant');
+		INSERT INTO verbe VALUES('euproctis','entomologie','suc','lymantridé,bombyx','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euptéryx',\'entomologie','suc','jassidé,cigale','vivant');
+		INSERT INTO verbe VALUES('euptéryx','entomologie','suc','jassidé,cigale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurrhypara',\'entomologie','suc','pyralidé,lépidoptère','vivant');
+		INSERT INTO verbe VALUES('eurrhypara','entomologie','suc','pyralidé,lépidoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euryale','mammifère','carn','rhinolophidé','vivant');
+		INSERT INTO verbe VALUES('euryale','mammifère','carn','rhinolophidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euryapsidé','reptiles','rept','tel plésiosaur fossile','vivant');
+		INSERT INTO verbe VALUES('euryapsidé','reptiles','rept','tel plésiosaur fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurycanthe',\'entomologie','végé','phasmidé ss ailes','vivant');
+		INSERT INTO verbe VALUES('eurycanthe','entomologie','végé','phasmidé ss ailes','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurycea','reptiles','amph','amphibien,salamandre','vivant');
+		INSERT INTO verbe VALUES('eurycea','reptiles','amph','amphibien,salamandre','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurycercus','crustacé','clad','chydoridée cladocère','vivant');
+		INSERT INTO verbe VALUES('eurycercus','crustacé','clad','chydoridée cladocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurydème',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('eurydème','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurygaster',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('eurygaster','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurylaime','oiseau','pass',\'eurylaimidé,passereau','vivant');
+		INSERT INTO verbe VALUES('eurylaime','oiseau','pass','eurylaimidé,passereau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurylaimidé','oiseau','pass','tel eurylaime','vivant');
+		INSERT INTO verbe VALUES('eurylaimidé','oiseau','pass','tel eurylaime','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euryphage','ZOO','carn','tt aliment','vivant');
+		INSERT INTO verbe VALUES('euryphage','ZOO','carn','tt aliment','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurypharynx','poisson','sacc','saccopharyngidé pélagique','vivant');
+		INSERT INTO verbe VALUES('eurypharynx','poisson','sacc','saccopharyngidé pélagique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euryptéridé','ART','carn','arthropode fossile','vivant');
+		INSERT INTO verbe VALUES('euryptéridé','ART','carn','arthropode fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurypterus','crustacé','méro','mérostome fossile','vivant');
+		INSERT INTO verbe VALUES('eurypterus','crustacé','méro','mérostome fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurypygidé','oiseau','écha','tel caurale','vivant');
+		INSERT INTO verbe VALUES('eurypygidé','oiseau','écha','tel caurale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurystome','oiseau','pass','coraciadidé tropical','vivant');
+		INSERT INTO verbe VALUES('eurystome','oiseau','pass','coraciadidé tropical','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurythoé','OMB','ver','annélide polychète','vivant');
+		INSERT INTO verbe VALUES('eurythoé','OMB','ver','annélide polychète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurythyrea',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('eurythyrea','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eurytome',\'entomologie','suc','hyménoptère,eurytomidé','vivant');
+		INSERT INTO verbe VALUES('eurytome','entomologie','suc','hyménoptère,eurytomidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euscorpius','ART','carn','chactidé,scorpion','vivant');
+		INSERT INTO verbe VALUES('euscorpius','ART','carn','chactidé,scorpion','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eusthenopteron','poisson','cros','crossoptérygien,fossile','vivant');
+		INSERT INTO verbe VALUES('eusthenopteron','poisson','cros','crossoptérygien,fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eustrongylus','OMB','ver','nématode parasite','vivant');
+		INSERT INTO verbe VALUES('eustrongylus','OMB','ver','nématode parasite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eusuchien','reptiles','rept','crocodile fossile','vivant');
+		INSERT INTO verbe VALUES('eusuchien','reptiles','rept','crocodile fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eutermes',\'entomologie','végé','termitidé,termite','vivant');
+		INSERT INTO verbe VALUES('eutermes','entomologie','végé','termitidé,termite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euthemisto','crustacé','amph','hyperiidé,amphipode','vivant');
+		INSERT INTO verbe VALUES('euthemisto','crustacé','amph','hyperiidé,amphipode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'euthérien','mammifère','mono','mammifère placentaire','vivant');
+		INSERT INTO verbe VALUES('euthérien','mammifère','mono','mammifère placentaire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eutropius','poisson','schi','schibéidé,siluriforme','vivant');
+		INSERT INTO verbe VALUES('eutropius','poisson','schi','schibéidé,siluriforme','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('évanie',\'entomologie','suc','hyménoptère,évaniidé','vivant');
+		INSERT INTO verbe VALUES('évanie','entomologie','suc','hyménoptère,évaniidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'evetria',\'entomologie','suc','tortricidé,papillon','vivant');
+		INSERT INTO verbe VALUES('evetria','entomologie','suc','tortricidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exechia',\'entomologie','sang','mycétophilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('exechia','entomologie','sang','mycétophilidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exilé',\'entomologie','carn','ds colonie pucerons','vivant');
+		INSERT INTO verbe VALUES('exilé','entomologie','carn','ds colonie pucerons','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exocet','poisson',\'exoc',\'exocétidé,poisson volan','vivant');
+		INSERT INTO verbe VALUES('exocet','poisson','exoc','exocétidé,poisson volan','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exocétidé','poisson',\'exoc','tel exocet','vivant');
+		INSERT INTO verbe VALUES('exocétidé','poisson','exoc','tel exocet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exochomus',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('exochomus','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exogyre','mollusque','coqu','bivalve fossile','vivant');
+		INSERT INTO verbe VALUES('exogyre','mollusque','coqu','bivalve fossile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exoprosopa',\'entomologie','sang','bombylidé,mouche','vivant');
+		INSERT INTO verbe VALUES('exoprosopa','entomologie','sang','bombylidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exosoma',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('exosoma','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'exploratrice',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('exploratrice','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES(\'eyra','mammifère','féli','félin,puma pt','vivant');
+		INSERT INTO verbe VALUES('eyra','mammifère','féli','félin,puma pt','vivant');
 		
   
    
@@ -12864,7 +12884,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('falagria',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('falagria','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -12906,11 +12926,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('fannia',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('fannia','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('fantassin',\'entomologiep','sang','pédiculidé,pou d pubis','vivant');
+		INSERT INTO verbe VALUES('fantassin','entomologiep','sang','pédiculidé,pou d pubis','vivant');
 		
   
    
@@ -12918,7 +12938,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fardée',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('fardée','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -12926,7 +12946,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fascelline',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('fascelline','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -13008,7 +13028,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('féronie',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('féronie','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
@@ -13024,7 +13044,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('feuille-morte',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('feuille-morte','entomologie','suc','lasiocampidé,papillon','vivant');
 		
   
    
@@ -13036,7 +13056,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fiancée',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('fiancée','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -13048,7 +13068,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fidonie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('fidonie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -13092,7 +13112,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fiorina',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('fiorina','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -13128,11 +13148,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('flatidé',\'entomologie','suc','tel flate,homoptère','vivant');
+		INSERT INTO verbe VALUES('flatidé','entomologie','suc','tel flate,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('flatoïde',\'entomologie','suc','homoptère aplati','vivant');
+		INSERT INTO verbe VALUES('flatoïde','entomologie','suc','homoptère aplati','vivant');
 		
   
    
@@ -13192,23 +13212,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('forcipomya',\'entomologie','sang','cératopogonidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('forcipomya','entomologie','sang','cératopogonidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('forficule',\'entomologie','végé','forficulidé,dermaptère','vivant');
+		INSERT INTO verbe VALUES('forficule','entomologie','végé','forficulidé,dermaptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('forficulidé',\'entomologie','végé','tel forficule,dermaptèr','vivant');
+		INSERT INTO verbe VALUES('forficulidé','entomologie','végé','tel forficule,dermaptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('forgeron',\'entomologie','végé','élatéridé,tape-marteau','vivant');
+		INSERT INTO verbe VALUES('forgeron','entomologie','végé','élatéridé,tape-marteau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('formica',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('formica','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -13216,11 +13236,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('formicidé',\'entomologie','suc','tel fourmi rousse','vivant');
+		INSERT INTO verbe VALUES('formicidé','entomologie','suc','tel fourmi rousse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('formicomus',\'entomologie','herb','anthicidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('formicomus','entomologie','herb','anthicidé,coléoptère','vivant');
 		
   
    
@@ -13260,15 +13280,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('fourmi',\'entomologie','suc','formicidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('fourmi','entomologie','suc','formicidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('fourmi-lion',\'entomologie','carn','myrméléonidé','vivant');
+		INSERT INTO verbe VALUES('fourmi-lion','entomologie','carn','myrméléonidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('fourmi-portier',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('fourmi-portier','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -13276,7 +13296,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fourmilion',\'entomologie','carn','myrméléonidé,fourmi-lio','vivant');
+		INSERT INTO verbe VALUES('fourmilion','entomologie','carn','myrméléonidé,fourmi-lio','vivant');
 		
   
    
@@ -13316,7 +13336,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('frelon',\'entomologie','suc','vespidé,guêpe Eur','vivant');
+		INSERT INTO verbe VALUES('frelon','entomologie','suc','vespidé,guêpe Eur','vivant');
 		
   
    
@@ -13336,7 +13356,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fromentée',\'entomologie','herb','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('fromentée','entomologie','herb','scarabéidé,hanneton','vivant');
 		
   
    
@@ -13344,15 +13364,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('fucellia',\'entomologie','sang','muscidé,mouche diptère','vivant');
+		INSERT INTO verbe VALUES('fucellia','entomologie','sang','muscidé,mouche diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('fulgore',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('fulgore','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('fulgoridé',\'entomologie','suc','tel fulgore','vivant');
+		INSERT INTO verbe VALUES('fulgoridé','entomologie','suc','tel fulgore','vivant');
 		
   
    
@@ -13428,7 +13448,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('fylgia','MYT','art',\'esprit invisible scand','vivant');
+		INSERT INTO verbe VALUES('fylgia','MYT','art','esprit invisible scand','vivant');
 		
   
    
@@ -13496,14 +13516,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('galerite',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('galerite','entomologie','carn','carabidé,carabe','vivant');
 		
    
 		INSERT INTO verbe VALUES('galerite','animal','échi','échinoderme,échinoconus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('galerite',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('galerite','entomologie','carn','carabidé,carabe','vivant');
 		
    
 		INSERT INTO verbe VALUES('galerite','animal','échi','échinoderme,échinoconus','vivant');
@@ -13514,15 +13534,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('galérucelle',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('galérucelle','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('galéruciné',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('galéruciné','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('galéruque',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('galéruque','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -13530,11 +13550,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('galle-insecte',\'entomologie','végé','tel pou d plante','vivant');
+		INSERT INTO verbe VALUES('galle-insecte','entomologie','végé','tel pou d plante','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gallérie',\'entomologie','suc','pyralidé,fausse-teigne','vivant');
+		INSERT INTO verbe VALUES('gallérie','entomologie','suc','pyralidé,fausse-teigne','vivant');
 		
   
    
@@ -13550,7 +13570,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gallinsecte',\'entomologie','végé','tel pou d plante','vivant');
+		INSERT INTO verbe VALUES('gallinsecte','entomologie','végé','tel pou d plante','vivant');
 		
   
    
@@ -13636,7 +13656,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gargare',\'entomologie','suc','membracidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('gargare','entomologie','suc','membracidé,homoptère','vivant');
 		
   
    
@@ -13660,7 +13680,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gascardia',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('gascardia','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -13672,7 +13692,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gastérophile',\'entomologie','sang','oestridé,mouche velue','vivant');
+		INSERT INTO verbe VALUES('gastérophile','entomologie','sang','oestridé,mouche velue','vivant');
 		
   
    
@@ -13692,7 +13712,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gasteruption',\'entomologie','suc','évaniidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('gasteruption','entomologie','suc','évaniidé,hyménoptère','vivant');
 		
   
    
@@ -13712,15 +13732,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('gastroidea',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('gastroidea','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gastropacha',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('gastropacha','entomologie','suc','lasiocampidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gastrophile',\'entomologie','sang','oestridé,mouche velue','vivant');
+		INSERT INTO verbe VALUES('gastrophile','entomologie','sang','oestridé,mouche velue','vivant');
 		
   
    
@@ -13740,7 +13760,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gâte-bois',\'entomologie','suc','cossidé,cossus,papillon','vivant');
+		INSERT INTO verbe VALUES('gâte-bois','entomologie','suc','cossidé,cossus,papillon','vivant');
 		
   
    
@@ -13784,7 +13804,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gazé',\'entomologie','suc','piéridé,papillon blanc','vivant');
+		INSERT INTO verbe VALUES('gazé','entomologie','suc','piéridé,papillon blanc','vivant');
 		
   
    
@@ -13824,7 +13844,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('géléchie',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('géléchie','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -13848,7 +13868,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gendarme',\'entomologie','sang','héréroptère,punaise','vivant');
+		INSERT INTO verbe VALUES('gendarme','entomologie','sang','héréroptère,punaise','vivant');
 		
   
    
@@ -13876,7 +13896,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('géocorise',\'entomologie','sang','tel cimicidé,hétéroptèr','vivant');
+		INSERT INTO verbe VALUES('géocorise','entomologie','sang','tel cimicidé,hétéroptèr','vivant');
 		
   
    
@@ -13888,11 +13908,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('géomètre',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('géomètre','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('géométridé',\'entomologie','suc','tel phalène,géomètre','vivant');
+		INSERT INTO verbe VALUES('géométridé','entomologie','suc','tel phalène,géomètre','vivant');
 		
   
    
@@ -13900,7 +13920,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('géomyza',\'entomologie','sang','opomyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('géomyza','entomologie','sang','opomyzidé,mouche','vivant');
 		
   
    
@@ -13916,15 +13936,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('géoryssus',\'entomologie','herb','géoryssidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('géoryssus','entomologie','herb','géoryssidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('géosargus',\'entomologie','sang','stratomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('géosargus','entomologie','sang','stratomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('géotrupe',\'entomologie','herb','scarabéidé,bousier','vivant');
+		INSERT INTO verbe VALUES('géotrupe','entomologie','herb','scarabéidé,bousier','vivant');
 		
   
    
@@ -13944,7 +13964,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gerce',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('gerce','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -13996,7 +14016,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gibbium',\'entomologie','herb','ptinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('gibbium','entomologie','herb','ptinidé,coléoptère','vivant');
 		
   
    
@@ -14068,7 +14088,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('glaucopis',\'entomologie','suc','sphingidé,papillon','vivant');
+		INSERT INTO verbe VALUES('glaucopis','entomologie','suc','sphingidé,papillon','vivant');
 		
   
    
@@ -14088,7 +14108,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('globiceps',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('globiceps','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -14108,7 +14128,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('glossine',\'entomologie','sang','glossinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('glossine','entomologie','sang','glossinidé,mouche','vivant');
 		
   
    
@@ -14144,7 +14164,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('glypte',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('glypte','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -14172,7 +14192,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gnathocère',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('gnathocère','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -14188,11 +14208,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('gnophos',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('gnophos','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gnorime',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('gnorime','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -14235,22 +14255,22 @@
 		INSERT INTO verbe VALUES('goliath','mammifère','omni','muridé,rongeur,rat','vivant');
 		
    
-		INSERT INTO verbe VALUES('goliath',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('goliath','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('goliath','mammifère','omni','muridé,rongeur,rat','vivant');
 		
    
-		INSERT INTO verbe VALUES('goliath',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('goliath','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gomphe',\'entomologie','carn','anisoptère','vivant');
+		INSERT INTO verbe VALUES('gomphe','entomologie','carn','anisoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gomphocère',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('gomphocère','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
@@ -14258,7 +14278,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gomphus',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('gomphus','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
@@ -14274,15 +14294,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('gonie',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('gonie','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('goniocote',\'entomologie','sang','philoptéridé,pou oiseau','vivant');
+		INSERT INTO verbe VALUES('goniocote','entomologie','sang','philoptéridé,pou oiseau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('goniodes',\'entomologie','sang','philoptéridé,pou volail','vivant');
+		INSERT INTO verbe VALUES('goniodes','entomologie','sang','philoptéridé,pou volail','vivant');
 		
   
    
@@ -14290,7 +14310,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gonocérus',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('gonocérus','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
@@ -14310,7 +14330,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gonoptère',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('gonoptère','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -14370,15 +14390,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('gortyna',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('gortyna','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gortyne',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('gortyne','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gossyparie',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('gossyparie','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -14414,15 +14434,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('gracilaire',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('gracilaire','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gracilie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('gracilie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('graellsia',\'entomologie','suc','saturnidé,isabelle','vivant');
+		INSERT INTO verbe VALUES('graellsia','entomologie','suc','saturnidé,isabelle','vivant');
 		
   
    
@@ -14438,7 +14458,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('grammoptère',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('grammoptère','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -14458,11 +14478,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('grapholithe',\'entomologie','suc','tortricidé,papillon','vivant');
+		INSERT INTO verbe VALUES('grapholithe','entomologie','suc','tortricidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('graphomyia',\'entomologie','sang','muscidé,mouche carnivor','vivant');
+		INSERT INTO verbe VALUES('graphomyia','entomologie','sang','muscidé,mouche carnivor','vivant');
 		
   
    
@@ -14514,11 +14534,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('gri-gri',\'entomologie','suc','gryllidé,grillon','vivant');
+		INSERT INTO verbe VALUES('gri-gri','entomologie','suc','gryllidé,grillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gribouri',\'entomologie','végé','chrysomélidé,eumolpe','vivant');
+		INSERT INTO verbe VALUES('gribouri','entomologie','végé','chrysomélidé,eumolpe','vivant');
 		
   
    
@@ -14556,11 +14576,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('grigri',\'entomologie','suc','gryllidé,grillon','vivant');
+		INSERT INTO verbe VALUES('grigri','entomologie','suc','gryllidé,grillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('grillon',\'entomologie','suc','gryllidé orthoptère','vivant');
+		INSERT INTO verbe VALUES('grillon','entomologie','suc','gryllidé orthoptère','vivant');
 		
   
    
@@ -14593,14 +14613,14 @@
 		INSERT INTO verbe VALUES('grisette','oiseau','pass','muscicapidé,passereau','vivant');
 		
    
-		INSERT INTO verbe VALUES('grisette',\'entomologie','suc','hespériidé,papillon','vivant');
+		INSERT INTO verbe VALUES('grisette','entomologie','suc','hespériidé,papillon','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('grisette','oiseau','pass','muscicapidé,passereau','vivant');
 		
    
-		INSERT INTO verbe VALUES('grisette',\'entomologie','suc','hespériidé,papillon','vivant');
+		INSERT INTO verbe VALUES('grisette','entomologie','suc','hespériidé,papillon','vivant');
 		
   
    
@@ -14694,7 +14714,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gryllotalpidé',\'entomologie','suc','tel grillon orthoptère','vivant');
+		INSERT INTO verbe VALUES('gryllotalpidé','entomologie','suc','tel grillon orthoptère','vivant');
 		
   
    
@@ -14722,7 +14742,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('guêpe',\'entomologie','suc','vespidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('guêpe','entomologie','suc','vespidé,hyménoptère','vivant');
 		
   
    
@@ -14742,7 +14762,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('guérinie',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('guérinie','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -14762,11 +14782,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('guildin','mammifère','équi','cheval q va l'amble','vivant');
+		INSERT INTO verbe VALUES('guildin','mammifère','équi','cheval q va l\'amble','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('guilledin','mammifère','équi','cheval q va l'amble','vivant');
+		INSERT INTO verbe VALUES('guilledin','mammifère','équi','cheval q va l\'amble','vivant');
 		
   
    
@@ -14810,7 +14830,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gymnétron',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('gymnétron','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -14822,7 +14842,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gymnocérate',\'entomologie','sang','hétéroptère punaise','vivant');
+		INSERT INTO verbe VALUES('gymnocérate','entomologie','sang','hétéroptère punaise','vivant');
 		
   
    
@@ -14850,11 +14870,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('gymnopleure',\'entomologie','herb','scarabéidé,bousier vert','vivant');
+		INSERT INTO verbe VALUES('gymnopleure','entomologie','herb','scarabéidé,bousier vert','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gymnopternus',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('gymnopternus','entomologie','sang','empididé,mouche','vivant');
 		
   
    
@@ -14886,7 +14906,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gynandromorphe',\'entomologie','org','insecte mâle femelle','vivant');
+		INSERT INTO verbe VALUES('gynandromorphe','entomologie','org','insecte mâle femelle','vivant');
 		
   
    
@@ -14902,11 +14922,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('gyrin',\'entomologie','herb','gyrinidé aquatique','vivant');
+		INSERT INTO verbe VALUES('gyrin','entomologie','herb','gyrinidé aquatique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('gyrinidé',\'entomologie','herb','tel gyrin coléoptère','vivant');
+		INSERT INTO verbe VALUES('gyrinidé','entomologie','herb','tel gyrin coléoptère','vivant');
 		
   
    
@@ -14918,7 +14938,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('gyrophaena',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('gyrophaena','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -14926,11 +14946,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('habitant',\'entomologiep','loc','vermine,poux','vivant');
+		INSERT INTO verbe VALUES('habitant','entomologiep','loc','vermine,poux','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('habrobracon',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('habrobracon','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -14946,7 +14966,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hadène',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('hadène','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -15010,11 +15030,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('halicte',\'entomologie','suc','apidé,voisin d abeille','vivant');
+		INSERT INTO verbe VALUES('halicte','entomologie','suc','apidé,voisin d abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('halictophagus',\'entomologie','sang','strepsiptère','vivant');
+		INSERT INTO verbe VALUES('halictophagus','entomologie','sang','strepsiptère','vivant');
 		
   
    
@@ -15030,7 +15050,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('haliple',\'entomologie','végé','haliplidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('haliple','entomologie','végé','haliplidé,coléoptère','vivant');
 		
   
    
@@ -15038,7 +15058,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('halobate',\'entomologie','sang','gerridé,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('halobate','entomologie','sang','gerridé,hétéroptère','vivant');
 		
   
    
@@ -15054,11 +15074,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('haltica',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('haltica','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('halysia',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('halysia','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -15070,7 +15090,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hanneton',\'entomologie','végé','scarabéidé','vivant');
+		INSERT INTO verbe VALUES('hanneton','entomologie','végé','scarabéidé','vivant');
 		
   
    
@@ -15106,7 +15126,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('haplostomate',\'entomologie','sang','acalyptère','vivant');
+		INSERT INTO verbe VALUES('haplostomate','entomologie','sang','acalyptère','vivant');
 		
   
    
@@ -15142,7 +15162,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('harmandia',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('harmandia','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
@@ -15150,15 +15170,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('harpacticoïde','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('harpacticoïde','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('harpactor',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('harpactor','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('harpale',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('harpale','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -15182,7 +15202,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('harpye',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('harpye','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
@@ -15190,7 +15210,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('harrimaniidé','animal','prot',\'entéropneuste','vivant');
+		INSERT INTO verbe VALUES('harrimaniidé','animal','prot','entéropneuste','vivant');
 		
   
    
@@ -15214,11 +15234,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hédychridie',\'entomologie','suc','chrysididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('hédychridie','entomologie','suc','chrysididé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('helcon',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('helcon','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -15234,7 +15254,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('héliconie',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('héliconie','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -15242,11 +15262,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hélicostyle','mollusque','gast',\'eulotidé,escargot','vivant');
+		INSERT INTO verbe VALUES('hélicostyle','mollusque','gast','eulotidé,escargot','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('héliocopris',\'entomologie','herb','scarabéidé,gros bousier','vivant');
+		INSERT INTO verbe VALUES('héliocopris','entomologie','herb','scarabéidé,gros bousier','vivant');
 		
   
    
@@ -15262,7 +15282,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('héliothis',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('héliothis','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -15286,35 +15306,35 @@
 		
   
    
-		INSERT INTO verbe VALUES('hélomyze',\'entomologie','sang','hélomyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hélomyze','entomologie','sang','hélomyzidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hélopeltis',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('hélopeltis','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hélophile',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hélophile','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hélophore',\'entomologie','herb','hydrophile pt','vivant');
+		INSERT INTO verbe VALUES('hélophore','entomologie','herb','hydrophile pt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hélops',\'entomologie','végé','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hélops','entomologie','végé','ténébrionidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hemaris',\'entomologie','végé','sphingidé,sphynx','vivant');
+		INSERT INTO verbe VALUES('hemaris','entomologie','végé','sphingidé,sphynx','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hématobie',\'entomologie','sang','muscidé,lyperosia','vivant');
+		INSERT INTO verbe VALUES('hématobie','entomologie','sang','muscidé,lyperosia','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hematopinus',\'entomologie','sang','hématopinidé,pou','vivant');
+		INSERT INTO verbe VALUES('hematopinus','entomologie','sang','hématopinidé,pou','vivant');
 		
   
    
@@ -15326,11 +15346,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hémérobe',\'entomologie','carn','hémérobiidé,planipenne','vivant');
+		INSERT INTO verbe VALUES('hémérobe','entomologie','carn','hémérobiidé,planipenne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hémérodromie',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('hémérodromie','entomologie','sang','empididé,mouche','vivant');
 		
   
    
@@ -15370,11 +15390,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hémiptère',\'entomologie','herb','hémiptéroïde,rynchote','vivant');
+		INSERT INTO verbe VALUES('hémiptère','entomologie','herb','hémiptéroïde,rynchote','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hémiptéroïde',\'entomologie','herb','tel coccidé,bélostome','vivant');
+		INSERT INTO verbe VALUES('hémiptéroïde','entomologie','herb','tel coccidé,bélostome','vivant');
 		
   
    
@@ -15382,15 +15402,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('hémitèle',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('hémitèle','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hémodipse',\'entomologie','sang','hématopinidé,pou','vivant');
+		INSERT INTO verbe VALUES('hémodipse','entomologie','sang','hématopinidé,pou','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hémonie',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hémonie','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -15418,11 +15438,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hépiale',\'entomologie','suc','hépialidé,louvette','vivant');
+		INSERT INTO verbe VALUES('hépiale','entomologie','suc','hépialidé,louvette','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hépialidé',\'entomologie','suc','tel hépiale,lépidoptère','vivant');
+		INSERT INTO verbe VALUES('hépialidé','entomologie','suc','tel hépiale,lépidoptère','vivant');
 		
   
    
@@ -15430,7 +15450,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hercule',\'entomologie','herb','scarabéidé,dynaste','vivant');
+		INSERT INTO verbe VALUES('hercule','entomologie','herb','scarabéidé,dynaste','vivant');
 		
   
    
@@ -15464,21 +15484,21 @@
 		
   
    
-		INSERT INTO verbe VALUES('herminie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('herminie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('hermione','OMB','ver','aphroditidé,annélide','vivant');
 		
    
-		INSERT INTO verbe VALUES('hermione',\'entomologie','sang','stratomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hermione','entomologie','sang','stratomyidé,mouche','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('hermione','OMB','ver','aphroditidé,annélide','vivant');
 		
    
-		INSERT INTO verbe VALUES('hermione',\'entomologie','sang','stratomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hermione','entomologie','sang','stratomyidé,mouche','vivant');
 		
   
    
@@ -15490,7 +15510,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('héros',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('héros','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -15506,7 +15526,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('herse',\'entomologie','végé','sphingidé,sphinx','vivant');
+		INSERT INTO verbe VALUES('herse','entomologie','végé','sphingidé,sphinx','vivant');
 		
   
    
@@ -15514,15 +15534,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('hespérie',\'entomologie','suc','hespériidé,papillon','vivant');
+		INSERT INTO verbe VALUES('hespérie','entomologie','suc','hespériidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hespériidé',\'entomologie','suc','tel hespérie,thymèle','vivant');
+		INSERT INTO verbe VALUES('hespériidé','entomologie','suc','tel hespérie,thymèle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hespérophane',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('hespérophane','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -15546,11 +15566,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hétérocère',\'entomologie','suc','tel papillon,lépidoptèr','vivant');
+		INSERT INTO verbe VALUES('hétérocère','entomologie','suc','tel papillon,lépidoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('heterocerus',\'entomologie','végé','hétérocéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('heterocerus','entomologie','végé','hétérocéridé,coléoptère','vivant');
 		
   
    
@@ -15574,11 +15594,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hétérogaster',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('hétérogaster','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hétéromère',\'entomologie','végé','tel méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hétéromère','entomologie','végé','tel méloïdé,coléoptère','vivant');
 		
   
    
@@ -15594,19 +15614,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('hétéroneure',\'entomologie','suc','tel noctuidé,lépidoptèr','vivant');
+		INSERT INTO verbe VALUES('hétéroneure','entomologie','suc','tel noctuidé,lépidoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hétérops',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('hétérops','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hétéroptère',\'entomologie','sang','tel punaise','vivant');
+		INSERT INTO verbe VALUES('hétéroptère','entomologie','sang','tel punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hétérorhine',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('hétérorhine','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -15626,7 +15646,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hétrode',\'entomologie','herb','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('hétrode','entomologie','herb','locustidé,sauterelle','vivant');
 		
   
    
@@ -15650,7 +15670,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hibernie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('hibernie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -15658,11 +15678,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hiéroglyphus',\'entomologie','herb','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('hiéroglyphus','entomologie','herb','locustidé,sauterelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hilara',\'entomologie','sang',\'empididé,moucheron','vivant');
+		INSERT INTO verbe VALUES('hilara','entomologie','sang','empididé,moucheron','vivant');
 		
   
    
@@ -15670,7 +15690,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('himera',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('himera','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -15678,15 +15698,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('hippelates',\'entomologie','sang','chloropidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('hippelates','entomologie','sang','chloropidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hippoboscidé',\'entomologie','sang','tel lynchia,diptère','vivant');
+		INSERT INTO verbe VALUES('hippoboscidé','entomologie','sang','tel lynchia,diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hippobosque',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hippobosque','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
@@ -15694,7 +15714,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hippodamie',\'entomologie','herb','coccinelldé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('hippodamie','entomologie','herb','coccinelldé,coccinelle','vivant');
 		
   
    
@@ -15742,11 +15762,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hispe',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hispe','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hister',\'entomologie','herb','histéridé,escarbot','vivant');
+		INSERT INTO verbe VALUES('hister','entomologie','herb','histéridé,escarbot','vivant');
 		
   
    
@@ -15774,7 +15794,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hodoterme',\'entomologie','végé','termitidé,termite','vivant');
+		INSERT INTO verbe VALUES('hodoterme','entomologie','végé','termitidé,termite','vivant');
 		
   
    
@@ -15810,7 +15830,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('holométope',\'entomologie','sang','diptère cycloraphe','vivant');
+		INSERT INTO verbe VALUES('holométope','entomologie','sang','diptère cycloraphe','vivant');
 		
   
    
@@ -15842,7 +15862,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('homalium',\'entomologie','végé','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('homalium','entomologie','végé','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -15854,7 +15874,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('homalota',\'entomologie','végé','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('homalota','entomologie','végé','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -15874,11 +15894,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('homoneure',\'entomologie','suc','ériocraniidé,hépiale','vivant');
+		INSERT INTO verbe VALUES('homoneure','entomologie','suc','ériocraniidé,hépiale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('homoptère',\'entomologie','herb','hémiptéroïde','vivant');
+		INSERT INTO verbe VALUES('homoptère','entomologie','herb','hémiptéroïde','vivant');
 		
   
    
@@ -15886,7 +15906,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hoplie',\'entomologie','herb','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('hoplie','entomologie','herb','scarabéidé,hanneton','vivant');
 		
   
    
@@ -15894,11 +15914,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hoplocampe',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('hoplocampe','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hoplopsyllus',\'entomologie','sang','pulicidé,puce parasite','vivant');
+		INSERT INTO verbe VALUES('hoplopsyllus','entomologie','sang','pulicidé,puce parasite','vivant');
 		
   
    
@@ -15910,7 +15930,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hotinus',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('hotinus','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
@@ -15926,7 +15946,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('howardie',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('howardie','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -16016,7 +16036,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hyalopterus',\'entomologie','sang','aphididé,puceron vert','vivant');
+		INSERT INTO verbe VALUES('hyalopterus','entomologie','sang','aphididé,puceron vert','vivant');
 		
   
    
@@ -16028,15 +16048,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('hybernie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('hybernie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hybos',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('hybos','entomologie','sang','empididé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hydaticus',\'entomologie','végé','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('hydaticus','entomologie','végé','dytiscidé,dytique','vivant');
 		
   
    
@@ -16060,7 +16080,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydraena',\'entomologie','végé','hydrénidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hydraena','entomologie','végé','hydrénidé,coléoptère','vivant');
 		
   
    
@@ -16072,7 +16092,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydraphaenops',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hydraphaenops','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
@@ -16090,7 +16110,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydrellia',\'entomologie','sang','éphydridé,moucheron','vivant');
+		INSERT INTO verbe VALUES('hydrellia','entomologie','sang','éphydridé,moucheron','vivant');
 		
   
    
@@ -16102,21 +16122,21 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydrobie',\'entomologie','végé','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hydrobie','entomologie','végé','hydrophilidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('hydrobie','mollusque','gast','hydrobiidé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hydrobie',\'entomologie','végé','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hydrobie','entomologie','végé','hydrophilidé,coléoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('hydrobie','mollusque','gast','hydrobiidé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hydrocampiné',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('hydrocampiné','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -16128,7 +16148,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydrocorise',\'entomologie','sang','tel punaise,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('hydrocorise','entomologie','sang','tel punaise,hétéroptère','vivant');
 		
   
    
@@ -16152,7 +16172,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydromètre',\'entomologie','végé','hydrométridé,hétéroptèr','vivant');
+		INSERT INTO verbe VALUES('hydromètre','entomologie','végé','hydrométridé,hétéroptèr','vivant');
 		
   
    
@@ -16164,7 +16184,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydrophile',\'entomologie','végé','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('hydrophile','entomologie','végé','hydrophilidé,coléoptère','vivant');
 		
   
    
@@ -16172,7 +16192,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydropore',\'entomologie','végé','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('hydropore','entomologie','végé','dytiscidé,dytique','vivant');
 		
   
    
@@ -16180,7 +16200,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydropsyché',\'entomologie','carn','hydropsychidé,phrygane','vivant');
+		INSERT INTO verbe VALUES('hydropsyché','entomologie','carn','hydropsychidé,phrygane','vivant');
 		
   
    
@@ -16192,7 +16212,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hydrotée',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hydrotée','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -16212,11 +16232,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hygrobie',\'entomologie','herb','dytiscidé,dytique brun','vivant');
+		INSERT INTO verbe VALUES('hygrobie','entomologie','herb','dytiscidé,dytique brun','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hygrotus',\'entomologie','herb','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('hygrotus','entomologie','herb','dytiscidé,dytique','vivant');
 		
   
    
@@ -16224,19 +16244,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('hylaste',\'entomologie','herb','scolytidé,scolyte d pin','vivant');
+		INSERT INTO verbe VALUES('hylaste','entomologie','herb','scolytidé,scolyte d pin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hylastine',\'entomologie','herb','scolytidé,scolyte brun','vivant');
+		INSERT INTO verbe VALUES('hylastine','entomologie','herb','scolytidé,scolyte brun','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hylémyie',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('hylémyie','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hylésine',\'entomologie','herb','scolytidé,scolyte brun','vivant');
+		INSERT INTO verbe VALUES('hylésine','entomologie','herb','scolytidé,scolyte brun','vivant');
 		
   
    
@@ -16248,7 +16268,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hylobius',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('hylobius','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -16256,19 +16276,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('hylotome',\'entomologie','suc','hyménoptère,argidé','vivant');
+		INSERT INTO verbe VALUES('hylotome','entomologie','suc','hyménoptère,argidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hylotrupe',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('hylotrupe','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hyménoptère',\'entomologie','suc','tel abeille,guêpe','vivant');
+		INSERT INTO verbe VALUES('hyménoptère','entomologie','suc','tel abeille,guêpe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hyménoptéroïde',\'entomologie','suc','ptérygote holométabole','vivant');
+		INSERT INTO verbe VALUES('hyménoptéroïde','entomologie','suc','ptérygote holométabole','vivant');
 		
   
    
@@ -16284,11 +16304,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hypène',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('hypène','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hypera',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('hypera','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -16300,7 +16320,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hypérion',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('hypérion','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -16316,15 +16336,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('hypobore',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('hypobore','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hypocéphale',\'entomologie','herb','prionidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('hypocéphale','entomologie','herb','prionidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hypoderme',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('hypoderme','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
@@ -16336,7 +16356,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('hypolimnas',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('hypolimnas','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -16344,11 +16364,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('hyponomeute',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('hyponomeute','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('hyponomeutidé',\'entomologie','sang','tel hyponomeute,teigne','vivant');
+		INSERT INTO verbe VALUES('hyponomeutidé','entomologie','sang','tel hyponomeute,teigne','vivant');
 		
   
    
@@ -16400,25 +16420,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('icérye',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('icérye','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('ichneumon','mammifère','carn','viverridé,mangouste','vivant');
 		
    
-		INSERT INTO verbe VALUES('ichneumon',\'entomologie','suc','ichneumonidé térébrant','vivant');
+		INSERT INTO verbe VALUES('ichneumon','entomologie','suc','ichneumonidé térébrant','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('ichneumon','mammifère','carn','viverridé,mangouste','vivant');
 		
    
-		INSERT INTO verbe VALUES('ichneumon',\'entomologie','suc','ichneumonidé térébrant','vivant');
+		INSERT INTO verbe VALUES('ichneumon','entomologie','suc','ichneumonidé térébrant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ichneumonidé',\'entomologie','suc','tel ophion,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ichneumonidé','entomologie','suc','tel ophion,hyménoptère','vivant');
 		
   
    
@@ -16504,7 +16524,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('idéopside',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('idéopside','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -16512,11 +16532,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('idie',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('idie','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('idiocerus',\'entomologie','suc','jassidé,cicadelle','vivant');
+		INSERT INTO verbe VALUES('idiocerus','entomologie','suc','jassidé,cicadelle','vivant');
 		
   
    
@@ -16552,7 +16572,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ilybius',\'entomologie','herb','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('ilybius','entomologie','herb','dytiscidé,dytique','vivant');
 		
   
    
@@ -16588,7 +16608,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('inca',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('inca','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -16608,7 +16628,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ino',\'entomologie','suc','zygénidé,procris','vivant');
+		INSERT INTO verbe VALUES('ino','entomologie','suc','zygénidé,procris','vivant');
 		
   
    
@@ -16616,7 +16636,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('insecte',\'entomologie','herb','animal invertébré','vivant');
+		INSERT INTO verbe VALUES('insecte','entomologie','herb','animal invertébré','vivant');
 		
   
    
@@ -16628,7 +16648,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('iphis',\'entomologie','végé','élatéridé,taupin brun','vivant');
+		INSERT INTO verbe VALUES('iphis','entomologie','végé','élatéridé,taupin brun','vivant');
 		
   
    
@@ -16636,11 +16656,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ips',\'entomologie','herb','scolytidé,scolyte pt','vivant');
+		INSERT INTO verbe VALUES('ips','entomologie','herb','scolytidé,scolyte pt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('iraota',\'entomologie','suc','lycénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('iraota','entomologie','suc','lycénidé,papillon','vivant');
 		
   
    
@@ -16652,11 +16672,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('irésie',\'entomologie','carn','cicindélidé,cicindèle','vivant');
+		INSERT INTO verbe VALUES('irésie','entomologie','carn','cicindélidé,cicindèle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('iridomyrmex',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('iridomyrmex','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -16671,14 +16691,14 @@
 		INSERT INTO verbe VALUES('isabelle','mammifère','équi','cheval isabelle et noir','vivant');
 		
    
-		INSERT INTO verbe VALUES('isabelle',\'entomologie','suc','saturnidé,graellsia','vivant');
+		INSERT INTO verbe VALUES('isabelle','entomologie','suc','saturnidé,graellsia','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('isabelle','mammifère','équi','cheval isabelle et noir','vivant');
 		
    
-		INSERT INTO verbe VALUES('isabelle',\'entomologie','suc','saturnidé,graellsia','vivant');
+		INSERT INTO verbe VALUES('isabelle','entomologie','suc','saturnidé,graellsia','vivant');
 		
   
    
@@ -16702,11 +16722,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ischnoptère',\'entomologie','suc','blattidé,blatte brune','vivant');
+		INSERT INTO verbe VALUES('ischnoptère','entomologie','suc','blattidé,blatte brune','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ischnura',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('ischnura','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
@@ -16734,19 +16754,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('isoptère',\'entomologie','végé','itel termite','vivant');
+		INSERT INTO verbe VALUES('isoptère','entomologie','végé','itel termite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('isosoma',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('isosoma','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('isotoma',\'entomologie','herb','isotomidé,collembole','vivant');
+		INSERT INTO verbe VALUES('isotoma','entomologie','herb','isotomidé,collembole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('issus',\'entomologie','végé','issidé,cigale bossue','vivant');
+		INSERT INTO verbe VALUES('issus','entomologie','végé','issidé,cigale bossue','vivant');
 		
   
    
@@ -16774,7 +16794,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ixodiphagus',\'entomologie','suc','hyménoptère térébrant','vivant');
+		INSERT INTO verbe VALUES('ixodiphagus','entomologie','suc','hyménoptère térébrant','vivant');
 		
   
    
@@ -16838,15 +16858,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('janthinosoma',\'entomologie','sang','culicidé,moustique Amér','vivant');
+		INSERT INTO verbe VALUES('janthinosoma','entomologie','sang','culicidé,moustique Amér','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('janus',\'entomologie','suc','céphidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('janus','entomologie','suc','céphidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('japyx',\'entomologie','végé','japygidé,diploure','vivant');
+		INSERT INTO verbe VALUES('japyx','entomologie','végé','japygidé,diploure','vivant');
 		
   
    
@@ -16870,11 +16890,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('jassidé',\'entomologie','suc','tel jassus','vivant');
+		INSERT INTO verbe VALUES('jassidé','entomologie','suc','tel jassus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('jassus',\'entomologie','suc','jassidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('jassus','entomologie','suc','jassidé,homoptère','vivant');
 		
   
    
@@ -16918,11 +16938,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('judolie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('judolie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('julodis',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('julodis','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -16958,7 +16978,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('kallima',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('kallima','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -16970,7 +16990,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('kamptozoaire','animal','prot',\'entoprocte','vivant');
+		INSERT INTO verbe VALUES('kamptozoaire','animal','prot','entoprocte','vivant');
 		
   
    
@@ -17006,7 +17026,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('kérion de Celse',\'entomologie','sang','teigne suppurative','vivant');
+		INSERT INTO verbe VALUES('kérion de Celse','entomologie','sang','teigne suppurative','vivant');
 		
   
    
@@ -17014,7 +17034,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('kermès',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('kermès','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -17086,7 +17106,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('koramius',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('koramius','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
@@ -17146,15 +17166,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('labidostome',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('labidostome','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('labidure',\'entomologie','végé','forficulidé,dermoptère','vivant');
+		INSERT INTO verbe VALUES('labidure','entomologie','végé','forficulidé,dermoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('labie',\'entomologie','végé','forficulidé,forficule','vivant');
+		INSERT INTO verbe VALUES('labie','entomologie','végé','forficulidé,forficule','vivant');
 		
   
    
@@ -17194,11 +17214,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('laccobius',\'entomologie','végé','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('laccobius','entomologie','végé','hydrophilidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('laccophile',\'entomologie','herb','dytiscidé,dytique pt','vivant');
+		INSERT INTO verbe VALUES('laccophile','entomologie','herb','dytiscidé,dytique pt','vivant');
 		
   
    
@@ -17210,7 +17230,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lachésille',\'entomologie','sang','lachésillidé,pou d bois','vivant');
+		INSERT INTO verbe VALUES('lachésille','entomologie','sang','lachésillidé,pou d bois','vivant');
 		
   
    
@@ -17218,15 +17238,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('lachnaea',\'entomologie','herb','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lachnaea','entomologie','herb','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lachnus',\'entomologie','sang','lachnidé,puceron grd','vivant');
+		INSERT INTO verbe VALUES('lachnus','entomologie','sang','lachnidé,puceron grd','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lacon',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('lacon','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -17242,15 +17262,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('laemophloeus',\'entomologie','végé','cucujidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('laemophloeus','entomologie','végé','cucujidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('laemosthenus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('laemosthenus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('laetilia',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('laetilia','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -17290,7 +17310,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lagrie',\'entomologie','végé','lagriidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lagrie','entomologie','végé','lagriidé,coléoptère','vivant');
 		
   
    
@@ -17310,7 +17330,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('laineuse',\'entomologie','végé','chenille eriogaster','vivant');
+		INSERT INTO verbe VALUES('laineuse','entomologie','végé','chenille eriogaster','vivant');
 		
   
    
@@ -17338,7 +17358,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lamellicorne',\'entomologie','végé','tel scarabée,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lamellicorne','entomologie','végé','tel scarabée,coléoptère','vivant');
 		
   
    
@@ -17348,7 +17368,7 @@
 		INSERT INTO verbe VALUES('lamie','poisson','squa','isuridé,mako,touille','vivant');
 		
    
-		INSERT INTO verbe VALUES('lamie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('lamie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -17358,7 +17378,7 @@
 		INSERT INTO verbe VALUES('lamie','poisson','squa','isuridé,mako,touille','vivant');
 		
    
-		INSERT INTO verbe VALUES('lamie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('lamie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -17368,7 +17388,7 @@
 		INSERT INTO verbe VALUES('lamie','poisson','squa','isuridé,mako,touille','vivant');
 		
    
-		INSERT INTO verbe VALUES('lamie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('lamie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -17376,7 +17396,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lampetia',\'entomologie','sang','syrphidé,mérodon,mouche','vivant');
+		INSERT INTO verbe VALUES('lampetia','entomologie','sang','syrphidé,mérodon,mouche','vivant');
 		
   
    
@@ -17396,11 +17416,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lamprima',\'entomologie','végé','lucanidé,lucane Austr','vivant');
+		INSERT INTO verbe VALUES('lamprima','entomologie','végé','lucanidé,lucane Austr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lamprocère',\'entomologie','végé','lampyridé,ver luisant','vivant');
+		INSERT INTO verbe VALUES('lamprocère','entomologie','végé','lampyridé,ver luisant','vivant');
 		
   
    
@@ -17412,11 +17432,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lampromyie',\'entomologie','sang','leptidé,verlion,mouche','vivant');
+		INSERT INTO verbe VALUES('lampromyie','entomologie','sang','leptidé,verlion,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lampronie',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('lampronie','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -17424,15 +17444,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('lamprorhiza',\'entomologie','lamp','lampyridé,ver luisant','vivant');
+		INSERT INTO verbe VALUES('lamprorhiza','entomologie','lamp','lampyridé,ver luisant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lampyre',\'entomologie','lamp','lampyridé,ver luisant','vivant');
+		INSERT INTO verbe VALUES('lampyre','entomologie','lamp','lampyridé,ver luisant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lampyridé',\'entomologie','lamp','tel lampyre,ver luisant','vivant');
+		INSERT INTO verbe VALUES('lampyridé','entomologie','lamp','tel lampyre,ver luisant','vivant');
 		
   
    
@@ -17480,7 +17500,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('languria',\'entomologie','végé','languriidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('languria','entomologie','végé','languriidé,coléoptère','vivant');
 		
   
    
@@ -17504,11 +17524,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('laphria',\'entomologie','sang','asilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('laphria','entomologie','sang','asilidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('laphygma',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('laphygma','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -17534,11 +17554,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('larentie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('larentie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('laria',\'entomologie','herb','bruchidé,bruche','vivant');
+		INSERT INTO verbe VALUES('laria','entomologie','herb','bruchidé,bruche','vivant');
 		
   
    
@@ -17550,11 +17570,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('larinus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('larinus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('larra',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('larra','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -17562,23 +17582,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('larvule',\'entomologie','herb','larve insecte','vivant');
+		INSERT INTO verbe VALUES('larvule','entomologie','herb','larve insecte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lasie',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('lasie','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lasiocampe',\'entomologie','suc','lasiocampidé,bombyx','vivant');
+		INSERT INTO verbe VALUES('lasiocampe','entomologie','suc','lasiocampidé,bombyx','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lasiocampidé',\'entomologie','suc','tel lasiocampe,papillon','vivant');
+		INSERT INTO verbe VALUES('lasiocampidé','entomologie','suc','tel lasiocampe,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lasioderma',\'entomologie','végé','anobiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lasioderma','entomologie','végé','anobiidé,coléoptère','vivant');
 		
   
    
@@ -17586,11 +17606,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lasioptère',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('lasioptère','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lasius',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('lasius','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -17598,11 +17618,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lathridiidé',\'entomologie','végé','tel lathraea,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lathridiidé','entomologie','végé','tel lathraea,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lathrobium',\'entomologie','végé','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lathrobium','entomologie','végé','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -17626,7 +17646,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lauxanie',\'entomologie','sang','luxaniidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('lauxanie','entomologie','sang','luxaniidé,moucheron','vivant');
 		
   
    
@@ -17654,11 +17674,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lebia',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('lebia','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lecanium',\'entomologie','végé','lécanidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('lecanium','entomologie','végé','lécanidé,cochenille','vivant');
 		
   
    
@@ -17674,7 +17694,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leia',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('leia','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -17698,15 +17718,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('leistus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('leistus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('léma',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('léma','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lemmatophora',\'entomologie','végé','lemmatophoridé fossile','vivant');
+		INSERT INTO verbe VALUES('lemmatophora','entomologie','végé','lemmatophoridé fossile','vivant');
 		
   
    
@@ -17750,7 +17770,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lépidocyrtus',\'entomologie','végé',\'entomobryidé,collembole','vivant');
+		INSERT INTO verbe VALUES('lépidocyrtus','entomologie','végé','entomobryidé,collembole','vivant');
 		
   
    
@@ -17762,11 +17782,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lépidoptère',\'entomologie','suc','tel papillon','vivant');
+		INSERT INTO verbe VALUES('lépidoptère','entomologie','suc','tel papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lepidosaphes',\'entomologie','végé','diaspididé,cochenille','vivant');
+		INSERT INTO verbe VALUES('lepidosaphes','entomologie','végé','diaspididé,cochenille','vivant');
 		
   
    
@@ -17798,7 +17818,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lépisme',\'entomologie','suc','thysanoure,ss ailes','vivant');
+		INSERT INTO verbe VALUES('lépisme','entomologie','suc','thysanoure,ss ailes','vivant');
 		
   
    
@@ -17830,27 +17850,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptanillophilus',\'entomologie','végé','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('leptanillophilus','entomologie','végé','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lepte',\'entomologie','sang','larve d trombidion','vivant');
+		INSERT INTO verbe VALUES('lepte','entomologie','sang','larve d trombidion','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leptidea',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('leptidea','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leptidie',\'entomologie','suc','piéridé,papillon','vivant');
+		INSERT INTO verbe VALUES('leptidie','entomologie','suc','piéridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leptinus',\'entomologie','végé','leptinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('leptinus','entomologie','végé','leptinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leptis',\'entomologie','sang','leptidé,mouche','vivant');
+		INSERT INTO verbe VALUES('leptis','entomologie','sang','leptidé,mouche','vivant');
 		
   
    
@@ -17858,7 +17878,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptocère',\'entomologie','végé','leptocéridé,phrygane','vivant');
+		INSERT INTO verbe VALUES('leptocère','entomologie','végé','leptocéridé,phrygane','vivant');
 		
   
    
@@ -17866,11 +17886,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptoconops',\'entomologie','sang','cératogonidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('leptoconops','entomologie','sang','cératogonidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leptocorise',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('leptocorise','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
@@ -17878,7 +17898,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptodirus',\'entomologie','végé','catopidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('leptodirus','entomologie','végé','catopidé,coléoptère','vivant');
 		
   
    
@@ -17898,7 +17918,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptophlébie',\'entomologie','végé','éphéméridé brun','vivant');
+		INSERT INTO verbe VALUES('leptophlébie','entomologie','végé','éphéméridé brun','vivant');
 		
   
    
@@ -17914,7 +17934,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptopsylla',\'entomologie','sang','cténopsyllidé,puce','vivant');
+		INSERT INTO verbe VALUES('leptopsylla','entomologie','sang','cténopsyllidé,puce','vivant');
 		
   
    
@@ -17930,7 +17950,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leptothorax',\'entomologie','végé','myrmicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('leptothorax','entomologie','végé','myrmicidé,fourmi','vivant');
 		
   
    
@@ -17938,15 +17958,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('lepture',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('lepture','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lépyre',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('lépyre','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lépyronie',\'entomologie','herb','cercopidé,cicadelle','vivant');
+		INSERT INTO verbe VALUES('lépyronie','entomologie','herb','cercopidé,cicadelle','vivant');
 		
   
    
@@ -17970,15 +17990,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('lestes',\'entomologie','carn','odonate à gros yeux','vivant');
+		INSERT INTO verbe VALUES('lestes','entomologie','carn','odonate à gros yeux','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lethocerus',\'entomologie','sang','cryptocérate,punaise','vivant');
+		INSERT INTO verbe VALUES('lethocerus','entomologie','sang','cryptocérate,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lethrus',\'entomologie','végé','géotrupidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lethrus','entomologie','végé','géotrupidé,coléoptère','vivant');
 		
   
    
@@ -17986,7 +18006,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leucanie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('leucanie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -17998,7 +18018,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leucoma',\'entomologie','suc','bombycidé,bombyx','vivant');
+		INSERT INTO verbe VALUES('leucoma','entomologie','suc','bombycidé,bombyx','vivant');
 		
   
    
@@ -18006,11 +18026,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('leucophaea',\'entomologie','suc','blattidé,blatte domesti','vivant');
+		INSERT INTO verbe VALUES('leucophaea','entomologie','suc','blattidé,blatte domesti','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('leucopis',\'entomologie','sang','opomyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('leucopis','entomologie','sang','opomyzidé,mouche','vivant');
 		
   
    
@@ -18018,7 +18038,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('leucospis',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('leucospis','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -18062,19 +18082,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('libellule',\'entomologie','carn','agrionidé,odonate','vivant');
+		INSERT INTO verbe VALUES('libellule','entomologie','carn','agrionidé,odonate','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('libellulidé',\'entomologie','carn','tel libellule,sympétrum','vivant');
+		INSERT INTO verbe VALUES('libellulidé','entomologie','carn','tel libellule,sympétrum','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('libelluloïde',\'entomologie','carn','odonate à gros yeux','vivant');
+		INSERT INTO verbe VALUES('libelluloïde','entomologie','carn','odonate à gros yeux','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('libythée',\'entomologie','suc','érycinidé,papillon','vivant');
+		INSERT INTO verbe VALUES('libythée','entomologie','suc','érycinidé,papillon','vivant');
 		
   
    
@@ -18096,11 +18116,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lichénée',\'entomologie','suc','noctuidé,catocale','vivant');
+		INSERT INTO verbe VALUES('lichénée','entomologie','suc','noctuidé,catocale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('licinus',\'entomologie','carn','carabidé,carabe noir','vivant');
+		INSERT INTO verbe VALUES('licinus','entomologie','carn','carabidé,carabe noir','vivant');
 		
   
    
@@ -18148,7 +18168,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('likénée',\'entomologie','suc','noctuidé,catocale','vivant');
+		INSERT INTO verbe VALUES('likénée','entomologie','suc','noctuidé,catocale','vivant');
 		
   
    
@@ -18174,7 +18194,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('limacodidé',\'entomologie','suc','tel papillon,cochlididé','vivant');
+		INSERT INTO verbe VALUES('limacodidé','entomologie','suc','tel papillon,cochlididé','vivant');
 		
   
    
@@ -18182,7 +18202,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('limaçonne',\'entomologie','suc','chenille d bombyx','vivant');
+		INSERT INTO verbe VALUES('limaçonne','entomologie','suc','chenille d bombyx','vivant');
 		
   
    
@@ -18206,11 +18226,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lime-bois',\'entomologie','végé','tel coléoptère','vivant');
+		INSERT INTO verbe VALUES('lime-bois','entomologie','végé','tel coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('limenitis',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('limenitis','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
@@ -18238,15 +18258,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('limnephilus',\'entomologie','végé','phryganéidé,phrygane','vivant');
+		INSERT INTO verbe VALUES('limnephilus','entomologie','végé','phryganéidé,phrygane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('limnia',\'entomologie','sang','tétanocéridé,moucheron','vivant');
+		INSERT INTO verbe VALUES('limnia','entomologie','sang','tétanocéridé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('limnobates',\'entomologie','végé','hydromètre,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('limnobates','entomologie','végé','hydromètre,hétéroptère','vivant');
 		
   
    
@@ -18254,11 +18274,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('limnophile',\'entomologie','sang','limnobiidé,nématocère','vivant');
+		INSERT INTO verbe VALUES('limnophile','entomologie','sang','limnobiidé,nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('limnophilus',\'entomologie','végé','phryganéidé,phrygane','vivant');
+		INSERT INTO verbe VALUES('limnophilus','entomologie','végé','phryganéidé,phrygane','vivant');
 		
   
    
@@ -18270,7 +18290,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('limonius',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('limonius','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -18278,11 +18298,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('limosine',\'entomologie','sang','borboridé,moucheron','vivant');
+		INSERT INTO verbe VALUES('limosine','entomologie','sang','borboridé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('limothrips',\'entomologie','herb','thripidé,thrips','vivant');
+		INSERT INTO verbe VALUES('limothrips','entomologie','herb','thripidé,thrips','vivant');
 		
   
    
@@ -18290,7 +18310,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lina',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lina','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -18298,7 +18318,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lindorus',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('lindorus','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -18346,11 +18366,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('liobunum',\'entomologie','herb','phalangiidé,faucheur','vivant');
+		INSERT INTO verbe VALUES('liobunum','entomologie','herb','phalangiidé,faucheur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('liocoris',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('liocoris','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -18370,18 +18390,18 @@
 		
   
    
-		INSERT INTO verbe VALUES('liotheum',\'entomologie','sang','ménoponidé,pou d oiseau','vivant');
+		INSERT INTO verbe VALUES('liotheum','entomologie','sang','ménoponidé,pou d oiseau','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('liparidé',\'entomologie','suc','tel euproctis,papillon','vivant');
+		INSERT INTO verbe VALUES('liparidé','entomologie','suc','tel euproctis,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('liparidé','poisson','lipa','tel liparis','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('liparidé',\'entomologie','suc','tel euproctis,papillon','vivant');
+		INSERT INTO verbe VALUES('liparidé','entomologie','suc','tel euproctis,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('liparidé','poisson','lipa','tel liparis','vivant');
@@ -18396,11 +18416,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('liparus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('liparus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lipeure',\'entomologie','sang','philoptéridé,pou','vivant');
+		INSERT INTO verbe VALUES('lipeure','entomologie','sang','philoptéridé,pou','vivant');
 		
   
    
@@ -18412,19 +18432,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('liphyra',\'entomologie','végé','lycénidé,grde lycène','vivant');
+		INSERT INTO verbe VALUES('liphyra','entomologie','végé','lycénidé,grde lycène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('liponeura',\'entomologie','sang','blépharocéridé,mouchero','vivant');
+		INSERT INTO verbe VALUES('liponeura','entomologie','sang','blépharocéridé,mouchero','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lipoptène',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lipoptène','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('liposcelis',\'entomologie','sang','pédiculidé,pou d livre','vivant');
+		INSERT INTO verbe VALUES('liposcelis','entomologie','sang','pédiculidé,pou d livre','vivant');
 		
   
    
@@ -18436,7 +18456,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('liriomyza',\'entomologie','sang','agromyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('liriomyza','entomologie','sang','agromyzidé,mouche','vivant');
 		
   
    
@@ -18448,11 +18468,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lispe',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lispe','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lissorhoptrus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('lissorhoptrus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -18464,7 +18484,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lithocolletis',\'entomologie','sang','tinéidé,teigne pte','vivant');
+		INSERT INTO verbe VALUES('lithocolletis','entomologie','sang','tinéidé,teigne pte','vivant');
 		
   
    
@@ -18480,15 +18500,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('lithomantis',\'entomologie','végé','paléodictyoptère fossil','vivant');
+		INSERT INTO verbe VALUES('lithomantis','entomologie','végé','paléodictyoptère fossil','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lithosie',\'entomologie','suc','arctiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('lithosie','entomologie','suc','arctiidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('litomastix',\'entomologie','suc',\'encyrtidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('litomastix','entomologie','suc','encyrtidé,hyménoptère','vivant');
 		
   
    
@@ -18516,15 +18536,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('livrée',\'entomologie','végé','chrysomélidé,malacosoma','vivant');
+		INSERT INTO verbe VALUES('livrée','entomologie','végé','chrysomélidé,malacosoma','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lixophaga',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lixophaga','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lixus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('lixus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -18544,7 +18564,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('loboptère',\'entomologie','suc','blattidé,orthoptère','vivant');
+		INSERT INTO verbe VALUES('loboptère','entomologie','suc','blattidé,orthoptère','vivant');
 		
   
    
@@ -18552,7 +18572,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('locataire',\'entomologie','végé','lepinotus psocoptère','vivant');
+		INSERT INTO verbe VALUES('locataire','entomologie','végé','lepinotus psocoptère','vivant');
 		
   
    
@@ -18586,11 +18606,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lochmaea',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lochmaea','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('locuste',\'entomologie','herb','acrididé,criquet migrat','vivant');
+		INSERT INTO verbe VALUES('locuste','entomologie','herb','acrididé,criquet migrat','vivant');
 		
   
    
@@ -18598,7 +18618,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('locustidé',\'entomologie','herb','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('locustidé','entomologie','herb','acrididé,criquet','vivant');
 		
   
    
@@ -18610,7 +18630,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lohita',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('lohita','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
@@ -18626,7 +18646,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('loméchuse',\'entomologie','végé','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('loméchuse','entomologie','végé','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -18634,7 +18654,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lonchaea',\'entomologie','sang','lonchéidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lonchaea','entomologie','sang','lonchéidé,mouche','vivant');
 		
   
    
@@ -18642,7 +18662,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lonchodidé',\'entomologie','herb','tel phasme Asie','vivant');
+		INSERT INTO verbe VALUES('lonchodidé','entomologie','herb','tel phasme Asie','vivant');
 		
   
    
@@ -18650,11 +18670,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('longicorne',\'entomologie','végé','cérambycidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('longicorne','entomologie','végé','cérambycidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('longitarse',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('longitarse','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -18702,7 +18722,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lophoptéryx',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('lophoptéryx','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
@@ -18710,7 +18730,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lophyre',\'entomologie','suc','diprionidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('lophyre','entomologie','suc','diprionidé,hyménoptère','vivant');
 		
   
    
@@ -18758,7 +18778,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lorocère',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('lorocère','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -18868,7 +18888,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('louvette',\'entomologie','suc','hépialidé,hépiale','vivant');
+		INSERT INTO verbe VALUES('louvette','entomologie','suc','hépialidé,hépiale','vivant');
 		
   
    
@@ -18876,7 +18896,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lucane',\'entomologie','végé','lucanidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lucane','entomologie','végé','lucanidé,coléoptère','vivant');
 		
   
    
@@ -18888,22 +18908,22 @@
 		
   
    
-		INSERT INTO verbe VALUES('lucernule',\'entomologie','végé','lampyriridé,ver luisant','vivant');
+		INSERT INTO verbe VALUES('lucernule','entomologie','végé','lampyriridé,ver luisant','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lucilie',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lucilie','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lucine',\'entomologie','suc','lucinidé,papillon','vivant');
+		INSERT INTO verbe VALUES('lucine','entomologie','suc','lucinidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('lucine','mollusque','luci','lucinidé,bivalve','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lucine',\'entomologie','suc','lucinidé,papillon','vivant');
+		INSERT INTO verbe VALUES('lucine','entomologie','suc','lucinidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('lucine','mollusque','luci','lucinidé,bivalve','vivant');
@@ -18914,7 +18934,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('luciole',\'entomologie','végé','lampyridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('luciole','entomologie','végé','lampyridé,coléoptère','vivant');
 		
   
    
@@ -18942,11 +18962,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lunulé',\'entomologie','suc','céruridé,phalère','vivant');
+		INSERT INTO verbe VALUES('lunulé','entomologie','suc','céruridé,phalère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lupère',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lupère','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -18974,7 +18994,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lycaena',\'entomologie','suc','lycénidé,azuré,lycène','vivant');
+		INSERT INTO verbe VALUES('lycaena','entomologie','suc','lycénidé,azuré,lycène','vivant');
 		
   
    
@@ -18982,11 +19002,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('lycène',\'entomologie','suc','lycénidé,azuré,lycaena','vivant');
+		INSERT INTO verbe VALUES('lycène','entomologie','suc','lycénidé,azuré,lycaena','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lycénidé',\'entomologie','suc','tel lycène,thècle','vivant');
+		INSERT INTO verbe VALUES('lycénidé','entomologie','suc','tel lycène,thècle','vivant');
 		
   
    
@@ -18994,7 +19014,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lycidé',\'entomologie','végé','tel lampyre,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lycidé','entomologie','végé','tel lampyre,coléoptère','vivant');
 		
   
    
@@ -19014,27 +19034,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('lycte',\'entomologie','végé','lyctidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lycte','entomologie','végé','lyctidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lycus',\'entomologie','végé','lyctidé,coléoptère Afrique','vivant');
+		INSERT INTO verbe VALUES('lycus','entomologie','végé','lyctidé,coléoptère Afrique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lyde',\'entomologie','suc','hyménoptère,pamphilidé','vivant');
+		INSERT INTO verbe VALUES('lyde','entomologie','suc','hyménoptère,pamphilidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lydella',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lydella','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lygaeus',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('lygaeus','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lygéidé',\'entomologie','sang','tel lygaeus,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('lygéidé','entomologie','sang','tel lygaeus,hétéroptère','vivant');
 		
   
    
@@ -19046,23 +19066,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('lygus',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('lygus','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lymantria',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('lymantria','entomologie','suc','liparidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lymantriidé',\'entomologie','suc','tel lymantria,nonne','vivant');
+		INSERT INTO verbe VALUES('lymantriidé','entomologie','suc','tel lymantria,nonne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lymexylon',\'entomologie','herb','lymexylonidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lymexylon','entomologie','herb','lymexylonidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('lyméxylonidé',\'entomologie','herb','tel lymexylon','vivant');
+		INSERT INTO verbe VALUES('lyméxylonidé','entomologie','herb','tel lymexylon','vivant');
 		
   
    
@@ -19074,7 +19094,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lynchia',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('lynchia','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
@@ -19082,7 +19102,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lyperosia',\'entomologie','sang','muscidé,hématobie','vivant');
+		INSERT INTO verbe VALUES('lyperosia','entomologie','sang','muscidé,hématobie','vivant');
 		
   
    
@@ -19106,7 +19126,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lystre',\'entomologie','suc','fulgoridé homoptère','vivant');
+		INSERT INTO verbe VALUES('lystre','entomologie','suc','fulgoridé homoptère','vivant');
 		
   
    
@@ -19114,7 +19134,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('lythraria',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('lythraria','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -19137,14 +19157,14 @@
 		INSERT INTO verbe VALUES('macaque','mammifère','simi','cercopithécidé,singe','vivant');
 		
    
-		INSERT INTO verbe VALUES('macaque',\'entomologie','sang','larve d dermatobie','vivant');
+		INSERT INTO verbe VALUES('macaque','entomologie','sang','larve d dermatobie','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('macaque','mammifère','simi','cercopithécidé,singe','vivant');
 		
    
-		INSERT INTO verbe VALUES('macaque',\'entomologie','sang','larve d dermatobie','vivant');
+		INSERT INTO verbe VALUES('macaque','entomologie','sang','larve d dermatobie','vivant');
 		
   
    
@@ -19160,19 +19180,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('machaon',\'entomologie','suc','papilionidé,porte-que','vivant');
+		INSERT INTO verbe VALUES('machaon','entomologie','suc','papilionidé,porte-que','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('machelier',\'entomologie','carn','tel créophile','vivant');
+		INSERT INTO verbe VALUES('machelier','entomologie','carn','tel créophile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('machile',\'entomologie','carn','machilidé,thysanoure','vivant');
+		INSERT INTO verbe VALUES('machile','entomologie','carn','machilidé,thysanoure','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('machimus',\'entomologie','sang','asilidé,diptère','vivant');
+		INSERT INTO verbe VALUES('machimus','entomologie','sang','asilidé,diptère','vivant');
 		
   
    
@@ -19204,7 +19224,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrocentrus',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('macrocentrus','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -19212,7 +19232,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrocère',\'entomologie','sang','micétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('macrocère','entomologie','sang','micétophilidé,moucheron','vivant');
 		
   
    
@@ -19220,11 +19240,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrodactyle',\'entomologie','herb','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('macrodactyle','entomologie','herb','scarabéidé,hanneton','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macrodontie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('macrodontie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -19232,15 +19252,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrolabis',\'entomologie','sang','cécidomyidé,diptère','vivant');
+		INSERT INTO verbe VALUES('macrolabis','entomologie','sang','cécidomyidé,diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macrolépidoptère',\'entomologie','suc','hétérocère,papillon','vivant');
+		INSERT INTO verbe VALUES('macrolépidoptère','entomologie','suc','hétérocère,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macromeris',\'entomologie','suc','pompilidé,pompilien','vivant');
+		INSERT INTO verbe VALUES('macromeris','entomologie','suc','pompilidé,pompilien','vivant');
 		
   
    
@@ -19248,7 +19268,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrophya',\'entomologie','suc','tenthrédinidé,tenthrède','vivant');
+		INSERT INTO verbe VALUES('macrophya','entomologie','suc','tenthrédinidé,tenthrède','vivant');
 		
   
    
@@ -19256,7 +19276,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('macropocopris',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('macropocopris','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -19288,19 +19308,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('macrosiphum',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('macrosiphum','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macrotermes',\'entomologie','végé','termitidé,termite Natal','vivant');
+		INSERT INTO verbe VALUES('macrotermes','entomologie','végé','termitidé,termite Natal','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macrothylacea',\'entomologie','suc','lasiocampidé,bombyx','vivant');
+		INSERT INTO verbe VALUES('macrothylacea','entomologie','suc','lasiocampidé,bombyx','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('macrotome',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('macrotome','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -19344,11 +19364,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('magdalinus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('magdalinus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('magicienne',\'entomologie','végé','locustidé,serrata','vivant');
+		INSERT INTO verbe VALUES('magicienne','entomologie','végé','locustidé,serrata','vivant');
 		
   
    
@@ -19359,14 +19379,14 @@
 		INSERT INTO verbe VALUES('magnan','OMB','ver','ver à soie','vivant');
 		
    
-		INSERT INTO verbe VALUES('magnan',\'entomologie','suc','dorylidé,fourmi Afrique','vivant');
+		INSERT INTO verbe VALUES('magnan','entomologie','suc','dorylidé,fourmi Afrique','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('magnan','OMB','ver','ver à soie','vivant');
 		
    
-		INSERT INTO verbe VALUES('magnan',\'entomologie','suc','dorylidé,fourmi Afrique','vivant');
+		INSERT INTO verbe VALUES('magnan','entomologie','suc','dorylidé,fourmi Afrique','vivant');
 		
   
    
@@ -19390,7 +19410,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('maillot',\'entomologie','sang','nymphe d diptère,pupe','vivant');
+		INSERT INTO verbe VALUES('maillot','entomologie','sang','nymphe d diptère,pupe','vivant');
 		
   
    
@@ -19398,7 +19418,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('maindronia',\'entomologie','carn','thysanoure ss aile','vivant');
+		INSERT INTO verbe VALUES('maindronia','entomologie','carn','thysanoure ss aile','vivant');
 		
   
    
@@ -19426,11 +19446,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('malachie',\'entomologie','herb','malachiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('malachie','entomologie','herb','malachiidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('malachiidé',\'entomologie','herb','tel malachie','vivant');
+		INSERT INTO verbe VALUES('malachiidé','entomologie','herb','tel malachie','vivant');
 		
   
    
@@ -19446,7 +19466,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('malacoderme',\'entomologie','herb','tel lampyre,malachie','vivant');
+		INSERT INTO verbe VALUES('malacoderme','entomologie','herb','tel lampyre,malachie','vivant');
 		
   
    
@@ -19458,17 +19478,17 @@
 		
   
    
-		INSERT INTO verbe VALUES('malacosoma',\'entomologie','végé','chenille nuisibl,livrée','vivant');
+		INSERT INTO verbe VALUES('malacosoma','entomologie','végé','chenille nuisibl,livrée','vivant');
 		
    
-		INSERT INTO verbe VALUES('malacosoma',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('malacosoma','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('malacosoma',\'entomologie','végé','chenille nuisibl,livrée','vivant');
+		INSERT INTO verbe VALUES('malacosoma','entomologie','végé','chenille nuisibl,livrée','vivant');
 		
    
-		INSERT INTO verbe VALUES('malacosoma',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('malacosoma','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -19520,7 +19540,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mallophage',\'entomologie','carn',\'ectoparasite,pou d oise','vivant');
+		INSERT INTO verbe VALUES('mallophage','entomologie','carn','ectoparasite,pou d oise','vivant');
 		
   
    
@@ -19528,7 +19548,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('malot',\'entomologie','sang','tabanidé,taon','vivant');
+		INSERT INTO verbe VALUES('malot','entomologie','sang','tabanidé,taon','vivant');
 		
   
    
@@ -19536,11 +19556,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('malthinus',\'entomologie','herb','malthinidé,cantharide','vivant');
+		INSERT INTO verbe VALUES('malthinus','entomologie','herb','malthinidé,cantharide','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('malthodes',\'entomologie','herb','malthinidé,cantharide','vivant');
+		INSERT INTO verbe VALUES('malthodes','entomologie','herb','malthinidé,cantharide','vivant');
 		
   
    
@@ -19556,7 +19576,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mamestre',\'entomologie','suc','noctuidé,polia','vivant');
+		INSERT INTO verbe VALUES('mamestre','entomologie','suc','noctuidé,polia','vivant');
 		
   
    
@@ -19608,7 +19628,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mange-maillols',\'entomologie','végé','larve d vespère','vivant');
+		INSERT INTO verbe VALUES('mange-maillols','entomologie','végé','larve d vespère','vivant');
 		
   
    
@@ -19620,7 +19640,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mania',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('mania','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -19639,18 +19659,18 @@
 		INSERT INTO verbe VALUES('mante','poisson','mobu','mobulidé,raie','vivant');
 		
    
-		INSERT INTO verbe VALUES('mante',\'entomologie','carn','mantidé carnassière','vivant');
+		INSERT INTO verbe VALUES('mante','entomologie','carn','mantidé carnassière','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('mante religieuse','poisson','mobu','mobulidé,raie','vivant');
 		
    
-		INSERT INTO verbe VALUES('mante religieuse',\'entomologie','carn','mantidé carnassière','vivant');
+		INSERT INTO verbe VALUES('mante religieuse','entomologie','carn','mantidé carnassière','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mantelée',\'entomologie','suc','noctuidé,xanthie','vivant');
+		INSERT INTO verbe VALUES('mantelée','entomologie','suc','noctuidé,xanthie','vivant');
 		
   
    
@@ -19658,19 +19678,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('manticore',\'entomologie','carn','cicindélidé,cicindèle','vivant');
+		INSERT INTO verbe VALUES('manticore','entomologie','carn','cicindélidé,cicindèle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mantidé',\'entomologie','carn','tel mante,dictyoptère','vivant');
+		INSERT INTO verbe VALUES('mantidé','entomologie','carn','tel mante,dictyoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mantispe',\'entomologie','carn','mantispidé,proche mante','vivant');
+		INSERT INTO verbe VALUES('mantispe','entomologie','carn','mantispidé,proche mante','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mantispidé',\'entomologie','carn','proche mante','vivant');
+		INSERT INTO verbe VALUES('mantispidé','entomologie','carn','proche mante','vivant');
 		
   
    
@@ -19697,14 +19717,14 @@
 		INSERT INTO verbe VALUES('marbré','poisson','spar','sparidé,mourme','vivant');
 		
    
-		INSERT INTO verbe VALUES('marbré',\'entomologie','herb','satyridé,mourme','vivant');
+		INSERT INTO verbe VALUES('marbré','entomologie','herb','satyridé,mourme','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('marbré','poisson','spar','sparidé,mourme','vivant');
 		
    
-		INSERT INTO verbe VALUES('marbré',\'entomologie','herb','satyridé,mourme','vivant');
+		INSERT INTO verbe VALUES('marbré','entomologie','herb','satyridé,mourme','vivant');
 		
   
    
@@ -19736,7 +19756,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('margarodes',\'entomologie','végé','margarodidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('margarodes','entomologie','végé','margarodidé,cochenille','vivant');
 		
   
    
@@ -19752,7 +19772,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('maringouin',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('maringouin','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -19824,11 +19844,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('masaridé',\'entomologie','sang','tel masaris','vivant');
+		INSERT INTO verbe VALUES('masaridé','entomologie','sang','tel masaris','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('masaris',\'entomologie','sang','masaridé,guêpe Afrique','vivant');
+		INSERT INTO verbe VALUES('masaris','entomologie','sang','masaridé,guêpe Afrique','vivant');
 		
   
    
@@ -19852,7 +19872,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mastix',\'entomologie','suc',\'encyrtidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mastix','entomologie','suc','encyrtidé,hyménoptère','vivant');
 		
   
    
@@ -19864,7 +19884,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mastotermes',\'entomologie','végé','termitidé,termite Austr','vivant');
+		INSERT INTO verbe VALUES('mastotermes','entomologie','végé','termitidé,termite Austr','vivant');
 		
   
    
@@ -19884,7 +19904,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('matsucoccus',\'entomologie','suc','margarodidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('matsucoccus','entomologie','suc','margarodidé,cochenille','vivant');
 		
   
    
@@ -19892,7 +19912,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('maure',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('maure','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -19904,7 +19924,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mayetiola',\'entomologie','végé','cécidomyidé,cécidomyie','vivant');
+		INSERT INTO verbe VALUES('mayetiola','entomologie','végé','cécidomyidé,cécidomyie','vivant');
 		
   
    
@@ -19916,27 +19936,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('mecinus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('mecinus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('méconème',\'entomologie','végé','locustidé, sauterelle','vivant');
+		INSERT INTO verbe VALUES('méconème','entomologie','végé','locustidé, sauterelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mécoptère',\'entomologie','végé','holométabole,tel panops','vivant');
+		INSERT INTO verbe VALUES('mécoptère','entomologie','végé','holométabole,tel panops','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mécoptéroïde',\'entomologie','végé','ptérygote holométabole','vivant');
+		INSERT INTO verbe VALUES('mécoptéroïde','entomologie','végé','ptérygote holométabole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mécynorhine',\'entomologie','herb','scarabéidé,cétoine Afrique','vivant');
+		INSERT INTO verbe VALUES('mécynorhine','entomologie','herb','scarabéidé,cétoine Afrique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('médétère',\'entomologie','sang','dolichopodidé,mouche','vivant');
+		INSERT INTO verbe VALUES('médétère','entomologie','sang','dolichopodidé,mouche','vivant');
 		
   
    
@@ -19944,7 +19964,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('médon',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('médon','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -19956,7 +19976,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mégachile',\'entomologie','suc','gastrilégidé,abeille','vivant');
+		INSERT INTO verbe VALUES('mégachile','entomologie','suc','gastrilégidé,abeille','vivant');
 		
   
    
@@ -19984,7 +20004,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mégaloptère',\'entomologie','végé','névroptéroïde','vivant');
+		INSERT INTO verbe VALUES('mégaloptère','entomologie','végé','névroptéroïde','vivant');
 		
   
    
@@ -19992,7 +20012,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('meganeura',\'entomologie','herb','protodonate fossile','vivant');
+		INSERT INTO verbe VALUES('meganeura','entomologie','herb','protodonate fossile','vivant');
 		
   
    
@@ -20008,7 +20028,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mégarhine',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('mégarhine','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -20016,15 +20036,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('mégasélie',\'entomologie','sang','phoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('mégasélie','entomologie','sang','phoridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mégasome',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('mégasome','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mégastigme',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mégastigme','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -20032,7 +20052,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mégatome',\'entomologie','herb','dermestidé,dermeste','vivant');
+		INSERT INTO verbe VALUES('mégatome','entomologie','herb','dermestidé,dermeste','vivant');
 		
   
    
@@ -20044,19 +20064,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('meigénie',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('meigénie','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélanargia',\'entomologie','suc','satyridé,demi-deuil','vivant');
+		INSERT INTO verbe VALUES('mélanargia','entomologie','suc','satyridé,demi-deuil','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélandrye',\'entomologie','herb','mélandryidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mélandrye','entomologie','herb','mélandryidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélanitis',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('mélanitis','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -20064,25 +20084,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('melanophila',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('melanophila','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélanote',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('mélanote','entomologie','végé','élatéridé,taupin','vivant');
 		
    
 		INSERT INTO verbe VALUES('mélanote','poisson','cypr','cyprinidé,chevaine grd','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélanote',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('mélanote','entomologie','végé','élatéridé,taupin','vivant');
 		
    
 		INSERT INTO verbe VALUES('mélanote','poisson','cypr','cyprinidé,chevaine grd','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('melasom',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('melasom','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -20094,7 +20114,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mélecte',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('mélecte','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -20102,11 +20122,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('meliboeus',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('meliboeus','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('méligèthe',\'entomologie','herb','nitidiludé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('méligèthe','entomologie','herb','nitidiludé,coléoptère','vivant');
 		
   
    
@@ -20114,23 +20134,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('mélipone',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('mélipone','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélissode',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('mélissode','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélitea',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('mélitea','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mélittobie',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mélittobie','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('melline',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('melline','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -20138,11 +20158,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('méloé',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('méloé','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('méloïdé',\'entomologie','herb','tel méloé,cantharide','vivant');
+		INSERT INTO verbe VALUES('méloïdé','entomologie','herb','tel méloé,cantharide','vivant');
 		
   
    
@@ -20154,7 +20174,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mélophage',\'entomologie','sang','hippoboscidé,diptère','vivant');
+		INSERT INTO verbe VALUES('mélophage','entomologie','sang','hippoboscidé,diptère','vivant');
 		
   
    
@@ -20166,11 +20186,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('membrace',\'entomologie','suc','membracidé homoptère','vivant');
+		INSERT INTO verbe VALUES('membrace','entomologie','suc','membracidé homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('membracidé',\'entomologie','suc','tel membrace,umbonia','vivant');
+		INSERT INTO verbe VALUES('membracidé','entomologie','suc','tel membrace,umbonia','vivant');
 		
   
    
@@ -20202,7 +20222,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ménopon',\'entomologie','sang','ménoponidé,pou d oiseau','vivant');
+		INSERT INTO verbe VALUES('ménopon','entomologie','sang','ménoponidé,pou d oiseau','vivant');
 		
   
    
@@ -20288,7 +20308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mérodon',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('mérodon','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
@@ -20350,7 +20370,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mésomphalie',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mésomphalie','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -20382,7 +20402,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('messor',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('messor','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -20402,7 +20422,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('métaphycus',\'entomologie','suc',\'encyrtidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('métaphycus','entomologie','suc','encyrtidé,hyménoptère','vivant');
 		
   
    
@@ -20414,15 +20434,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('méthoque',\'entomologie','suc','mutillidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('méthoque','entomologie','suc','mutillidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('métoeque',\'entomologie','herb','rhipiphoridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('métoeque','entomologie','herb','rhipiphoridé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('métopine',\'entomologie','sang','phoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('métopine','entomologie','sang','phoridé,mouche','vivant');
 		
   
    
@@ -20464,7 +20484,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('miastor',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('miastor','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
@@ -20520,11 +20540,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('microdon',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('microdon','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('microfilaire','OMB','ver',\'embryon d filaire','vivant');
+		INSERT INTO verbe VALUES('microfilaire','OMB','ver','embryon d filaire','vivant');
 		
   
    
@@ -20532,7 +20552,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('microgaster',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('microgaster','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -20544,19 +20564,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('microlépidoptère',\'entomologie','suc','lépidoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('microlépidoptère','entomologie','suc','lépidoptère,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('micromalthus',\'entomologie','herb','micromalhidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('micromalthus','entomologie','herb','micromalhidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('microme',\'entomologie','végé','hémérobiidé,planipenne','vivant');
+		INSERT INTO verbe VALUES('microme','entomologie','végé','hémérobiidé,planipenne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('micronecta',\'entomologie','sang','corixidé,punaise','vivant');
+		INSERT INTO verbe VALUES('micronecta','entomologie','sang','corixidé,punaise','vivant');
 		
   
    
@@ -20584,11 +20604,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('microptérygidé',\'entomologie','suc','lépidoptère primitif','vivant');
+		INSERT INTO verbe VALUES('microptérygidé','entomologie','suc','lépidoptère primitif','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('micropteryx',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('micropteryx','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -20620,7 +20640,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mictis',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('mictis','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
@@ -20628,7 +20648,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mikiola',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('mikiola','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
@@ -20700,7 +20720,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mindarus',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('mindarus','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -20720,7 +20740,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('minotaure',\'entomologie','herb','géotrupidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('minotaure','entomologie','herb','géotrupidé,coléoptère','vivant');
 		
   
    
@@ -20740,19 +20760,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('miracidium','animal','prot',\'embryon cilié','vivant');
+		INSERT INTO verbe VALUES('miracidium','animal','prot','embryon cilié','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('miridé',\'entomologie','sang','tel miridius,punaise','vivant');
+		INSERT INTO verbe VALUES('miridé','entomologie','sang','tel miridius,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('miridius',\'entomologie','sang','capsidé,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('miridius','entomologie','sang','capsidé,hétéroptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('miris',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('miris','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -20764,7 +20784,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('misélie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('misélie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -20776,7 +20796,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mite',\'entomologie','sang','tinéidé,teigne,insecte','vivant');
+		INSERT INTO verbe VALUES('mite','entomologie','sang','tinéidé,teigne,insecte','vivant');
 		
   
    
@@ -20832,7 +20852,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moine',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('moine','entomologie','suc','liparidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('moine','mammifère','céta','otariidé,phoque rég cha','vivant');
@@ -20842,7 +20862,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moine',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('moine','entomologie','suc','liparidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('moine','mammifère','céta','otariidé,phoque rég cha','vivant');
@@ -20852,7 +20872,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moine',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('moine','entomologie','suc','liparidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('moine','mammifère','céta','otariidé,phoque rég cha','vivant');
@@ -20882,7 +20902,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('molluscoïde','animal','prot',\'ectroprocte','vivant');
+		INSERT INTO verbe VALUES('molluscoïde','animal','prot','ectroprocte','vivant');
 		
   
    
@@ -20898,7 +20918,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('molophilus',\'entomologie','sang','limnobiidé,nématocère','vivant');
+		INSERT INTO verbe VALUES('molophilus','entomologie','sang','limnobiidé,nématocère','vivant');
 		
   
    
@@ -20932,7 +20952,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('molyte',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('molyte','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -20952,7 +20972,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('monanthie',\'entomologie','sang','tingidé,punaise','vivant');
+		INSERT INTO verbe VALUES('monanthie','entomologie','sang','tingidé,punaise','vivant');
 		
   
    
@@ -20964,7 +20984,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('monédule',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('monédule','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -21012,15 +21032,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('monohammus',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('monohammus','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('monomorium',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('monomorium','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('monophlebus',\'entomologie','végé','margarodidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('monophlebus','entomologie','végé','margarodidé,cochenille','vivant');
 		
   
    
@@ -21056,15 +21076,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('monotrysien',\'entomologie','végé','tel microptérygé','vivant');
+		INSERT INTO verbe VALUES('monotrysien','entomologie','végé','tel microptérygé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('monstrille','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('monstrille','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('monstrillidé','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('monstrillidé','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -21088,7 +21108,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('morbac',\'entomologiep','sang','pédiculidé,morpion,pou','vivant');
+		INSERT INTO verbe VALUES('morbac','entomologiep','sang','pédiculidé,morpion,pou','vivant');
 		
   
    
@@ -21096,7 +21116,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mordelle',\'entomologie','herb','mordellidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mordelle','entomologie','herb','mordellidé,coléoptère','vivant');
 		
   
    
@@ -21120,21 +21140,21 @@
 		
   
    
-		INSERT INTO verbe VALUES('morio',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('morio','entomologie','suc','nymphalidé,vanesse','vivant');
 		
    
 		INSERT INTO verbe VALUES('morio','mollusque','gast','cassididé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('morio',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('morio','entomologie','suc','nymphalidé,vanesse','vivant');
 		
    
 		INSERT INTO verbe VALUES('morio','mollusque','gast','cassididé,gastéropode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mormolyce',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('mormolyce','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -21150,7 +21170,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moro-sphinx',\'entomologie','suc','ptéropidé,papillon','vivant');
+		INSERT INTO verbe VALUES('moro-sphinx','entomologie','suc','ptéropidé,papillon','vivant');
 		
   
    
@@ -21162,11 +21182,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('morpho',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('morpho','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('morpion',\'entomologiep','sang','pédiculidé,pou d pubis','vivant');
+		INSERT INTO verbe VALUES('morpion','entomologiep','sang','pédiculidé,pou d pubis','vivant');
 		
   
    
@@ -21220,33 +21240,33 @@
 		
   
    
-		INSERT INTO verbe VALUES('mouche',\'entomologie','sang','muscidé,diptère','vivant');
+		INSERT INTO verbe VALUES('mouche','entomologie','sang','muscidé,diptère','vivant');
 		
    
-		INSERT INTO verbe VALUES('mouche',\'entomologie','sang','aleurodidé,puceron','vivant');
+		INSERT INTO verbe VALUES('mouche','entomologie','sang','aleurodidé,puceron','vivant');
 		
    
-		INSERT INTO verbe VALUES('mouche',\'entomologie','sang','cécidomyidé,cécidomyie','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('mouche blanche',\'entomologie','sang','muscidé,diptère','vivant');
-		
-   
-		INSERT INTO verbe VALUES('mouche blanche',\'entomologie','sang','aleurodidé,puceron','vivant');
-		
-   
-		INSERT INTO verbe VALUES('mouche blanche',\'entomologie','sang','cécidomyidé,cécidomyie','vivant');
+		INSERT INTO verbe VALUES('mouche','entomologie','sang','cécidomyidé,cécidomyie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mouche de Hesse',\'entomologie','sang','muscidé,diptère','vivant');
+		INSERT INTO verbe VALUES('mouche blanche','entomologie','sang','muscidé,diptère','vivant');
 		
    
-		INSERT INTO verbe VALUES('mouche de Hesse',\'entomologie','sang','aleurodidé,puceron','vivant');
+		INSERT INTO verbe VALUES('mouche blanche','entomologie','sang','aleurodidé,puceron','vivant');
 		
    
-		INSERT INTO verbe VALUES('mouche de Hesse',\'entomologie','sang','cécidomyidé,cécidomyie','vivant');
+		INSERT INTO verbe VALUES('mouche blanche','entomologie','sang','cécidomyidé,cécidomyie','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('mouche de Hesse','entomologie','sang','muscidé,diptère','vivant');
+		
+   
+		INSERT INTO verbe VALUES('mouche de Hesse','entomologie','sang','aleurodidé,puceron','vivant');
+		
+   
+		INSERT INTO verbe VALUES('mouche de Hesse','entomologie','sang','cécidomyidé,cécidomyie','vivant');
 		
   
    
@@ -21254,7 +21274,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moucheron',\'entomologie','sang','tel pt insecte diptère','vivant');
+		INSERT INTO verbe VALUES('moucheron','entomologie','sang','tel pt insecte diptère','vivant');
 		
   
    
@@ -21274,7 +21294,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mouhotia',\'entomologie','carn','carabidé,carabe noir','vivant');
+		INSERT INTO verbe VALUES('mouhotia','entomologie','carn','carabidé,carabe noir','vivant');
 		
   
    
@@ -21308,7 +21328,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moustique',\'entomologie','sang','culicidé,diptère','vivant');
+		INSERT INTO verbe VALUES('moustique','entomologie','sang','culicidé,diptère','vivant');
 		
   
    
@@ -21320,7 +21340,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('moyocuil',\'entomologie','sang','larve dermatobie','vivant');
+		INSERT INTO verbe VALUES('moyocuil','entomologie','sang','larve dermatobie','vivant');
 		
   
    
@@ -21406,7 +21426,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('munie','oiseau','pass',\'estrildiné,astrild','vivant');
+		INSERT INTO verbe VALUES('munie','oiseau','pass','estrildiné,astrild','vivant');
 		
   
    
@@ -21474,11 +21494,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('muscidé',\'entomologie','sang','tel mouche,diptère','vivant');
+		INSERT INTO verbe VALUES('muscidé','entomologie','sang','tel mouche,diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('muscine',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('muscine','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -21514,7 +21534,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mutille',\'entomologie','suc','mutillidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mutille','entomologie','suc','mutillidé,hyménoptère','vivant');
 		
   
    
@@ -21526,19 +21546,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('myas',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('myas','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mycetaea',\'entomologie','herb',\'endomychidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mycetaea','entomologie','herb','endomychidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mycétophage',\'entomologie','herb','mycétophagidé,coléoptèr','vivant');
+		INSERT INTO verbe VALUES('mycétophage','entomologie','herb','mycétophagidé,coléoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mycétopore',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mycétopore','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -21574,7 +21594,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mydas',\'entomologie','sang','mydaïdé,mouche','vivant');
+		INSERT INTO verbe VALUES('mydas','entomologie','sang','mydaïdé,mouche','vivant');
 		
   
    
@@ -21582,7 +21602,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('myélophilus',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('myélophilus','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -21594,11 +21614,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('myiospila',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('myiospila','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mylabre',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('mylabre','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
@@ -21610,11 +21630,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('mymar',\'entomologie','suc','mymaridé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mymar','entomologie','suc','mymaridé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('mymaridé',\'entomologie','suc','tel mymar,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('mymaridé','entomologie','suc','tel mymar,hyménoptère','vivant');
 		
   
    
@@ -21622,7 +21642,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('myodaire',\'entomologie','sang','diptère cycloraphe','vivant');
+		INSERT INTO verbe VALUES('myodaire','entomologie','sang','diptère cycloraphe','vivant');
 		
   
    
@@ -21662,7 +21682,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('myrmécocyste',\'entomologie','suc','formicidé,fourmi miel','vivant');
+		INSERT INTO verbe VALUES('myrmécocyste','entomologie','suc','formicidé,fourmi miel','vivant');
 		
   
    
@@ -21670,15 +21690,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('myrmédonie',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('myrmédonie','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('myrméléonidé',\'entomologie','sang','tel fourmi-lion','vivant');
+		INSERT INTO verbe VALUES('myrméléonidé','entomologie','sang','tel fourmi-lion','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('myrmicidé',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('myrmicidé','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -21686,11 +21706,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('myrmique',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('myrmique','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('myrtil',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('myrtil','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -21710,7 +21730,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('mytilaspis',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('mytilaspis','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -21754,11 +21774,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('myza',\'entomologie','sang','chloropidé,diptère','vivant');
+		INSERT INTO verbe VALUES('myza','entomologie','sang','chloropidé,diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('myzomyie',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('myzomyie','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -21766,11 +21786,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('myzus',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('myzus','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nabis',\'entomologie','sang','nabidé,punaise','vivant');
+		INSERT INTO verbe VALUES('nabis','entomologie','sang','nabidé,punaise','vivant');
 		
   
    
@@ -21778,11 +21798,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nacré',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nacré','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('naïade',\'entomologie','sang','tipulidé,punaise,tipule','vivant');
+		INSERT INTO verbe VALUES('naïade','entomologie','sang','tipulidé,punaise,tipule','vivant');
 		
   
    
@@ -21822,11 +21842,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nanophye',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('nanophye','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('napeocles',\'entomologie','suc','danaïdé,papillon','vivant');
+		INSERT INTO verbe VALUES('napeocles','entomologie','suc','danaïdé,papillon','vivant');
 		
   
    
@@ -21846,7 +21866,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nasicorne',\'entomologie','herb','scarabéidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nasicorne','entomologie','herb','scarabéidé,coléoptère','vivant');
 		
   
    
@@ -21888,7 +21908,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nasutitermes',\'entomologie','végé','termitidé,termite Austr','vivant');
+		INSERT INTO verbe VALUES('nasutitermes','entomologie','végé','termitidé,termite Austr','vivant');
 		
   
    
@@ -21916,7 +21936,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('naucore',\'entomologie','sang','naucoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('naucore','entomologie','sang','naucoridé,punaise','vivant');
 		
   
    
@@ -21940,15 +21960,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('nébrie',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('nébrie','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nécrobie',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nécrobie','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nécrode',\'entomologie','herb','silphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nécrode','entomologie','herb','silphidé,coléoptère','vivant');
 		
   
    
@@ -21956,15 +21976,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('nécrophage',\'entomologie','carn','q ali cadavres','vivant');
+		INSERT INTO verbe VALUES('nécrophage','entomologie','carn','q ali cadavres','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nécrophore',\'entomologie','herb','silphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nécrophore','entomologie','herb','silphidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nécroscie',\'entomologie','végé','phasmidé indo-malais','vivant');
+		INSERT INTO verbe VALUES('nécroscie','entomologie','végé','phasmidé indo-malais','vivant');
 		
   
    
@@ -22000,7 +22020,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nécydale',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('nécydale','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -22012,7 +22032,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('négril',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('négril','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -22020,7 +22040,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('neiroun',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('neiroun','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -22036,7 +22056,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('némate',\'entomologie','suc','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('némate','entomologie','suc','tenthrédinidé,mouche','vivant');
 		
   
    
@@ -22044,7 +22064,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nématocère',\'entomologie','sang','tel tipule,diptère','vivant');
+		INSERT INTO verbe VALUES('nématocère','entomologie','sang','tel tipule,diptère','vivant');
 		
   
    
@@ -22066,15 +22086,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('néméobie',\'entomologie','suc','érycinidé,papillon','vivant');
+		INSERT INTO verbe VALUES('néméobie','entomologie','suc','érycinidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('néméophile',\'entomologie','suc','arctiidé,parasémie','vivant');
+		INSERT INTO verbe VALUES('néméophile','entomologie','suc','arctiidé,parasémie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nemeritis',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('nemeritis','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -22086,7 +22106,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('némestrine',\'entomologie','sang','némestrinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('némestrine','entomologie','sang','némestrinidé,mouche','vivant');
 		
   
    
@@ -22098,23 +22118,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('némobie',\'entomologie','végé','gryllidé,grillon pt','vivant');
+		INSERT INTO verbe VALUES('némobie','entomologie','végé','gryllidé,grillon pt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('némognathe',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('némognathe','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('némophore',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('némophore','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('némopode',\'entomologie','sang','sepsidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('némopode','entomologie','sang','sepsidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('némoptère',\'entomologie','végé','némoptéridé,planipenne','vivant');
+		INSERT INTO verbe VALUES('némoptère','entomologie','végé','némoptéridé,planipenne','vivant');
 		
   
    
@@ -22122,15 +22142,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('némotélus',\'entomologie','sang','stratomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('némotélus','entomologie','sang','stratomyidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('némoure',\'entomologie','végé','némuridé,plécoptère','vivant');
+		INSERT INTO verbe VALUES('némoure','entomologie','végé','némuridé,plécoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nemura',\'entomologie','végé','némuridé,plécoptère','vivant');
+		INSERT INTO verbe VALUES('nemura','entomologie','végé','némuridé,plécoptère','vivant');
 		
   
    
@@ -22168,7 +22188,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('néoptère',\'entomologie','végé','ptérygote,aile repliabl','vivant');
+		INSERT INTO verbe VALUES('néoptère','entomologie','végé','ptérygote,aile repliabl','vivant');
 		
   
    
@@ -22184,7 +22204,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nèpe',\'entomologie','sang','népidé,punaise','vivant');
+		INSERT INTO verbe VALUES('nèpe','entomologie','sang','népidé,punaise','vivant');
 		
   
    
@@ -22196,11 +22216,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('népidé',\'entomologie','sang','tel nèpe,ranâtre','vivant');
+		INSERT INTO verbe VALUES('népidé','entomologie','sang','tel nèpe,ranâtre','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nepticula',\'entomologie','sang','tinéidé,teigne pte','vivant');
+		INSERT INTO verbe VALUES('nepticula','entomologie','sang','tinéidé,teigne pte','vivant');
 		
   
    
@@ -22264,7 +22284,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('neuroctena',\'entomologie','sang','muscidé,mouche,nématocè','vivant');
+		INSERT INTO verbe VALUES('neuroctena','entomologie','sang','muscidé,mouche,nématocè','vivant');
 		
   
    
@@ -22272,11 +22292,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('neuroptère',\'entomologie','suc','insecte divers ordres','vivant');
+		INSERT INTO verbe VALUES('neuroptère','entomologie','suc','insecte divers ordres','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('neuroterus',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('neuroterus','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
@@ -22284,15 +22304,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('névroptère',\'entomologie','carn','insecte divers ordres','vivant');
+		INSERT INTO verbe VALUES('névroptère','entomologie','carn','insecte divers ordres','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('névroptéroïde',\'entomologie','carn','ptérygote carnivore','vivant');
+		INSERT INTO verbe VALUES('névroptéroïde','entomologie','carn','ptérygote carnivore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nezara',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('nezara','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -22300,11 +22320,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nicothoé','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('nicothoé','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nika','crustacé',\'ento','carididé,crevette','vivant');
+		INSERT INTO verbe VALUES('nika','crustacé','ento','carididé,crevette','vivant');
 		
   
    
@@ -22312,15 +22332,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('niphargus','crustacé',\'ento','amphipode','vivant');
+		INSERT INTO verbe VALUES('niphargus','crustacé','ento','amphipode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nisoniades',\'entomologie','suc','hespéridé,thanaïs','vivant');
+		INSERT INTO verbe VALUES('nisoniades','entomologie','suc','hespéridé,thanaïs','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nitidule',\'entomologie','herb','nitidulidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nitidule','entomologie','herb','nitidulidé,coléoptère','vivant');
 		
   
    
@@ -22360,15 +22380,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('noctuélien',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('noctuélien','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('noctuelle',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('noctuelle','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('noctuidé',\'entomologie','suc','tel agrotiné,hadéniné','vivant');
+		INSERT INTO verbe VALUES('noctuidé','entomologie','suc','tel agrotiné,hadéniné','vivant');
 		
   
    
@@ -22376,7 +22396,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('noctuoïde',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('noctuoïde','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -22388,11 +22408,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nomadacris',\'entomologie','végé','acrididé,criquet migration','vivant');
+		INSERT INTO verbe VALUES('nomadacris','entomologie','végé','acrididé,criquet migration','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nomade',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('nomade','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -22400,7 +22420,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nonagrie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nonagrie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -22408,7 +22428,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nonne',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nonne','entomologie','suc','liparidé,papillon','vivant');
 		
   
    
@@ -22432,7 +22452,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nosodendron',\'entomologie','herb','nosodendridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('nosodendron','entomologie','herb','nosodendridé,coléoptère','vivant');
 		
   
    
@@ -22444,7 +22464,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('noterus',\'entomologie','végé','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('noterus','entomologie','végé','dytiscidé,dytique','vivant');
 		
   
    
@@ -22456,19 +22476,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('notiophilus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('notiophilus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('notiphila',\'entomologie','sang','éphydridé,moucheron','vivant');
+		INSERT INTO verbe VALUES('notiphila','entomologie','sang','éphydridé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('notodonte',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('notodonte','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('notodontidé',\'entomologie','suc','tel notodonte,céruridé','vivant');
+		INSERT INTO verbe VALUES('notodontidé','entomologie','suc','tel notodonte,céruridé','vivant');
 		
   
    
@@ -22476,7 +22496,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('notonecte',\'entomologie','suc','notonectidé,papillon','vivant');
+		INSERT INTO verbe VALUES('notonecte','entomologie','suc','notonectidé,papillon','vivant');
 		
   
    
@@ -22512,7 +22532,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('notothecta',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('notothecta','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -22528,7 +22548,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('novius',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('novius','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -22544,7 +22564,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nudaria',\'entomologie','suc','arctiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nudaria','entomologie','suc','arctiidé,papillon','vivant');
 		
   
    
@@ -22572,7 +22592,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('nyctéribie',\'entomologie','sang','nictéribiidé,mouche','vivant');
+		INSERT INTO verbe VALUES('nyctéribie','entomologie','sang','nictéribiidé,mouche','vivant');
 		
   
    
@@ -22600,11 +22620,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nymphale',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nymphale','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nymphalidé',\'entomologie','suc','tel nymphale,vanesse','vivant');
+		INSERT INTO verbe VALUES('nymphalidé','entomologie','suc','tel nymphale,vanesse','vivant');
 		
   
    
@@ -22616,11 +22636,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('nymphula',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('nymphula','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nymphuliné',\'entomologie','suc','tel nymphula,papillon','vivant');
+		INSERT INTO verbe VALUES('nymphuliné','entomologie','suc','tel nymphula,papillon','vivant');
 		
   
    
@@ -22628,15 +22648,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('nysius',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('nysius','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nysson',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('nysson','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('nyssorhynque',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('nyssorhynque','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -22644,7 +22664,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('obérée',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('obérée','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -22656,11 +22676,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('obrium',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('obrium','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('occemyia',\'entomologie','sang','conopidé,mouche','vivant');
+		INSERT INTO verbe VALUES('occemyia','entomologie','sang','conopidé,mouche','vivant');
 		
   
    
@@ -22684,15 +22704,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ochrops',\'entomologie','sang','tabanidé,taon prairies','vivant');
+		INSERT INTO verbe VALUES('ochrops','entomologie','sang','tabanidé,taon prairies','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ochrosis',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ochrosis','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ochthébie',\'entomologie','herb','hydrénidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ochthébie','entomologie','herb','hydrénidé,coléoptère','vivant');
 		
   
    
@@ -22724,7 +22744,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('odacanthe',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('odacanthe','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -22736,15 +22756,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('odonate',\'entomologie','carn','tel aeschne,libellule','vivant');
+		INSERT INTO verbe VALUES('odonate','entomologie','carn','tel aeschne,libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('odonatoptère',\'entomologie','carn','odonate,tel libellule','vivant');
+		INSERT INTO verbe VALUES('odonatoptère','entomologie','carn','odonate,tel libellule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('odonestis',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('odonestis','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -22756,7 +22776,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('odontolabis',\'entomologie','végé','lucanidé,lucane','vivant');
+		INSERT INTO verbe VALUES('odontolabis','entomologie','végé','lucanidé,lucane','vivant');
 		
   
    
@@ -22764,15 +22784,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('odontoscélis',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('odontoscélis','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('odontosia',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('odontosia','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('odontotarse',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('odontotarse','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -22780,19 +22800,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('oecanthe',\'entomologie','végé','oecanthidé,grillon pt','vivant');
+		INSERT INTO verbe VALUES('oecanthe','entomologie','végé','oecanthidé,grillon pt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oecophylle',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('oecophylle','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oeda',\'entomologie','suc','membracidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('oeda','entomologie','suc','membracidé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oedémagène',\'entomologie','sang','oestridé,mouche','vivant');
+		INSERT INTO verbe VALUES('oedémagène','entomologie','sang','oestridé,mouche','vivant');
 		
   
    
@@ -22800,7 +22820,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oedipode',\'entomologie','végé','acrididé,acridien','vivant');
+		INSERT INTO verbe VALUES('oedipode','entomologie','végé','acrididé,acridien','vivant');
 		
   
    
@@ -22812,15 +22832,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('oeneis',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('oeneis','entomologie','suc','nymphalidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oestre',\'entomologie','sang','oestridé,mouche','vivant');
+		INSERT INTO verbe VALUES('oestre','entomologie','sang','oestridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oestridé',\'entomologie','sang','tel oestre','vivant');
+		INSERT INTO verbe VALUES('oestridé','entomologie','sang','tel oestre','vivant');
 		
   
    
@@ -22938,7 +22958,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oithona','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('oithona','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -22962,11 +22982,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('olethreutes',\'entomologie','suc','tel tordeuse,argyroplac','vivant');
+		INSERT INTO verbe VALUES('olethreutes','entomologie','suc','tel tordeuse,argyroplac','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('olibrus',\'entomologie','herb','phalacridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('olibrus','entomologie','herb','phalacridé,coléoptère','vivant');
 		
   
    
@@ -22978,15 +22998,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('oligonéoptère',\'entomologie','herb','holométabole,coléoptère','vivant');
+		INSERT INTO verbe VALUES('oligonéoptère','entomologie','herb','holométabole,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oligoneure',\'entomologie','végé','oligoneuridé,éphémère','vivant');
+		INSERT INTO verbe VALUES('oligoneure','entomologie','végé','oligoneuridé,éphémère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oligote',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('oligote','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -22994,7 +23014,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oligotrophus',\'entomologie','suc','cécidomyidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('oligotrophus','entomologie','suc','cécidomyidé,hyménoptère','vivant');
 		
   
    
@@ -23018,7 +23038,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('omalium',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('omalium','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -23046,15 +23066,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('omophle',\'entomologie','herb','alléculidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('omophle','entomologie','herb','alléculidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('omophron',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('omophron','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('omphrale',\'entomologie','sang','omphralidé,mouche','vivant');
+		INSERT INTO verbe VALUES('omphrale','entomologie','sang','omphralidé,mouche','vivant');
 		
   
    
@@ -23078,7 +23098,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oncocephalus',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('oncocephalus','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
@@ -23090,7 +23110,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oncodidé',\'entomologie','sang','tel moucheron','vivant');
+		INSERT INTO verbe VALUES('oncodidé','entomologie','sang','tel moucheron','vivant');
 		
   
    
@@ -23110,11 +23130,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('oneirophanta','animal','prot',\'elpidiidé,holothurie','vivant');
+		INSERT INTO verbe VALUES('oneirophanta','animal','prot','elpidiidé,holothurie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oneirophantites','animal','prot',\'elpidiidé,holothurie','vivant');
+		INSERT INTO verbe VALUES('oneirophantites','animal','prot','elpidiidé,holothurie','vivant');
 		
   
    
@@ -23134,15 +23154,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('onitis',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('onitis','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ontophage',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('ontophage','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ontophile',\'entomologie','herb','histéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ontophile','entomologie','herb','histéridé,coléoptère','vivant');
 		
   
    
@@ -23166,7 +23186,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oodes',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('oodes','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -23174,7 +23194,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ooencyrtus',\'entomologie','suc',\'encyrtidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ooencyrtus','entomologie','suc','encyrtidé,hyménoptère','vivant');
 		
   
    
@@ -23186,7 +23206,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oophage',\'entomologie','carn','ses oeufs','vivant');
+		INSERT INTO verbe VALUES('oophage','entomologie','carn','ses oeufs','vivant');
 		
   
    
@@ -23202,7 +23222,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('opatre',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('opatre','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -23218,7 +23238,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ophidéridé',\'entomologie','suc','tel noctuoïde,papillon','vivant');
+		INSERT INTO verbe VALUES('ophidéridé','entomologie','suc','tel noctuoïde,papillon','vivant');
 		
   
    
@@ -23242,15 +23262,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ophiomyie',\'entomologie','sang','agromyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('ophiomyie','entomologie','sang','agromyzidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ophion',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('ophion','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ophionea',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('ophionea','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -23278,7 +23298,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ophone',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('ophone','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -23286,11 +23306,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ophtalmophora',\'entomologie','suc','lépidoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('ophtalmophora','entomologie','suc','lépidoptère,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ophthalmicus',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('ophthalmicus','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
@@ -23298,7 +23318,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('opilo',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('opilo','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
@@ -23314,7 +23334,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('opisthograptis',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('opisthograptis','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
@@ -23330,7 +23350,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('opius',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('opius','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -23338,7 +23358,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('opomyze',\'entomologie','sang','opomyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('opomyze','entomologie','sang','opomyzidé,mouche','vivant');
 		
   
    
@@ -23349,10 +23369,10 @@
 		
   
    
-		INSERT INTO verbe VALUES('opossum d'Australie','mammifère','mars','marsupial,didelphidé','vivant');
+		INSERT INTO verbe VALUES('opossum d\'Australie','mammifère','mars','marsupial,didelphidé','vivant');
 		
    
-		INSERT INTO verbe VALUES('opossum d'Australie','mammifère','mars','marsupial,phalanger','vivant');
+		INSERT INTO verbe VALUES('opossum d\'Australie','mammifère','mars','marsupial,phalanger','vivant');
 		
   
    
@@ -23392,15 +23412,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('orchesella',\'entomologie','herb',\'entomobryidé,collembole','vivant');
+		INSERT INTO verbe VALUES('orchesella','entomologie','herb','entomobryidé,collembole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orchésie',\'entomologie','herb','mélandryidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('orchésie','entomologie','herb','mélandryidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orcheste',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('orcheste','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -23434,7 +23454,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orellia',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('orellia','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
@@ -23458,18 +23478,18 @@
 		
   
    
-		INSERT INTO verbe VALUES('orgyie',\'entomologie','suc','lymantriidé,étoilé','vivant');
+		INSERT INTO verbe VALUES('orgyie','entomologie','suc','lymantriidé,étoilé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oria',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('oria','entomologie','suc','noctuidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('oria','OMB','ver','annélide polychète','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oria',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('oria','entomologie','suc','noctuidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('oria','OMB','ver','annélide polychète','vivant');
@@ -23496,7 +23516,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orizaephilus',\'entomologie','herb','cucujidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('orizaephilus','entomologie','herb','cucujidé,coléoptère','vivant');
 		
   
    
@@ -23512,15 +23532,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ormyre',\'entomologie','végé','chalcidien parasite','vivant');
+		INSERT INTO verbe VALUES('ormyre','entomologie','végé','chalcidien parasite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ornéode',\'entomologie','suc','ornéodidé,papillon','vivant');
+		INSERT INTO verbe VALUES('ornéode','entomologie','suc','ornéodidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ornéodidé',\'entomologie','suc','tel ornéode,papillon','vivant');
+		INSERT INTO verbe VALUES('ornéodidé','entomologie','suc','tel ornéode,papillon','vivant');
 		
   
    
@@ -23540,7 +23560,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ornithomyie',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('ornithomyie','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
@@ -23548,7 +23568,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ornithoptère',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('ornithoptère','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
@@ -23556,11 +23576,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ornix',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('ornix','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orobitis',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('orobitis','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -23568,7 +23588,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orphanie',\'entomologie','végé','sauterelle','vivant');
+		INSERT INTO verbe VALUES('orphanie','entomologie','végé','sauterelle','vivant');
 		
   
    
@@ -23584,7 +23604,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ortalidé',\'entomologie','sang','tel mouche des praries','vivant');
+		INSERT INTO verbe VALUES('ortalidé','entomologie','sang','tel mouche des praries','vivant');
 		
   
    
@@ -23592,7 +23612,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orthézie',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('orthézie','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -23620,23 +23640,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('orthoptère',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('orthoptère','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orthoptéroïde',\'entomologie','végé','tel ptérygote','vivant');
+		INSERT INTO verbe VALUES('orthoptéroïde','entomologie','végé','tel ptérygote','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orthoraphe',\'entomologie','sang','tel diptère nématocère','vivant');
+		INSERT INTO verbe VALUES('orthoraphe','entomologie','sang','tel diptère nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orthorrhaphe',\'entomologie','sang','tel diptère nématocère','vivant');
+		INSERT INTO verbe VALUES('orthorrhaphe','entomologie','sang','tel diptère nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('orthosie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('orthosie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -23644,7 +23664,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orthotylus',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('orthotylus','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
@@ -23660,7 +23680,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('orycte',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('orycte','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -23692,11 +23712,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('oscinelle',\'entomologie','sang','chloropidé,mouche','vivant');
+		INSERT INTO verbe VALUES('oscinelle','entomologie','sang','chloropidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oscinie',\'entomologie','sang','chloropidé,mouche','vivant');
+		INSERT INTO verbe VALUES('oscinie','entomologie','sang','chloropidé,mouche','vivant');
 		
   
    
@@ -23704,11 +23724,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('osmie',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('osmie','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('osmyle',\'entomologie','végé','osmylidé,planipenne','vivant');
+		INSERT INTO verbe VALUES('osmyle','entomologie','végé','osmylidé,planipenne','vivant');
 		
   
    
@@ -23752,7 +23772,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ostracode','crustacé',\'ento',\'entomostracé,tel cypris','vivant');
+		INSERT INTO verbe VALUES('ostracode','crustacé','ento','entomostracé,tel cypris','vivant');
 		
   
    
@@ -23776,25 +23796,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('othius',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('othius','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('otididé','oiseau','écha','tel outarde','vivant');
 		
    
-		INSERT INTO verbe VALUES('otididé',\'entomologie','sang','tel mouche des praries','vivant');
+		INSERT INTO verbe VALUES('otididé','entomologie','sang','tel mouche des praries','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('otididé','oiseau','écha','tel outarde','vivant');
 		
    
-		INSERT INTO verbe VALUES('otididé',\'entomologie','sang','tel mouche des praries','vivant');
+		INSERT INTO verbe VALUES('otididé','entomologie','sang','tel mouche des praries','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('otiorhynque',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('otiorhynque','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -23868,7 +23888,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ouvrière',\'entomologie','suc','individ stérile','vivant');
+		INSERT INTO verbe VALUES('ouvrière','entomologie','suc','individ stérile','vivant');
 		
   
    
@@ -23908,19 +23928,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('oxybèle',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('oxybèle','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxycarène',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('oxycarène','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxymirus',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('oxymirus','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxyna',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('oxyna','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
@@ -23932,7 +23952,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oxyome',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('oxyome','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -23940,15 +23960,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('oxypleure',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('oxypleure','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxypode',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('oxypode','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxypore',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('oxypore','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -23956,7 +23976,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('oxyrachis',\'entomologie','suc','membracidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('oxyrachis','entomologie','suc','membracidé,homoptère','vivant');
 		
   
    
@@ -23978,11 +23998,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('oxytèle',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('oxytèle','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('oxythyrea',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('oxythyrea','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -24022,23 +24042,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('pachylomme',\'entomologie','suc','pachylommatidé,hyménopt','vivant');
+		INSERT INTO verbe VALUES('pachylomme','entomologie','suc','pachylommatidé,hyménopt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pachymorphe',\'entomologie','carn','carabidé,carabe Asie','vivant');
+		INSERT INTO verbe VALUES('pachymorphe','entomologie','carn','carabidé,carabe Asie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pachype',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('pachype','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pachyrhine',\'entomologie','sang','tipulidé,tipule jaune','vivant');
+		INSERT INTO verbe VALUES('pachyrhine','entomologie','sang','tipulidé,tipule jaune','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pachyte',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('pachyte','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -24058,7 +24078,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('paedère',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('paedère','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -24138,7 +24158,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('paléodictyoptère',\'entomologie','herb','insecte fossile primair','vivant');
+		INSERT INTO verbe VALUES('paléodictyoptère','entomologie','herb','insecte fossile primair','vivant');
 		
   
    
@@ -24174,7 +24194,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('paléoptère',\'entomologie','herb','insecte ailes étendues','vivant');
+		INSERT INTO verbe VALUES('paléoptère','entomologie','herb','insecte ailes étendues','vivant');
 		
   
    
@@ -24190,7 +24210,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('palingénie',\'entomologie','herb','palingéniidé éphémère','vivant');
+		INSERT INTO verbe VALUES('palingénie','entomologie','herb','palingéniidé éphémère','vivant');
 		
   
    
@@ -24222,7 +24242,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('palpicorne',\'entomologie','herb','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('palpicorne','entomologie','herb','hydrophilidé,coléoptère','vivant');
 		
   
    
@@ -24242,15 +24262,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('pamphage',\'entomologie','végé','pamphagidé,acridien','vivant');
+		INSERT INTO verbe VALUES('pamphage','entomologie','végé','pamphagidé,acridien','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pamphile',\'entomologie','suc','hespériidé,papillon','vivant');
+		INSERT INTO verbe VALUES('pamphile','entomologie','suc','hespériidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('panagée',\'entomologie','carn','carabidé,carabe noir','vivant');
+		INSERT INTO verbe VALUES('panagée','entomologie','carn','carabidé,carabe noir','vivant');
 		
   
    
@@ -24258,7 +24278,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('panchlore',\'entomologie','suc','blattidé,blatte','vivant');
+		INSERT INTO verbe VALUES('panchlore','entomologie','suc','blattidé,blatte','vivant');
 		
   
    
@@ -24286,7 +24306,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('panesthie',\'entomologie','suc','blattidé,blatte','vivant');
+		INSERT INTO verbe VALUES('panesthie','entomologie','suc','blattidé,blatte','vivant');
 		
   
    
@@ -24294,19 +24314,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('pangonie',\'entomologie','sang','tabanidé,taon','vivant');
+		INSERT INTO verbe VALUES('pangonie','entomologie','sang','tabanidé,taon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('panops',\'entomologie','sang','oncodidé,mouche','vivant');
+		INSERT INTO verbe VALUES('panops','entomologie','sang','oncodidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('panorpe',\'entomologie','carn','panorpidé,mécoptère','vivant');
+		INSERT INTO verbe VALUES('panorpe','entomologie','carn','panorpidé,mécoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('panorpidé',\'entomologie','carn','mécoptère,panorpe','vivant');
+		INSERT INTO verbe VALUES('panorpidé','entomologie','carn','mécoptère,panorpe','vivant');
 		
   
    
@@ -24351,52 +24371,52 @@
 		INSERT INTO verbe VALUES('paon','oiseau','gall','phasianidé,gallinacé','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('paon','poisson','blen','blenniïdé,bigoula','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','saturnidé,saturnie','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','saturnidé,saturnie','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('paon','oiseau','gall','phasianidé,gallinacé','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('paon','poisson','blen','blenniïdé,bigoula','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','saturnidé,saturnie','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','saturnidé,saturnie','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('paon','oiseau','gall','phasianidé,gallinacé','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('paon','poisson','blen','blenniïdé,bigoula','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon',\'entomologie','suc','saturnidé,saturnie','vivant');
+		INSERT INTO verbe VALUES('paon','entomologie','suc','saturnidé,saturnie','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('paon de nuit','oiseau','gall','phasianidé,gallinacé','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon de nuit',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('paon de nuit','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('paon de nuit','poisson','blen','blenniïdé,bigoula','vivant');
 		
    
-		INSERT INTO verbe VALUES('paon de nuit',\'entomologie','suc','saturnidé,saturnie','vivant');
+		INSERT INTO verbe VALUES('paon de nuit','entomologie','suc','saturnidé,saturnie','vivant');
 		
   
    
@@ -24412,7 +24432,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('papilionidé',\'entomologie','suc','tel machaon,flambé','vivant');
+		INSERT INTO verbe VALUES('papilionidé','entomologie','suc','tel machaon,flambé','vivant');
 		
   
    
@@ -24420,7 +24440,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('papillon',\'entomologie','suc','lépidoptère adulte','vivant');
+		INSERT INTO verbe VALUES('papillon','entomologie','suc','lépidoptère adulte','vivant');
 		
   
    
@@ -24464,7 +24484,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('paranéoptère',\'entomologie','suc','ptérygote hétérométabol','vivant');
+		INSERT INTO verbe VALUES('paranéoptère','entomologie','suc','ptérygote hétérométabol','vivant');
 		
   
    
@@ -24472,7 +24492,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('paraponyx',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('paraponyx','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -24484,7 +24504,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('parasémie',\'entomologie','suc','arctiidé,néméophil','vivant');
+		INSERT INTO verbe VALUES('parasémie','entomologie','suc','arctiidé,néméophil','vivant');
 		
   
    
@@ -24532,11 +24552,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('parmène',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('parmène','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('parnassien',\'entomologie','suc','papilionidé,apollon','vivant');
+		INSERT INTO verbe VALUES('parnassien','entomologie','suc','papilionidé,apollon','vivant');
 		
   
    
@@ -24564,11 +24584,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('pasimaque',\'entomologie','carn','carabidé,carabe noir','vivant');
+		INSERT INTO verbe VALUES('pasimaque','entomologie','carn','carabidé,carabe noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('passalidé',\'entomologie','herb','tel passale,coléoptère','vivant');
+		INSERT INTO verbe VALUES('passalidé','entomologie','herb','tel passale,coléoptère','vivant');
 		
   
    
@@ -24628,11 +24648,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('paussidé',\'entomologie','herb','tel paussus,coléoptère','vivant');
+		INSERT INTO verbe VALUES('paussidé','entomologie','herb','tel paussus,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('paussus',\'entomologie','herb','paussidé myrmécophile','vivant');
+		INSERT INTO verbe VALUES('paussus','entomologie','herb','paussidé myrmécophile','vivant');
 		
   
    
@@ -24656,7 +24676,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pectinicorne',\'entomologie','herb','tel lucane,coléoptère','vivant');
+		INSERT INTO verbe VALUES('pectinicorne','entomologie','herb','tel lucane,coléoptère','vivant');
 		
   
    
@@ -24684,7 +24704,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pédiculidé',\'entomologie','sang','tel pou,anoploure','vivant');
+		INSERT INTO verbe VALUES('pédiculidé','entomologie','sang','tel pou,anoploure','vivant');
 		
   
    
@@ -24692,7 +24712,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pédinus',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('pédinus','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -24700,7 +24720,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pediopsis',\'entomologie','suc','jassidé,cigale pte','vivant');
+		INSERT INTO verbe VALUES('pediopsis','entomologie','suc','jassidé,cigale pte','vivant');
 		
   
    
@@ -24716,7 +24736,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pégomyie',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('pégomyie','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -24778,7 +24798,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pélécine',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('pélécine','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -24786,7 +24806,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pèlerin',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('pèlerin','entomologie','végé','acrididé,criquet','vivant');
 		
    
 		INSERT INTO verbe VALUES('pèlerin','poisson','céto','cétorhinidé,requin','vivant');
@@ -24796,7 +24816,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pèlerin',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('pèlerin','entomologie','végé','acrididé,criquet','vivant');
 		
    
 		INSERT INTO verbe VALUES('pèlerin','poisson','céto','cétorhinidé,requin','vivant');
@@ -24806,7 +24826,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pèlerin',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('pèlerin','entomologie','végé','acrididé,criquet','vivant');
 		
    
 		INSERT INTO verbe VALUES('pèlerin','poisson','céto','cétorhinidé,requin','vivant');
@@ -24824,7 +24844,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pelletière',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('pelletière','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -24852,7 +24872,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pélopée',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('pélopée','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -24864,7 +24884,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('peltidium','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('peltidium','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -24872,7 +24892,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('peltogaster','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('peltogaster','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -24880,15 +24900,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('pemphigidé',\'entomologie','suc','tel puceron lanigère','vivant');
+		INSERT INTO verbe VALUES('pemphigidé','entomologie','suc','tel puceron lanigère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pemphigus',\'entomologie','suc','pemphigidé,puceron','vivant');
+		INSERT INTO verbe VALUES('pemphigus','entomologie','suc','pemphigidé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pemphredon',\'entomologie','suc','vespidé,guêpe noire','vivant');
+		INSERT INTO verbe VALUES('pemphredon','entomologie','suc','vespidé,guêpe noire','vivant');
 		
   
    
@@ -24928,7 +24948,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pennella','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('pennella','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -24952,19 +24972,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('pentatome',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('pentatome','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pentatomidé',\'entomologie','sang','tel punaise,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('pentatomidé','entomologie','sang','tel punaise,hétéroptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('penthine',\'entomologie','suc','tortricidé,spilonote','vivant');
+		INSERT INTO verbe VALUES('penthine','entomologie','suc','tortricidé,spilonote','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pentodon',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('pentodon','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -24972,7 +24992,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pepsis',\'entomologie','suc','pompilidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('pepsis','entomologie','suc','pompilidé,hyménoptère','vivant');
 		
   
    
@@ -24992,11 +25012,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('perce-bois',\'entomologie','végé','tel insecte xylophage','vivant');
+		INSERT INTO verbe VALUES('perce-bois','entomologie','végé','tel insecte xylophage','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('perce-oreille',\'entomologie','végé','forficulidé,forficule','vivant');
+		INSERT INTO verbe VALUES('perce-oreille','entomologie','végé','forficulidé,forficule','vivant');
 		
   
    
@@ -25056,7 +25076,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('perche-soleil','poisson',\'entr','centrarchidé dulcicole','vivant');
+		INSERT INTO verbe VALUES('perche-soleil','poisson','entr','centrarchidé dulcicole','vivant');
 		
   
    
@@ -25108,7 +25128,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pericerya',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('pericerya','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -25124,11 +25144,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('périlampe',\'entomologie','suc','périlampidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('périlampe','entomologie','suc','périlampidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('périlite',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('périlite','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
@@ -25170,7 +25190,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('peritelus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('peritelus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -25178,15 +25198,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('perkinsiella',\'entomologie','suc','delphicidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('perkinsiella','entomologie','suc','delphicidé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('perle',\'entomologie','carn','perlidé,plécoptère','vivant');
+		INSERT INTO verbe VALUES('perle','entomologie','carn','perlidé,plécoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('perloïde',\'entomologie','herb','tel némoure','vivant');
+		INSERT INTO verbe VALUES('perloïde','entomologie','herb','tel némoure','vivant');
 		
   
    
@@ -25206,11 +25226,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('péronée',\'entomologie','herb','tortricidé,tordeuse','vivant');
+		INSERT INTO verbe VALUES('péronée','entomologie','herb','tortricidé,tordeuse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('perrisia',\'entomologie','sang','cécidomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('perrisia','entomologie','sang','cécidomyidé,mouche','vivant');
 		
   
    
@@ -25336,7 +25356,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phaeogenes',\'entomologie','végé','ichneumonidé,ichneumon','vivant');
+		INSERT INTO verbe VALUES('phaeogenes','entomologie','végé','ichneumonidé,ichneumon','vivant');
 		
   
    
@@ -25376,15 +25396,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('phalène',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('phalène','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phalère',\'entomologie','suc','céruridé,lunulé','vivant');
+		INSERT INTO verbe VALUES('phalère','entomologie','suc','céruridé,lunulé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phaleria',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phaleria','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -25396,7 +25416,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phanée',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('phanée','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -25408,11 +25428,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phanéroptère',\'entomologie','végé','phanéroptéridé,sauterel','vivant');
+		INSERT INTO verbe VALUES('phanéroptère','entomologie','végé','phanéroptéridé,sauterel','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phaonie',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('phaonie','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -25420,7 +25440,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pharmacophagus',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('pharmacophagus','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
@@ -25432,7 +25452,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pharyngomyie',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('pharyngomyie','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
@@ -25468,27 +25488,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('phasme',\'entomologie','végé','phasmidé,chéleutoptère','vivant');
+		INSERT INTO verbe VALUES('phasme','entomologie','végé','phasmidé,chéleutoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phasmide',\'entomologie','suc','orthoptéroïde,phasme','vivant');
+		INSERT INTO verbe VALUES('phasmide','entomologie','suc','orthoptéroïde,phasme','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phasmidé',\'entomologie','végé','tel phasme,phyllie','vivant');
+		INSERT INTO verbe VALUES('phasmidé','entomologie','végé','tel phasme,phyllie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phasmoptère',\'entomologie','végé','cheleutoptère','vivant');
+		INSERT INTO verbe VALUES('phasmoptère','entomologie','végé','cheleutoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phédon',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phédon','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pheidole',\'entomologie','suc','myrmicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('pheidole','entomologie','suc','myrmicidé,fourmi','vivant');
 		
   
    
@@ -25500,11 +25520,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phenax',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('phenax','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phengode',\'entomologie','herb','méloïdé,cantharide Amér','vivant');
+		INSERT INTO verbe VALUES('phengode','entomologie','herb','méloïdé,cantharide Amér','vivant');
 		
   
    
@@ -25524,7 +25544,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phéropsophe',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('phéropsophe','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -25532,11 +25552,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phibalosome',\'entomologie','végé','phasmidé,phasme Asie','vivant');
+		INSERT INTO verbe VALUES('phibalosome','entomologie','végé','phasmidé,phasme Asie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phigalie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('phigalie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -25544,11 +25564,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('philanthe',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('philanthe','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('philène',\'entomologie','suc','cercopidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('philène','entomologie','suc','cercopidé,homoptère','vivant');
 		
   
    
@@ -25584,15 +25604,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('philonicus',\'entomologie','sang','asilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('philonicus','entomologie','sang','asilidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('philonthe',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('philonthe','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('philophylle',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('philophylle','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
@@ -25608,11 +25628,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phlébotome',\'entomologie','sang','psychodidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('phlébotome','entomologie','sang','psychodidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phlée',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('phlée','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -25620,11 +25640,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phléothrips',\'entomologie','végé','phloeothripidé,thysanop','vivant');
+		INSERT INTO verbe VALUES('phléothrips','entomologie','végé','phloeothripidé,thysanop','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phléotribe',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('phléotribe','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -25664,7 +25684,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pholéobie',\'entomologie','végé','q vit ds terrier humide','vivant');
+		INSERT INTO verbe VALUES('pholéobie','entomologie','végé','q vit ds terrier humide','vivant');
 		
   
    
@@ -25688,7 +25708,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phoridé',\'entomologie','sang','tel mouche orthoraphe','vivant');
+		INSERT INTO verbe VALUES('phoridé','entomologie','sang','tel mouche orthoraphe','vivant');
 		
   
    
@@ -25696,11 +25716,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phorocère',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('phorocère','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phorodon',\'entomologie','suc','aphididé,puceron commun','vivant');
+		INSERT INTO verbe VALUES('phorodon','entomologie','suc','aphididé,puceron commun','vivant');
 		
   
    
@@ -25728,7 +25748,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('photure',\'entomologie','herb','lampyridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('photure','entomologie','herb','lampyridé,coléoptère','vivant');
 		
   
    
@@ -25736,7 +25756,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phragmatécie',\'entomologie','suc','cossidé,papillon','vivant');
+		INSERT INTO verbe VALUES('phragmatécie','entomologie','suc','cossidé,papillon','vivant');
 		
   
    
@@ -25748,11 +25768,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phricte',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('phricte','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phronia',\'entomologie','sang','mycétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('phronia','entomologie','sang','mycétophilidé,moucheron','vivant');
 		
   
    
@@ -25760,7 +25780,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phrygane',\'entomologie','végé','phryganéidé,tricoptère','vivant');
+		INSERT INTO verbe VALUES('phrygane','entomologie','végé','phryganéidé,tricoptère','vivant');
 		
   
    
@@ -25772,11 +25792,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phryxe',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('phryxe','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phtirius',\'entomologie','sang','anoploure,pou d pubis','vivant');
+		INSERT INTO verbe VALUES('phtirius','entomologie','sang','anoploure,pou d pubis','vivant');
 		
   
    
@@ -25784,11 +25804,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phylidus',\'entomologie','herb','hydrophilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phylidus','entomologie','herb','hydrophilidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phyllie',\'entomologie','végé','phyllidé,chéleutoptère','vivant');
+		INSERT INTO verbe VALUES('phyllie','entomologie','végé','phyllidé,chéleutoptère','vivant');
 		
   
    
@@ -25796,7 +25816,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phyllobie',\'entomologie','herb','curculionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phyllobie','entomologie','herb','curculionidé,coléoptère','vivant');
 		
   
    
@@ -25812,7 +25832,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phyllodecte',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phyllodecte','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -25820,11 +25840,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phyllodromie',\'entomologie','végé',\'ectobiidé,blatte','vivant');
+		INSERT INTO verbe VALUES('phyllodromie','entomologie','végé','ectobiidé,blatte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phyllognathe',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('phyllognathe','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -25832,7 +25852,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phyllomorphe',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('phyllomorphe','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
@@ -25840,15 +25860,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('phylloperthe',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('phylloperthe','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phyllophage',\'entomologie','herb','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('phyllophage','entomologie','herb','scarabéidé,hanneton','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phyllopode','crustacé',\'ento',\'entomostracé,branchiopo','vivant');
+		INSERT INTO verbe VALUES('phyllopode','crustacé','ento','entomostracé,branchiopo','vivant');
 		
   
    
@@ -25868,11 +25888,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('phyllotrète',\'entomologie','végé','chrysomélidé,pte altise','vivant');
+		INSERT INTO verbe VALUES('phyllotrète','entomologie','végé','chrysomélidé,pte altise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phylloxéra',\'entomologie','suc','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('phylloxéra','entomologie','suc','aphididé,puceron','vivant');
 		
   
    
@@ -25880,7 +25900,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phymatidé',\'entomologie','sang','tel gymnocérate,punaise','vivant');
+		INSERT INTO verbe VALUES('phymatidé','entomologie','sang','tel gymnocérate,punaise','vivant');
 		
   
    
@@ -25892,7 +25912,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('physergate',\'entomologie','végé','myrmécidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('physergate','entomologie','végé','myrmécidé,fourmi','vivant');
 		
   
    
@@ -25912,19 +25932,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('phytécie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('phytécie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytobius',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('phytobius','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytocoris',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('phytocoris','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytodecte',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phytodecte','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -25932,7 +25952,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('phytomètre',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('phytomètre','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -25940,19 +25960,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('phytomyze',\'entomologie','sang','agromyzidé,mouche','vivant');
+		INSERT INTO verbe VALUES('phytomyze','entomologie','sang','agromyzidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytonome',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('phytonome','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytophage',\'entomologie','herb','tel bruchidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('phytophage','entomologie','herb','tel bruchidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('phytophtire',\'entomologie','végé','tel puceron,cochenille','vivant');
+		INSERT INTO verbe VALUES('phytophtire','entomologie','végé','tel puceron,cochenille','vivant');
 		
   
    
@@ -26044,7 +26064,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('picromerus',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('picromerus','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -26098,11 +26118,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('piéride',\'entomologie','suc','piéridé,papillon','vivant');
+		INSERT INTO verbe VALUES('piéride','entomologie','suc','piéridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('piéridé',\'entomologie','suc','tel piéride,papillon','vivant');
+		INSERT INTO verbe VALUES('piéridé','entomologie','suc','tel piéride,papillon','vivant');
 		
   
    
@@ -26118,7 +26138,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('piesma',\'entomologie','sang','tingidé,pte punaise','vivant');
+		INSERT INTO verbe VALUES('piesma','entomologie','sang','tingidé,pte punaise','vivant');
 		
   
    
@@ -26186,7 +26206,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pimélie',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('pimélie','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -26198,7 +26218,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pimple',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('pimple','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -26206,7 +26226,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pince-oreille',\'entomologie','forf','forficulidé,dermaptère','vivant');
+		INSERT INTO verbe VALUES('pince-oreille','entomologie','forf','forficulidé,dermaptère','vivant');
 		
   
    
@@ -26262,7 +26282,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('piophile',\'entomologie','sang','piophilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('piophile','entomologie','sang','piophilidé,mouche','vivant');
 		
   
    
@@ -26278,7 +26298,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pipiza',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('pipiza','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
@@ -26286,7 +26306,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pipunculidé',\'entomologie','suc','tel mouche,homoptère','vivant');
+		INSERT INTO verbe VALUES('pipunculidé','entomologie','suc','tel mouche,homoptère','vivant');
 		
   
    
@@ -26342,7 +26362,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pissode',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('pissode','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -26378,7 +26398,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pityogène',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('pityogène','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -26406,7 +26426,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('plagiodère',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('plagiodère','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -26430,11 +26450,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('planidium',\'entomologie','suc','larve hyménoptère','vivant');
+		INSERT INTO verbe VALUES('planidium','entomologie','suc','larve hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('planipenne',\'entomologie','végé','tel mantispe,névroptère','vivant');
+		INSERT INTO verbe VALUES('planipenne','entomologie','végé','tel mantispe,névroptère','vivant');
 		
   
    
@@ -26522,7 +26542,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('platycnémis',\'entomologie','carn','agrionidé,libellule','vivant');
+		INSERT INTO verbe VALUES('platycnémis','entomologie','carn','agrionidé,libellule','vivant');
 		
   
    
@@ -26534,11 +26554,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('platygastre',\'entomologie','suc','platygastéridé,hyménopt','vivant');
+		INSERT INTO verbe VALUES('platygastre','entomologie','suc','platygastéridé,hyménopt','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('platymerus',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('platymerus','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
@@ -26546,15 +26566,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('platyparée',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('platyparée','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('platype',\'entomologie','herb','platypodidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('platype','entomologie','herb','platypodidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('platypsylle',\'entomologie','herb','leptinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('platypsylle','entomologie','herb','leptinidé,coléoptère','vivant');
 		
   
    
@@ -26574,7 +26594,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('plécoptère',\'entomologie','carn','paurométabole','vivant');
+		INSERT INTO verbe VALUES('plécoptère','entomologie','carn','paurométabole','vivant');
 		
   
    
@@ -26582,7 +26602,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('plectoptère',\'entomologie','végé','tel éphémère,perle','vivant');
+		INSERT INTO verbe VALUES('plectoptère','entomologie','végé','tel éphémère,perle','vivant');
 		
   
    
@@ -26646,7 +26666,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pleuromma','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('pleuromma','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -26674,7 +26694,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pleuroptère',\'entomologie','herb','paussidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('pleuroptère','entomologie','herb','paussidé,coléoptère','vivant');
 		
   
    
@@ -26702,7 +26722,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pleurotropis',\'entomologie','suc',\'eulophidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('pleurotropis','entomologie','suc','eulophidé,hyménoptère','vivant');
 		
   
    
@@ -26734,11 +26754,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('plodie',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('plodie','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ploière',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('ploière','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
@@ -26774,11 +26794,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('plusie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('plusie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('plutelle',\'entomologie','sang','tinéidé,teigne','vivant');
+		INSERT INTO verbe VALUES('plutelle','entomologie','sang','tinéidé,teigne','vivant');
 		
   
    
@@ -26810,11 +26830,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('podagrica',\'entomologie','végé','chrysomélidé,podagrica','vivant');
+		INSERT INTO verbe VALUES('podagrica','entomologie','végé','chrysomélidé,podagrica','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('podagrion',\'entomologie','suc','torymidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('podagrion','entomologie','suc','torymidé,hyménoptère','vivant');
 		
   
    
@@ -26838,7 +26858,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('podisme',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('podisme','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
@@ -26862,7 +26882,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('podure',\'entomologie','herb','poduridé,sauteur','vivant');
+		INSERT INTO verbe VALUES('podure','entomologie','herb','poduridé,sauteur','vivant');
 		
   
    
@@ -26870,11 +26890,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('poecilobothrus',\'entomologie','sang','dolichopodidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('poecilobothrus','entomologie','sang','dolichopodidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('poecilocore',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('poecilocore','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -26882,11 +26902,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('poeciloscytus',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('poeciloscytus','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('poecilus',\'entomologie','carn','carabidé,carabe vert','vivant');
+		INSERT INTO verbe VALUES('poecilus','entomologie','carn','carabidé,carabe vert','vivant');
 		
   
    
@@ -26894,7 +26914,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pogonochoerus',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('pogonochoerus','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -26909,7 +26929,7 @@
 		INSERT INTO verbe VALUES('poisson','poisson','pisc','vertébré aquatique','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson',\'entomologie','suc','thysanoure,aptérygote','vivant');
+		INSERT INTO verbe VALUES('poisson','entomologie','suc','thysanoure,aptérygote','vivant');
 		
    
 		INSERT INTO verbe VALUES('poisson','poisson','diod','diodontidé','vivant');
@@ -26918,14 +26938,14 @@
 		INSERT INTO verbe VALUES('poisson','poisson','cara','carasson doré','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson','poisson',\'exoc',\'exocétidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('poisson','poisson','exoc','exocétidé,téléostéen','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('poisson d argent','poisson','pisc','vertébré aquatique','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson d argent',\'entomologie','suc','thysanoure,aptérygote','vivant');
+		INSERT INTO verbe VALUES('poisson d argent','entomologie','suc','thysanoure,aptérygote','vivant');
 		
    
 		INSERT INTO verbe VALUES('poisson d argent','poisson','diod','diodontidé','vivant');
@@ -26934,14 +26954,14 @@
 		INSERT INTO verbe VALUES('poisson d argent','poisson','cara','carasson doré','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson d argent','poisson',\'exoc',\'exocétidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('poisson d argent','poisson','exoc','exocétidé,téléostéen','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('poisson porc-épic','poisson','pisc','vertébré aquatique','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson porc-épic',\'entomologie','suc','thysanoure,aptérygote','vivant');
+		INSERT INTO verbe VALUES('poisson porc-épic','entomologie','suc','thysanoure,aptérygote','vivant');
 		
    
 		INSERT INTO verbe VALUES('poisson porc-épic','poisson','diod','diodontidé','vivant');
@@ -26950,14 +26970,14 @@
 		INSERT INTO verbe VALUES('poisson porc-épic','poisson','cara','carasson doré','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson porc-épic','poisson',\'exoc',\'exocétidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('poisson porc-épic','poisson','exoc','exocétidé,téléostéen','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('poisson rouge','poisson','pisc','vertébré aquatique','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson rouge',\'entomologie','suc','thysanoure,aptérygote','vivant');
+		INSERT INTO verbe VALUES('poisson rouge','entomologie','suc','thysanoure,aptérygote','vivant');
 		
    
 		INSERT INTO verbe VALUES('poisson rouge','poisson','diod','diodontidé','vivant');
@@ -26966,14 +26986,14 @@
 		INSERT INTO verbe VALUES('poisson rouge','poisson','cara','carasson doré','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson rouge','poisson',\'exoc',\'exocétidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('poisson rouge','poisson','exoc','exocétidé,téléostéen','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('poisson volant','poisson','pisc','vertébré aquatique','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson volant',\'entomologie','suc','thysanoure,aptérygote','vivant');
+		INSERT INTO verbe VALUES('poisson volant','entomologie','suc','thysanoure,aptérygote','vivant');
 		
    
 		INSERT INTO verbe VALUES('poisson volant','poisson','diod','diodontidé','vivant');
@@ -26982,7 +27002,7 @@
 		INSERT INTO verbe VALUES('poisson volant','poisson','cara','carasson doré','vivant');
 		
    
-		INSERT INTO verbe VALUES('poisson volant','poisson',\'exoc',\'exocétidé,téléostéen','vivant');
+		INSERT INTO verbe VALUES('poisson volant','poisson','exoc','exocétidé,téléostéen','vivant');
 		
   
    
@@ -27126,7 +27146,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polia',\'entomologie','suc','noctuidé,mamestre','vivant');
+		INSERT INTO verbe VALUES('polia','entomologie','suc','noctuidé,mamestre','vivant');
 		
   
    
@@ -27134,7 +27154,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('poliste',\'entomologie','suc','vespidé,guêpe soc','vivant');
+		INSERT INTO verbe VALUES('poliste','entomologie','suc','vespidé,guêpe soc','vivant');
 		
   
    
@@ -27142,7 +27162,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pollicipes','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('pollicipes','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -27150,7 +27170,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polybie',\'entomologie','suc','vespidé,guêpe soc','vivant');
+		INSERT INTO verbe VALUES('polybie','entomologie','suc','vespidé,guêpe soc','vivant');
 		
   
    
@@ -27158,7 +27178,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polybothris',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('polybothris','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -27186,7 +27206,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polyctène',\'entomologie','sang','polytecnidé,punaise','vivant');
+		INSERT INTO verbe VALUES('polyctène','entomologie','sang','polytecnidé,punaise','vivant');
 		
   
    
@@ -27198,11 +27218,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('polydrosus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('polydrosus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('polyergue',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('polyergue','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -27210,7 +27230,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polygraphe',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('polygraphe','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -27234,11 +27254,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('polymitarcys',\'entomologie','végé','polymirtarcidé,éphémère','vivant');
+		INSERT INTO verbe VALUES('polymitarcys','entomologie','végé','polymirtarcidé,éphémère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('polynème',\'entomologie','suc','mymaridé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('polynème','entomologie','suc','mymaridé,hyménoptère','vivant');
 		
   
    
@@ -27246,7 +27266,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polynéoptère',\'entomologie','végé','paurométabole','vivant');
+		INSERT INTO verbe VALUES('polynéoptère','entomologie','végé','paurométabole','vivant');
 		
   
    
@@ -27266,7 +27286,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('polyommate',\'entomologie','suc','lycénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('polyommate','entomologie','suc','lycénidé,papillon','vivant');
 		
   
    
@@ -27282,11 +27302,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('polyphage',\'entomologie','herb','tel staphylin,coléoptèr','vivant');
+		INSERT INTO verbe VALUES('polyphage','entomologie','herb','tel staphylin,coléoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('polyphylle',\'entomologie','herb','scarabéidé,hanneton','vivant');
+		INSERT INTO verbe VALUES('polyphylle','entomologie','herb','scarabéidé,hanneton','vivant');
 		
   
    
@@ -27346,7 +27366,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pompile',\'entomologie','suc','pompilidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('pompile','entomologie','suc','pompilidé,hyménoptère','vivant');
 		
   
    
@@ -27354,7 +27374,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ponère',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('ponère','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -27422,11 +27442,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('porphyrophore',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('porphyrophore','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('porphyrops',\'entomologie','sang','dolichopodidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('porphyrops','entomologie','sang','dolichopodidé,moucheron','vivant');
 		
   
    
@@ -27434,11 +27454,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('porricondyla',\'entomologie','sang','cécidomyidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('porricondyla','entomologie','sang','cécidomyidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('porte-aiguillon',\'entomologie','suc','aculéate,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('porte-aiguillon','entomologie','suc','aculéate,hyménoptère','vivant');
 		
   
    
@@ -27446,7 +27466,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('porte-chandelle',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('porte-chandelle','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
@@ -27454,14 +27474,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('porte-épée',\'entomologie','suc',\'ensifère,orthoptère','vivant');
+		INSERT INTO verbe VALUES('porte-épée','entomologie','suc','ensifère,orthoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('porte-épée','poisson','poec','poeciliidé,téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('porte-épée',\'entomologie','suc',\'ensifère,orthoptère','vivant');
+		INSERT INTO verbe VALUES('porte-épée','entomologie','suc','ensifère,orthoptère','vivant');
 		
    
 		INSERT INTO verbe VALUES('porte-épée','poisson','poec','poeciliidé,téléostéen','vivant');
@@ -27472,7 +27492,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('porte-lanterne',\'entomologie','suc','fulgoridé,homoptère','vivant');
+		INSERT INTO verbe VALUES('porte-lanterne','entomologie','suc','fulgoridé,homoptère','vivant');
 		
   
    
@@ -27484,15 +27504,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('porte-queue',\'entomologie','suc','papilionidé,machaon','vivant');
+		INSERT INTO verbe VALUES('porte-queue','entomologie','suc','papilionidé,machaon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('porte-selle',\'entomologie','suc','éphippigéridé,sauterell','vivant');
+		INSERT INTO verbe VALUES('porte-selle','entomologie','suc','éphippigéridé,sauterell','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('porthésie',\'entomologie','suc','bombycidé,bombyx','vivant');
+		INSERT INTO verbe VALUES('porthésie','entomologie','suc','bombycidé,bombyx','vivant');
 		
   
    
@@ -27524,7 +27544,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('potamacanthus',\'entomologie','suc','éphémère,archiptère','vivant');
+		INSERT INTO verbe VALUES('potamacanthus','entomologie','suc','éphémère,archiptère','vivant');
 		
   
    
@@ -27552,17 +27572,17 @@
 		
   
    
-		INSERT INTO verbe VALUES('potier',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('potier','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
    
-		INSERT INTO verbe VALUES('potier',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('potier','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('potier',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('potier','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
    
-		INSERT INTO verbe VALUES('potier',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('potier','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -27570,7 +27590,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('potosie',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('potosie','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -27586,21 +27606,21 @@
 		
   
    
-		INSERT INTO verbe VALUES('pou',\'entomologie','sang','pédiculidé,anoploure','vivant');
+		INSERT INTO verbe VALUES('pou','entomologie','sang','pédiculidé,anoploure','vivant');
 		
    
-		INSERT INTO verbe VALUES('pou',\'entomologie','sang','mallophage','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('pou d oiseau',\'entomologie','sang','pédiculidé,anoploure','vivant');
-		
-   
-		INSERT INTO verbe VALUES('pou d oiseau',\'entomologie','sang','mallophage','vivant');
+		INSERT INTO verbe VALUES('pou','entomologie','sang','mallophage','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pouce-pied','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('pou d oiseau','entomologie','sang','pédiculidé,anoploure','vivant');
+		
+   
+		INSERT INTO verbe VALUES('pou d oiseau','entomologie','sang','mallophage','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('pouce-pied','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -27710,7 +27730,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('prasocuris',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('prasocuris','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -27722,7 +27742,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('prestwichie',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('prestwichie','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -27730,7 +27750,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('priam',\'entomologie','suc','ornithoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('priam','entomologie','suc','ornithoptère,papillon','vivant');
 		
   
    
@@ -27742,7 +27762,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('prie',\'entomologie','herb','nitudiludé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('prie','entomologie','herb','nitudiludé,coléoptère','vivant');
 		
   
    
@@ -27750,7 +27770,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('priocnemis',\'entomologie','suc','pompilidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('priocnemis','entomologie','suc','pompilidé,hyménoptère','vivant');
 		
   
    
@@ -27762,11 +27782,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('prione',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('prione','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('prionien',\'entomologie','végé','tel prione,longicorne','vivant');
+		INSERT INTO verbe VALUES('prionien','entomologie','végé','tel prione,longicorne','vivant');
 		
   
    
@@ -27782,7 +27802,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('prionothèque',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('prionothèque','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -27802,7 +27822,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('proboscidien','mammifère','suid',\'euthérien,tel éléphant','vivant');
+		INSERT INTO verbe VALUES('proboscidien','mammifère','suid','euthérien,tel éléphant','vivant');
 		
   
    
@@ -27834,15 +27854,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('procris',\'entomologie','suc','satyridé,ino','vivant');
+		INSERT INTO verbe VALUES('procris','entomologie','suc','satyridé,ino','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('procruste',\'entomologie','carn','carabidé,carabe noir','vivant');
+		INSERT INTO verbe VALUES('procruste','entomologie','carn','carabidé,carabe noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('proctotrypidé',\'entomologie','suc','hyménoptère térébrant','vivant');
+		INSERT INTO verbe VALUES('proctotrypidé','entomologie','suc','hyménoptère térébrant','vivant');
 		
   
    
@@ -27870,7 +27890,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pronuba',\'entomologie','sang','tinéidé,teigne Amér','vivant');
+		INSERT INTO verbe VALUES('pronuba','entomologie','sang','tinéidé,teigne Amér','vivant');
 		
   
    
@@ -27906,15 +27926,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('prosopis',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('prosopis','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('prospaltelle',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('prospaltelle','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('prostemme',\'entomologie','sang','nabidé,punaise','vivant');
+		INSERT INTO verbe VALUES('prostemme','entomologie','sang','nabidé,punaise','vivant');
 		
   
    
@@ -27966,7 +27986,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('protodonate',\'entomologie','carn','agrionidé fossile','vivant');
+		INSERT INTO verbe VALUES('protodonate','entomologie','carn','agrionidé fossile','vivant');
 		
   
    
@@ -27978,7 +27998,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('protophasma',\'entomologie','végé','insecte blattoptéroïde','vivant');
+		INSERT INTO verbe VALUES('protophasma','entomologie','végé','insecte blattoptéroïde','vivant');
 		
   
    
@@ -27990,7 +28010,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('protorthoptère',\'entomologie','prot','insecte fossile','vivant');
+		INSERT INTO verbe VALUES('protorthoptère','entomologie','prot','insecte fossile','vivant');
 		
   
    
@@ -28010,7 +28030,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('protoure',\'entomologie','herb','insecte ss ailes','vivant');
+		INSERT INTO verbe VALUES('protoure','entomologie','herb','insecte ss ailes','vivant');
 		
   
    
@@ -28038,7 +28058,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('psacaste',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('psacaste','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -28058,11 +28078,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('psélaphe',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('psélaphe','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psen',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('psen','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -28074,7 +28094,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pseudergate',\'entomologie','végé','larve d termite','vivant');
+		INSERT INTO verbe VALUES('pseudergate','entomologie','végé','larve d termite','vivant');
 		
   
    
@@ -28082,7 +28102,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pseudococcus',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('pseudococcus','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -28098,7 +28118,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pseudogyne',\'entomologie','suc',\'entre reine et ouvrière','vivant');
+		INSERT INTO verbe VALUES('pseudogyne','entomologie','suc','entre reine et ouvrière','vivant');
 		
   
    
@@ -28106,11 +28126,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('pseudonévroptère',\'entomologie','végé','archiptère','vivant');
+		INSERT INTO verbe VALUES('pseudonévroptère','entomologie','végé','archiptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pseudonymphe',\'entomologie','herb','stade d coléoptère','vivant');
+		INSERT INTO verbe VALUES('pseudonymphe','entomologie','herb','stade d coléoptère','vivant');
 		
   
    
@@ -28130,7 +28150,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('psile',\'entomologie','sang','psilidé,mouche','vivant');
+		INSERT INTO verbe VALUES('psile','entomologie','sang','psilidé,mouche','vivant');
 		
   
    
@@ -28138,11 +28158,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('psilopa',\'entomologie','sang','éphydridé,mouche','vivant');
+		INSERT INTO verbe VALUES('psilopa','entomologie','sang','éphydridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psithyre',\'entomologie','suc','apidé,bourdon parasite','vivant');
+		INSERT INTO verbe VALUES('psithyre','entomologie','suc','apidé,bourdon parasite','vivant');
 		
   
    
@@ -28158,19 +28178,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('psoa',\'entomologie','herb','psoïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('psoa','entomologie','herb','psoïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psocomorphe',\'entomologie','suc','tel cécilie,psoque','vivant');
+		INSERT INTO verbe VALUES('psocomorphe','entomologie','suc','tel cécilie,psoque','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psocoptère',\'entomologie','suc','tel cécilie,psoque','vivant');
+		INSERT INTO verbe VALUES('psocoptère','entomologie','suc','tel cécilie,psoque','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psocoptéroïde',\'entomologie','suc','tel anoploure,mallophag','vivant');
+		INSERT INTO verbe VALUES('psocoptéroïde','entomologie','suc','tel anoploure,mallophag','vivant');
 		
   
    
@@ -28182,7 +28202,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('psoque',\'entomologie','suc','psocoptère,paurométabol','vivant');
+		INSERT INTO verbe VALUES('psoque','entomologie','suc','psocoptère,paurométabol','vivant');
 		
   
    
@@ -28190,11 +28210,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('psyché',\'entomologie','suc','psychidé,papillon','vivant');
+		INSERT INTO verbe VALUES('psyché','entomologie','suc','psychidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psychodidé',\'entomologie','sang','tel mouche,nématocère','vivant');
+		INSERT INTO verbe VALUES('psychodidé','entomologie','sang','tel mouche,nématocère','vivant');
 		
   
    
@@ -28202,15 +28222,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('psylle',\'entomologie','suc','psyllidé,cigale','vivant');
+		INSERT INTO verbe VALUES('psylle','entomologie','suc','psyllidé,cigale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psyllidé',\'entomologie','suc','tel psylle homoptère','vivant');
+		INSERT INTO verbe VALUES('psyllidé','entomologie','suc','tel psylle homoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('psylliode',\'entomologie','végé','chrysomélidé,altise','vivant');
+		INSERT INTO verbe VALUES('psylliode','entomologie','végé','chrysomélidé,altise','vivant');
 		
   
    
@@ -28218,7 +28238,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pteleobius',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('pteleobius','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
@@ -28282,15 +28302,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('ptéromale',\'entomologie','suc','ptéromalidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('ptéromale','entomologie','suc','ptéromalidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pteronidea',\'entomologie','suc','tenthrédinidé,tenthrède','vivant');
+		INSERT INTO verbe VALUES('pteronidea','entomologie','suc','tenthrédinidé,tenthrède','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ptérophore',\'entomologie','suc','ptérophoridé,papillon','vivant');
+		INSERT INTO verbe VALUES('ptérophore','entomologie','suc','ptérophoridé,papillon','vivant');
 		
   
    
@@ -28310,7 +28330,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ptérostichus',\'entomologie','carn','carabidé,carabe','vivant');
+		INSERT INTO verbe VALUES('ptérostichus','entomologie','carn','carabidé,carabe','vivant');
 		
   
    
@@ -28326,11 +28346,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ptilinus',\'entomologie','herb','anobiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ptilinus','entomologie','herb','anobiidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ptilium',\'entomologie','herb','ptilidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ptilium','entomologie','herb','ptilidé,coléoptère','vivant');
 		
   
    
@@ -28342,11 +28362,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ptine',\'entomologie','herb','ptinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ptine','entomologie','herb','ptinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ptosime',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ptosime','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -28358,19 +28378,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('ptychoptère',\'entomologie','sang','diptère nématocère','vivant');
+		INSERT INTO verbe VALUES('ptychoptère','entomologie','sang','diptère nématocère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('puce',\'entomologie','sang','pulicidé,siphanoptère','vivant');
+		INSERT INTO verbe VALUES('puce','entomologie','sang','pulicidé,siphanoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('puce-chique',\'entomologie','sang','pulicidé,chique','vivant');
+		INSERT INTO verbe VALUES('puce-chique','entomologie','sang','pulicidé,chique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('puceron',\'entomologie','sang','aphididé,homoptère','vivant');
+		INSERT INTO verbe VALUES('puceron','entomologie','sang','aphididé,homoptère','vivant');
 		
   
    
@@ -28386,7 +28406,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pulicidé',\'entomologie','sang','tel puce,siphanoptère','vivant');
+		INSERT INTO verbe VALUES('pulicidé','entomologie','sang','tel puce,siphanoptère','vivant');
 		
   
    
@@ -28394,7 +28414,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pulvinaire',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('pulvinaire','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -28402,15 +28422,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('punaise',\'entomologie','sang','cimicidé,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('punaise','entomologie','sang','cimicidé,hétéroptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('punctum','mollusque',\'endo',\'endodontidé,escargot','vivant');
+		INSERT INTO verbe VALUES('punctum','mollusque','endo','endodontidé,escargot','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pupe',\'entomologie','sang','nymphe diptère,maillot','vivant');
+		INSERT INTO verbe VALUES('pupe','entomologie','sang','nymphe diptère,maillot','vivant');
 		
   
    
@@ -28418,7 +28438,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pupipare',\'entomologie','sang','diptère orthoraphe','vivant');
+		INSERT INTO verbe VALUES('pupipare','entomologie','sang','diptère orthoraphe','vivant');
 		
   
    
@@ -28426,7 +28446,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('purpuricène',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('purpuricène','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -28458,7 +28478,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('pygaere',\'entomologie','suc','notodontidé,papillon','vivant');
+		INSERT INTO verbe VALUES('pygaere','entomologie','suc','notodontidé,papillon','vivant');
 		
   
    
@@ -28490,11 +28510,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('pyrale',\'entomologie','suc','pyralidé,carpocapse','vivant');
+		INSERT INTO verbe VALUES('pyrale','entomologie','suc','pyralidé,carpocapse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyralidé',\'entomologie','suc','tel pyrale,teigne','vivant');
+		INSERT INTO verbe VALUES('pyralidé','entomologie','suc','tel pyrale,teigne','vivant');
 		
   
    
@@ -28506,11 +28526,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('pyrausta',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('pyrausta','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrellie',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('pyrellie','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -28518,19 +28538,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('pyrochre',\'entomologie','herb','pyrochroïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('pyrochre','entomologie','herb','pyrochroïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrocoris',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('pyrocoris','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrocorise',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('pyrocorise','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrophore',\'entomologie','végé','élatéridé,taupin Amér','vivant');
+		INSERT INTO verbe VALUES('pyrophore','entomologie','végé','élatéridé,taupin Amér','vivant');
 		
   
    
@@ -28542,19 +28562,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('pyrrhocoris',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('pyrrhocoris','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrrhocorise',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('pyrrhocorise','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pyrrocoris',\'entomologie','sang','pyrocoridé,punaise','vivant');
+		INSERT INTO verbe VALUES('pyrrocoris','entomologie','sang','pyrocoridé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('pythia','mollusque',\'ello',\'ellobiidé,escargot','vivant');
+		INSERT INTO verbe VALUES('pythia','mollusque','ello','ellobiidé,escargot','vivant');
 		
   
    
@@ -28586,11 +28606,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('quédie',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('quédie','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('quéiroun',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('quéiroun','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
@@ -28606,7 +28626,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('queue-fourchue',\'entomologie','suc','notodontidé,dicranure','vivant');
+		INSERT INTO verbe VALUES('queue-fourchue','entomologie','suc','notodontidé,dicranure','vivant');
 		
   
    
@@ -28722,7 +28742,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('ranatre',\'entomologie','sang','népidé,punaise','vivant');
+		INSERT INTO verbe VALUES('ranatre','entomologie','sang','népidé,punaise','vivant');
 		
   
    
@@ -28754,11 +28774,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('raphidie',\'entomologie','sang','raphidiidé,mouche','vivant');
+		INSERT INTO verbe VALUES('raphidie','entomologie','sang','raphidiidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('raphidioptère',\'entomologie','sang','raphidiidé,névroptéroïd','vivant');
+		INSERT INTO verbe VALUES('raphidioptère','entomologie','sang','raphidiidé,névroptéroïd','vivant');
 		
   
    
@@ -28882,7 +28902,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('récurvarie',\'entomologie','suc','géléchidé,papillon','vivant');
+		INSERT INTO verbe VALUES('récurvarie','entomologie','suc','géléchidé,papillon','vivant');
 		
   
    
@@ -28898,11 +28918,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('réduve',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('réduve','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('réduviidé',\'entomologie','sang','tel réduve,hétéroptère','vivant');
+		INSERT INTO verbe VALUES('réduviidé','entomologie','sang','tel réduve,hétéroptère','vivant');
 		
   
    
@@ -28914,7 +28934,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('reine',\'entomologie','suc','apidé,reine d abeilles','vivant');
+		INSERT INTO verbe VALUES('reine','entomologie','suc','apidé,reine d abeilles','vivant');
 		
   
    
@@ -29096,7 +29116,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('reticulitermes',\'entomologie','végé','termitidé,termite','vivant');
+		INSERT INTO verbe VALUES('reticulitermes','entomologie','végé','termitidé,termite','vivant');
 		
   
    
@@ -29132,7 +29152,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhabdophaga',\'entomologie','sang','cécidomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('rhabdophaga','entomologie','sang','cécidomyidé,mouche','vivant');
 		
   
    
@@ -29152,23 +29172,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhagie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('rhagie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhagionidé',\'entomologie','sang','tel leptis,mouche','vivant');
+		INSERT INTO verbe VALUES('rhagionidé','entomologie','sang','tel leptis,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhagoletis',\'entomologie','sang','trypéidé,mouche','vivant');
+		INSERT INTO verbe VALUES('rhagoletis','entomologie','sang','trypéidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhagonyque',\'entomologie','végé','cantharidé,cantharide','vivant');
+		INSERT INTO verbe VALUES('rhagonyque','entomologie','végé','cantharidé,cantharide','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhamnusium',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('rhamnusium','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -29176,7 +29196,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhamphomyie',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('rhamphomyie','entomologie','sang','empididé,mouche','vivant');
 		
   
    
@@ -29184,15 +29204,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhamphus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhamphus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhaphidioptère',\'entomologie','sang','raphidiidé,névroptéroïd','vivant');
+		INSERT INTO verbe VALUES('rhaphidioptère','entomologie','sang','raphidiidé,névroptéroïd','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhaphigastre',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('rhaphigastre','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -29220,7 +29240,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhingie',\'entomologie','sang','syrphidé,mouche diptère','vivant');
+		INSERT INTO verbe VALUES('rhingie','entomologie','sang','syrphidé,mouche diptère','vivant');
 		
   
    
@@ -29268,7 +29288,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhinocylle',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhinocylle','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -29276,7 +29296,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhinoestre',\'entomologie','sang','oestridé,mouche','vivant');
+		INSERT INTO verbe VALUES('rhinoestre','entomologie','sang','oestridé,mouche','vivant');
 		
   
    
@@ -29288,7 +29308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhinoncus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhinoncus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -29320,11 +29340,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhinosime',\'entomologie','herb','pythidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('rhinosime','entomologie','herb','pythidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhinotermitidé',\'entomologie','végé','tel termite lucifuge','vivant');
+		INSERT INTO verbe VALUES('rhinotermitidé','entomologie','végé','tel termite lucifuge','vivant');
 		
   
    
@@ -29340,11 +29360,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhipiphoridé',\'entomologie','herb','tel coléoptère,hétéromè','vivant');
+		INSERT INTO verbe VALUES('rhipiphoridé','entomologie','herb','tel coléoptère,hétéromè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhipiptère',\'entomologie','suc','tel stylops,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('rhipiptère','entomologie','suc','tel stylops,hyménoptère','vivant');
 		
   
    
@@ -29352,7 +29372,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhizobie',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('rhizobie','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -29360,11 +29380,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhizobius',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('rhizobius','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhizocéphale','crustacé',\'ento',\'entomostracé,cirripède','vivant');
+		INSERT INTO verbe VALUES('rhizocéphale','crustacé','ento','entomostracé,cirripède','vivant');
 		
   
    
@@ -29376,7 +29396,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhizoeque',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('rhizoeque','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -29388,11 +29408,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhizoperthe',\'entomologie','herb','bostrychidé,bostryche','vivant');
+		INSERT INTO verbe VALUES('rhizoperthe','entomologie','herb','bostrychidé,bostryche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhizophage',\'entomologie','herb','rhizophagidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('rhizophage','entomologie','herb','rhizophagidé,coléoptère','vivant');
 		
   
    
@@ -29408,15 +29428,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhizotrogue',\'entomologie','herb','scarabéidé hanneton','vivant');
+		INSERT INTO verbe VALUES('rhizotrogue','entomologie','herb','scarabéidé hanneton','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhodite',\'entomologie','suc','cynipidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('rhodite','entomologie','suc','cynipidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhodnius',\'entomologie','sang','réduviidé,punaise','vivant');
+		INSERT INTO verbe VALUES('rhodnius','entomologie','sang','réduviidé,punaise','vivant');
 		
   
    
@@ -29424,11 +29444,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhogas',\'entomologie','suc','braconidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('rhogas','entomologie','suc','braconidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhogogaster',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('rhogogaster','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
@@ -29440,7 +29460,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhopalocère',\'entomologie','suc','tel papilionidé','vivant');
+		INSERT INTO verbe VALUES('rhopalocère','entomologie','suc','tel papilionidé','vivant');
 		
   
    
@@ -29452,15 +29472,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhopalosiphum',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('rhopalosiphum','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhopalotomus',\'entomologie','sang','capsidé,punaise','vivant');
+		INSERT INTO verbe VALUES('rhopalotomus','entomologie','sang','capsidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhyacophila',\'entomologie','végé','rhyacophyllidé,phrygane','vivant');
+		INSERT INTO verbe VALUES('rhyacophila','entomologie','végé','rhyacophyllidé,phrygane','vivant');
 		
   
    
@@ -29468,11 +29488,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhynchite',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhynchite','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rhynchium',\'entomologie','suc',\'euménidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('rhynchium','entomologie','suc','euménidé,hyménoptère','vivant');
 		
   
    
@@ -29492,7 +29512,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhynchole',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhynchole','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -29500,7 +29520,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhynchophore',\'entomologie','herb','tel rhyncite,coléoptère','vivant');
+		INSERT INTO verbe VALUES('rhynchophore','entomologie','herb','tel rhyncite,coléoptère','vivant');
 		
   
    
@@ -29520,7 +29540,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhyparochromus',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('rhyparochromus','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
@@ -29528,7 +29548,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhysse',\'entomologie','suc','ichneumonidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('rhysse','entomologie','suc','ichneumonidé,hyménoptèr','vivant');
 		
   
    
@@ -29540,7 +29560,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rhytidores',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rhytidores','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -29556,7 +29576,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('richard',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('richard','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -29624,11 +29644,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rondaniella',\'entomologie','sang','mycétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('rondaniella','entomologie','sang','mycétophilidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ronge-verrue',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('ronge-verrue','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
@@ -29648,14 +29668,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('rosalie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('rosalie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
    
 		INSERT INTO verbe VALUES('rosalie','mammifère','simi','primate,singe primitif','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rosalie',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('rosalie','entomologie','végé','cérambycidé,longicorne','vivant');
 		
    
 		INSERT INTO verbe VALUES('rosalie','mammifère','simi','primate,singe primitif','vivant');
@@ -29814,11 +29834,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('rutèle',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('rutèle','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('rynchite',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('rynchite','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -29826,7 +29846,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('rynchote',\'entomologie','sang','homo- et hétéroptère','vivant');
+		INSERT INTO verbe VALUES('rynchote','entomologie','sang','homo- et hétéroptère','vivant');
 		
   
    
@@ -29890,7 +29910,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('saga',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('saga','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
@@ -29910,7 +29930,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sagra',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('sagra','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -29946,7 +29966,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('saissetia',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('saissetia','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -29986,7 +30006,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('salda',\'entomologie','sang','saldidé,punaise','vivant');
+		INSERT INTO verbe VALUES('salda','entomologie','sang','saldidé,punaise','vivant');
 		
   
    
@@ -30084,15 +30104,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('saperde',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('saperde','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sapphirine','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('sapphirine','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('saprin',\'entomologie','herb','histéridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('saprin','entomologie','herb','histéridé,coléoptère','vivant');
 		
   
    
@@ -30100,7 +30120,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sapromyze',\'entomologie','sang','lauxaniidé,mouche','vivant');
+		INSERT INTO verbe VALUES('sapromyze','entomologie','sang','lauxaniidé,mouche','vivant');
 		
   
    
@@ -30112,7 +30132,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sapyga',\'entomologie','suc','sapygidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('sapyga','entomologie','suc','sapygidé,hyménoptère','vivant');
 		
   
    
@@ -30144,7 +30164,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sarcophage',\'entomologie','carn','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('sarcophage','entomologie','carn','calliphoridé,mouche','vivant');
 		
   
    
@@ -30152,7 +30172,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sarcopsylla',\'entomologie','sang','pulicidé puce tropic','vivant');
+		INSERT INTO verbe VALUES('sarcopsylla','entomologie','sang','pulicidé puce tropic','vivant');
 		
   
    
@@ -30200,19 +30220,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('saturnidé',\'entomologie','suc','tel saturnie,paon nuit','vivant');
+		INSERT INTO verbe VALUES('saturnidé','entomologie','suc','tel saturnie,paon nuit','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('saturnie',\'entomologie','suc','saturnidé,paon d nuit','vivant');
+		INSERT INTO verbe VALUES('saturnie','entomologie','suc','saturnidé,paon d nuit','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('satyre',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('satyre','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('satyridé',\'entomologie','suc','tel satyre,papillon','vivant');
+		INSERT INTO verbe VALUES('satyridé','entomologie','suc','tel satyre,papillon','vivant');
 		
   
    
@@ -30272,25 +30292,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('sauterelle',\'entomologie','végé','acrididé,orthoptère','vivant');
+		INSERT INTO verbe VALUES('sauterelle','entomologie','végé','acrididé,orthoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sauteur',\'entomologie','végé','tel sauterelle,griot','vivant');
+		INSERT INTO verbe VALUES('sauteur','entomologie','végé','tel sauterelle,griot','vivant');
 		
    
 		INSERT INTO verbe VALUES('sauteur','SPO','équi','cheval dressé pour saut','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sauteur',\'entomologie','végé','tel sauterelle,griot','vivant');
+		INSERT INTO verbe VALUES('sauteur','entomologie','végé','tel sauterelle,griot','vivant');
 		
    
 		INSERT INTO verbe VALUES('sauteur','SPO','équi','cheval dressé pour saut','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sauteuse',\'entomologiep','sang','pulicidé,puce','vivant');
+		INSERT INTO verbe VALUES('sauteuse','entomologiep','sang','pulicidé,puce','vivant');
 		
   
    
@@ -30340,7 +30360,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scaphidie',\'entomologie','herb','scaphidiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scaphidie','entomologie','herb','scaphidiidé,coléoptère','vivant');
 		
   
    
@@ -30360,19 +30380,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('scaphosoma',\'entomologie','herb','scaphidiidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scaphosoma','entomologie','herb','scaphidiidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scarabe','mollusque',\'ello',\'ellobiidé,escargot','vivant');
+		INSERT INTO verbe VALUES('scarabe','mollusque','ello','ellobiidé,escargot','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scarabée',\'entomologie','herb','scarabéidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scarabée','entomologie','herb','scarabéidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scarabéidé',\'entomologie','herb','tel hanneton,cétoine','vivant');
+		INSERT INTO verbe VALUES('scarabéidé','entomologie','herb','tel hanneton,cétoine','vivant');
 		
   
    
@@ -30388,22 +30408,22 @@
 		
   
    
-		INSERT INTO verbe VALUES('scarite',\'entomologie','carn','carabidé,carabique noir','vivant');
+		INSERT INTO verbe VALUES('scarite','entomologie','carn','carabidé,carabique noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scatella',\'entomologie','sang','éphydridé,moucheron','vivant');
+		INSERT INTO verbe VALUES('scatella','entomologie','sang','éphydridé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scatophage',\'entomologie','sang','scatophagidé,mouche','vivant');
+		INSERT INTO verbe VALUES('scatophage','entomologie','sang','scatophagidé,mouche','vivant');
 		
    
 		INSERT INTO verbe VALUES('scatophage','poisson','carn','scatophagidé,perciforme','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scatophage',\'entomologie','sang','scatophagidé,mouche','vivant');
+		INSERT INTO verbe VALUES('scatophage','entomologie','sang','scatophagidé,mouche','vivant');
 		
    
 		INSERT INTO verbe VALUES('scatophage','poisson','carn','scatophagidé,perciforme','vivant');
@@ -30414,11 +30434,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('scatopse',\'entomologie','sang','scatopsidé,mouche','vivant');
+		INSERT INTO verbe VALUES('scatopse','entomologie','sang','scatopsidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scaure',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scaure','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -30426,11 +30446,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('scélionidé',\'entomologie','suc','tel mantibara,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('scélionidé','entomologie','suc','tel mantibara,hyménoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scéliphron',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('scéliphron','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -30442,11 +30462,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('scénopinus',\'entomologie','sang','omphralidé,mouche','vivant');
+		INSERT INTO verbe VALUES('scénopinus','entomologie','sang','omphralidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('schedius',\'entomologie','suc',\'encyrtidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('schedius','entomologie','suc','encyrtidé,hyménoptère','vivant');
 		
   
    
@@ -30458,7 +30478,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('schistocerque',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('schistocerque','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
@@ -30470,7 +30490,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('schizocère',\'entomologie','suc','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('schizocère','entomologie','suc','tenthrédinidé,mouche','vivant');
 		
   
    
@@ -30478,7 +30498,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('schizohelea',\'entomologie','sang','cératopogonidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('schizohelea','entomologie','sang','cératopogonidé,moucheron','vivant');
 		
   
    
@@ -30486,7 +30506,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('schizoneure',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('schizoneure','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -30514,11 +30534,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sciapus',\'entomologie','sang','dolichopodidé,diptère','vivant');
+		INSERT INTO verbe VALUES('sciapus','entomologie','sang','dolichopodidé,diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sciaridé',\'entomologie','sang','tel moucheron','vivant');
+		INSERT INTO verbe VALUES('sciaridé','entomologie','sang','tel moucheron','vivant');
 		
   
    
@@ -30546,11 +30566,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sciocoris',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('sciocoris','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sciophile',\'entomologie','sang','mycétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('sciophile','entomologie','sang','mycétophilidé,moucheron','vivant');
 		
   
    
@@ -30570,7 +30590,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scleroderma',\'entomologie','suc','béthylidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('scleroderma','entomologie','suc','béthylidé,hyménoptère','vivant');
 		
   
    
@@ -30586,11 +30606,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('scolie',\'entomologie','suc','scoliidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('scolie','entomologie','suc','scoliidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scolioptéryx',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('scolioptéryx','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -30610,7 +30630,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scolopostethus',\'entomologie','sang','cimicidé,punaise pte','vivant');
+		INSERT INTO verbe VALUES('scolopostethus','entomologie','sang','cimicidé,punaise pte','vivant');
 		
   
    
@@ -30618,11 +30638,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('scolyte',\'entomologie','herb','scolytidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scolyte','entomologie','herb','scolytidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scolytidé',\'entomologie','herb','tel scolyte,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scolytidé','entomologie','herb','tel scolyte,coléoptère','vivant');
 		
   
    
@@ -30638,7 +30658,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scopaeus',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('scopaeus','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -30669,18 +30689,18 @@
 		INSERT INTO verbe VALUES('scorpion','ART','carn','scorpionidé,arachnide','vivant');
 		
    
-		INSERT INTO verbe VALUES('scorpion',\'entomologie','sang','népidé,punaise','vivant');
+		INSERT INTO verbe VALUES('scorpion','entomologie','sang','népidé,punaise','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('scorpion d\'eau','ART','carn','scorpionidé,arachnide','vivant');
 		
    
-		INSERT INTO verbe VALUES('scorpion d\'eau',\'entomologie','sang','népidé,punaise','vivant');
+		INSERT INTO verbe VALUES('scorpion d\'eau','entomologie','sang','népidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('scorpion-mouche',\'entomologie','carn','panorpidé,panorpe','vivant');
+		INSERT INTO verbe VALUES('scorpion-mouche','entomologie','carn','panorpidé,panorpe','vivant');
 		
   
    
@@ -30688,7 +30708,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scorpion-volant',\'entomologie','carn','panorpidé,panorpe','vivant');
+		INSERT INTO verbe VALUES('scorpion-volant','entomologie','carn','panorpidé,panorpe','vivant');
 		
   
    
@@ -30724,7 +30744,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scutelliste',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('scutelliste','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -30744,7 +30764,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scymne',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('scymne','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -30752,7 +30772,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('scymnus',\'entomologie','herb','coccinellidé,coccinelle','vivant');
+		INSERT INTO verbe VALUES('scymnus','entomologie','herb','coccinellidé,coccinelle','vivant');
 		
   
    
@@ -30792,7 +30812,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('séhire',\'entomologie','sang','hétéroptère,punaise','vivant');
+		INSERT INTO verbe VALUES('séhire','entomologie','sang','hétéroptère,punaise','vivant');
 		
   
    
@@ -30800,7 +30820,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('seira',\'entomologie','végé',\'entomobryidé,collembole','vivant');
+		INSERT INTO verbe VALUES('seira','entomologie','végé','entomobryidé,collembole','vivant');
 		
   
    
@@ -30812,7 +30832,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sélénie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('sélénie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -30832,7 +30852,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sépidie',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('sépidie','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -30860,7 +30880,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('serica',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('serica','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -30970,7 +30990,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('serromyia',\'entomologie','sang','cératopogonidé,moustique','vivant');
+		INSERT INTO verbe VALUES('serromyia','entomologie','sang','cératopogonidé,moustique','vivant');
 		
   
    
@@ -30982,15 +31002,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('sésamie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('sésamie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sésie',\'entomologie','suc','aegiridé,papillon','vivant');
+		INSERT INTO verbe VALUES('sésie','entomologie','suc','aegiridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sessiliventre',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('sessiliventre','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
@@ -31054,7 +31074,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sialidé',\'entomologie','herb','tel sialis,mégaloptère','vivant');
+		INSERT INTO verbe VALUES('sialidé','entomologie','herb','tel sialis,mégaloptère','vivant');
 		
   
    
@@ -31062,7 +31082,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sialis',\'entomologie','herb','sialidé,mégaloptère','vivant');
+		INSERT INTO verbe VALUES('sialis','entomologie','herb','sialidé,mégaloptère','vivant');
 		
   
    
@@ -31070,7 +31090,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sibynia',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('sibynia','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -31086,7 +31106,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sicus',\'entomologie','sang','conopidé,mouche','vivant');
+		INSERT INTO verbe VALUES('sicus','entomologie','sang','conopidé,mouche','vivant');
 		
   
    
@@ -31098,7 +31118,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('siettitia',\'entomologiec','herb','dytiscidé,dytique','vivant');
+		INSERT INTO verbe VALUES('siettitia','entomologiec','herb','dytiscidé,dytique','vivant');
 		
   
    
@@ -31134,7 +31154,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('silène',\'entomologie','suc','satyridé,papillon','vivant');
+		INSERT INTO verbe VALUES('silène','entomologie','suc','satyridé,papillon','vivant');
 		
   
    
@@ -31142,11 +31162,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('silphe',\'entomologie','herb','silphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('silphe','entomologie','herb','silphidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('silphidé',\'entomologie','herb','tel silphe','vivant');
+		INSERT INTO verbe VALUES('silphidé','entomologie','herb','tel silphe','vivant');
 		
   
    
@@ -31166,11 +31186,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('silvain',\'entomologie','herb','cucujidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('silvain','entomologie','herb','cucujidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('silvanus',\'entomologie','herb','cucujidé,cathartus','vivant');
+		INSERT INTO verbe VALUES('silvanus','entomologie','herb','cucujidé,cathartus','vivant');
 		
   
    
@@ -31194,7 +31214,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('simulie',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('simulie','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -31218,11 +31238,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sinodendron',\'entomologie','végé','lucanidé,lucane','vivant');
+		INSERT INTO verbe VALUES('sinodendron','entomologie','végé','lucanidé,lucane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sinoxylon',\'entomologie','herb','bostrychidé,bostryche','vivant');
+		INSERT INTO verbe VALUES('sinoxylon','entomologie','herb','bostrychidé,bostryche','vivant');
 		
   
    
@@ -31238,7 +31258,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('siphonaptère',\'entomologie','sang','aphaniptère,puce','vivant');
+		INSERT INTO verbe VALUES('siphonaptère','entomologie','sang','aphaniptère,puce','vivant');
 		
   
    
@@ -31288,7 +31308,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sirex',\'entomologie','suc','siricidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('sirex','entomologie','suc','siricidé,hyménoptère','vivant');
 		
   
    
@@ -31300,15 +31320,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('sisyphe',\'entomologie','herb','scarabéidé,pt bousier','vivant');
+		INSERT INTO verbe VALUES('sisyphe','entomologie','herb','scarabéidé,pt bousier','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sisyra',\'entomologie','herb','sisyridé,planipenne','vivant');
+		INSERT INTO verbe VALUES('sisyra','entomologie','herb','sisyridé,planipenne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sitaris',\'entomologie','herb','méloïdé,coléoptère Eur','vivant');
+		INSERT INTO verbe VALUES('sitaris','entomologie','herb','méloïdé,coléoptère Eur','vivant');
 		
   
    
@@ -31316,15 +31336,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('sitone',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('sitone','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sitophilus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('sitophilus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sitotrogue',\'entomologie','suc','lépidoptère,alucite','vivant');
+		INSERT INTO verbe VALUES('sitotrogue','entomologie','suc','lépidoptère,alucite','vivant');
 		
   
    
@@ -31372,11 +31392,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('smérinthe',\'entomologie','suc','sphingidé,papillon','vivant');
+		INSERT INTO verbe VALUES('smérinthe','entomologie','suc','sphingidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('smicromyrme',\'entomologie','sang','mutillidé,mouche','vivant');
+		INSERT INTO verbe VALUES('smicromyrme','entomologie','sang','mutillidé,mouche','vivant');
 		
   
    
@@ -31384,11 +31404,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sminthure',\'entomologie','herb','sminthuridé,collembole','vivant');
+		INSERT INTO verbe VALUES('sminthure','entomologie','herb','sminthuridé,collembole','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('smittia',\'entomologie','herb','chironomidé,chironome','vivant');
+		INSERT INTO verbe VALUES('smittia','entomologie','herb','chironomidé,chironome','vivant');
 		
   
    
@@ -31474,11 +31494,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('solenopsis',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('solenopsis','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('solifuge',\'entomologie','sang','tel mouche,punaise','vivant');
+		INSERT INTO verbe VALUES('solifuge','entomologie','sang','tel mouche,punaise','vivant');
 		
   
    
@@ -31526,7 +31546,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('soufré',\'entomologie','suc','lépidoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('soufré','entomologie','suc','lépidoptère,papillon','vivant');
 		
   
    
@@ -31628,7 +31648,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('spéléonébrie',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('spéléonébrie','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
@@ -31660,7 +31680,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sphaeroderma',\'entomologie','herb','altise,insecte','vivant');
+		INSERT INTO verbe VALUES('sphaeroderma','entomologie','herb','altise,insecte','vivant');
 		
   
    
@@ -31676,15 +31696,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('sphécidé',\'entomologie','suc','tel sphex,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('sphécidé','entomologie','suc','tel sphex,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphécode',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('sphécode','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphégien',\'entomologie','suc','tel sphex,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('sphégien','entomologie','suc','tel sphex,hyménoptère','vivant');
 		
   
    
@@ -31708,19 +31728,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('sphénophore',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('sphénophore','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphénoptère',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('sphénoptère','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphéridium',\'entomologie','végé','hydrophilidé noir','vivant');
+		INSERT INTO verbe VALUES('sphéridium','entomologie','végé','hydrophilidé noir','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphérocère',\'entomologie','sang','borboridé,diptère','vivant');
+		INSERT INTO verbe VALUES('sphérocère','entomologie','sang','borboridé,diptère','vivant');
 		
   
    
@@ -31728,7 +31748,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sphex',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('sphex','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -31736,21 +31756,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sphinge',\'entomologie','suc','spingidé,sphinx femelle','vivant');
+		INSERT INTO verbe VALUES('sphinge','entomologie','suc','spingidé,sphinx femelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sphingidé',\'entomologie','suc','tel sphinx,sphinge','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('sphinx','MYT','art','lion androcéphale','vivant');
-		
-   
-		INSERT INTO verbe VALUES('sphinx','mammifère','simi','cercopithécidé,mandrill','vivant');
-		
-   
-		INSERT INTO verbe VALUES('sphinx',\'entomologie','suc','sphingidé,tête-de-mort','vivant');
+		INSERT INTO verbe VALUES('sphingidé','entomologie','suc','tel sphinx,sphinge','vivant');
 		
   
    
@@ -31760,7 +31770,7 @@
 		INSERT INTO verbe VALUES('sphinx','mammifère','simi','cercopithécidé,mandrill','vivant');
 		
    
-		INSERT INTO verbe VALUES('sphinx',\'entomologie','suc','sphingidé,tête-de-mort','vivant');
+		INSERT INTO verbe VALUES('sphinx','entomologie','suc','sphingidé,tête-de-mort','vivant');
 		
   
    
@@ -31770,7 +31780,17 @@
 		INSERT INTO verbe VALUES('sphinx','mammifère','simi','cercopithécidé,mandrill','vivant');
 		
    
-		INSERT INTO verbe VALUES('sphinx',\'entomologie','suc','sphingidé,tête-de-mort','vivant');
+		INSERT INTO verbe VALUES('sphinx','entomologie','suc','sphingidé,tête-de-mort','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('sphinx','MYT','art','lion androcéphale','vivant');
+		
+   
+		INSERT INTO verbe VALUES('sphinx','mammifère','simi','cercopithécidé,mandrill','vivant');
+		
+   
+		INSERT INTO verbe VALUES('sphinx','entomologie','suc','sphingidé,tête-de-mort','vivant');
 		
   
    
@@ -31794,11 +31814,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('spilonote',\'entomologie','suc','tortricidé,penthine','vivant');
+		INSERT INTO verbe VALUES('spilonote','entomologie','suc','tortricidé,penthine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('spilosome',\'entomologie','suc','arctiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('spilosome','entomologie','suc','arctiidé,papillon','vivant');
 		
   
    
@@ -31822,7 +31842,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('spirachtha',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('spirachtha','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -31974,15 +31994,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('staphylin',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('staphylin','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('staphylinidé',\'entomologie','herb','tel staphylin','vivant');
+		INSERT INTO verbe VALUES('staphylinidé','entomologie','herb','tel staphylin','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('staphylinoïde',\'entomologie','herb','tel staphylinidé','vivant');
+		INSERT INTO verbe VALUES('staphylinoïde','entomologie','herb','tel staphylinidé','vivant');
 		
   
    
@@ -31994,11 +32014,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('stauronote',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('stauronote','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('staurope',\'entomologie','suc','céruridé,papillon','vivant');
+		INSERT INTO verbe VALUES('staurope','entomologie','suc','céruridé,papillon','vivant');
 		
   
    
@@ -32022,7 +32042,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('stégobie',\'entomologie','suc','anobiidé,vrillette','vivant');
+		INSERT INTO verbe VALUES('stégobie','entomologie','suc','anobiidé,vrillette','vivant');
 		
   
    
@@ -32034,11 +32054,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('stegomya',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('stegomya','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stégomyie',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('stégomyie','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -32050,7 +32070,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('stelis',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('stelis','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -32062,15 +32082,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('stène',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('stène','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stenebothrus',\'entomologie','végé','acrididé,criquet','vivant');
+		INSERT INTO verbe VALUES('stenebothrus','entomologie','végé','acrididé,criquet','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sténéptéryx',\'entomologie','sang','hippoboscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('sténéptéryx','entomologie','sang','hippoboscidé,mouche','vivant');
 		
   
    
@@ -32086,7 +32106,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sténodictya',\'entomologie','végé','paléodictyoptère fossil','vivant');
+		INSERT INTO verbe VALUES('sténodictya','entomologie','végé','paléodictyoptère fossil','vivant');
 		
   
    
@@ -32094,11 +32114,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('stenopsocus',\'entomologie','végé','psocoptère,psoque brun','vivant');
+		INSERT INTO verbe VALUES('stenopsocus','entomologie','végé','psocoptère,psoque brun','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sténoptère',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('sténoptère','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -32106,11 +32126,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('stenosis',\'entomologie','herb','ténébrionidé,ténébrion','vivant');
+		INSERT INTO verbe VALUES('stenosis','entomologie','herb','ténébrionidé,ténébrion','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sténostome',\'entomologie','herb','oedéméridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('sténostome','entomologie','herb','oedéméridé,coléoptère','vivant');
 		
   
    
@@ -32122,7 +32142,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('stephanitis',\'entomologie','sang','hétéroptère,punaise pte','vivant');
+		INSERT INTO verbe VALUES('stephanitis','entomologie','sang','hétéroptère,punaise pte','vivant');
 		
   
    
@@ -32134,14 +32154,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('stercoraire',\'entomologie','herb','tel bousier,géotrupe','vivant');
+		INSERT INTO verbe VALUES('stercoraire','entomologie','herb','tel bousier,géotrupe','vivant');
 		
    
 		INSERT INTO verbe VALUES('stercoraire','oiseau','pisc','stercorariidé,labbe','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stercoraire',\'entomologie','herb','tel bousier,géotrupe','vivant');
+		INSERT INTO verbe VALUES('stercoraire','entomologie','herb','tel bousier,géotrupe','vivant');
 		
    
 		INSERT INTO verbe VALUES('stercoraire','oiseau','pisc','stercorariidé,labbe','vivant');
@@ -32168,7 +32188,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sternocère',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('sternocère','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
@@ -32176,11 +32196,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('sternorhynque',\'entomologie','sang','tel spylle,puceron','vivant');
+		INSERT INTO verbe VALUES('sternorhynque','entomologie','sang','tel spylle,puceron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('sternoxe',\'entomologie','végé','tel buprestidé','vivant');
+		INSERT INTO verbe VALUES('sternoxe','entomologie','végé','tel buprestidé','vivant');
 		
   
    
@@ -32188,15 +32208,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('stilicus',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('stilicus','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stilobezzia',\'entomologie','sang','cératopogonidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('stilobezzia','entomologie','sang','cératopogonidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stilpnotia',\'entomologie','suc','liparidé,papillon','vivant');
+		INSERT INTO verbe VALUES('stilpnotia','entomologie','suc','liparidé,papillon','vivant');
 		
   
    
@@ -32212,7 +32232,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('stomaphis',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('stomaphis','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -32232,11 +32252,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('stomoxe',\'entomologie','sang','muscidé,mouche','vivant');
+		INSERT INTO verbe VALUES('stomoxe','entomologie','sang','muscidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('strachia',\'entomologie','sang','cimicidé,punaise','vivant');
+		INSERT INTO verbe VALUES('strachia','entomologie','sang','cimicidé,punaise','vivant');
 		
   
    
@@ -32244,19 +32264,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('strangalia',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('strangalia','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stratiome',\'entomologie','sang','stratiomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('stratiome','entomologie','sang','stratiomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('stratiomys',\'entomologie','sang','stratiomyidé,mouche','vivant');
+		INSERT INTO verbe VALUES('stratiomys','entomologie','sang','stratiomyidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('strepsiptère',\'entomologie','suc','tel stylops,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('strepsiptère','entomologie','suc','tel stylops,hyménoptère','vivant');
 		
   
    
@@ -32320,7 +32340,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('strophosomus',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('strophosomus','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -32332,7 +32352,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('strymon',\'entomologie','suc','lycénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('strymon','entomologie','suc','lycénidé,papillon','vivant');
 		
   
    
@@ -32372,7 +32392,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('stylops',\'entomologie','suc','stylopidé,strepsiptère','vivant');
+		INSERT INTO verbe VALUES('stylops','entomologie','suc','stylopidé,strepsiptère','vivant');
 		
   
    
@@ -32488,7 +32508,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sylepta',\'entomologie','suc','pyralidé,papillon','vivant');
+		INSERT INTO verbe VALUES('sylepta','entomologie','suc','pyralidé,papillon','vivant');
 		
   
    
@@ -32496,7 +32516,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sylvain',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('sylvain','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('sylvain','oiseau','écha','charadriidé,échassier','vivant');
@@ -32506,7 +32526,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sylvain',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('sylvain','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('sylvain','oiseau','écha','charadriidé,échassier','vivant');
@@ -32516,7 +32536,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('sylvain',\'entomologie','suc','nymphalidé,papillon','vivant');
+		INSERT INTO verbe VALUES('sylvain','entomologie','suc','nymphalidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('sylvain','oiseau','écha','charadriidé,échassier','vivant');
@@ -32558,11 +32578,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('symphyte',\'entomologie','suc','tenthrédinidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('symphyte','entomologie','suc','tenthrédinidé,hyménoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('synagre',\'entomologie','suc','vespidé,guêpe solitaire','vivant');
+		INSERT INTO verbe VALUES('synagre','entomologie','suc','vespidé,guêpe solitaire','vivant');
 		
   
    
@@ -32594,11 +32614,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('synchloé',\'entomologie','suc','lépidoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('synchloé','entomologie','suc','lépidoptère,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('synechtre',\'entomologie','carn','prédateur myrmécophile','vivant');
+		INSERT INTO verbe VALUES('synechtre','entomologie','carn','prédateur myrmécophile','vivant');
 		
   
    
@@ -32634,11 +32654,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('synoecète',\'entomologie','végé','termitophile','vivant');
+		INSERT INTO verbe VALUES('synoecète','entomologie','végé','termitophile','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('syntomis',\'entomologie','suc','amatidé,papillon','vivant');
+		INSERT INTO verbe VALUES('syntomis','entomologie','suc','amatidé,papillon','vivant');
 		
   
    
@@ -32650,19 +32670,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('syritta',\'entomologie','sang','sirphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('syritta','entomologie','sang','sirphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('syromastes',\'entomologie','sang','coréidé,punaise','vivant');
+		INSERT INTO verbe VALUES('syromastes','entomologie','sang','coréidé,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('syrphe',\'entomologie','sang','sirphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('syrphe','entomologie','sang','sirphidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('syrphidé',\'entomologie','sang','tel sirphe,diptère','vivant');
+		INSERT INTO verbe VALUES('syrphidé','entomologie','sang','tel sirphe,diptère','vivant');
 		
   
    
@@ -32670,7 +32690,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tabanidé',\'entomologie','sang','tel mouche,taon,paganie','vivant');
+		INSERT INTO verbe VALUES('tabanidé','entomologie','sang','tel mouche,taon,paganie','vivant');
 		
   
    
@@ -32682,7 +32702,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('taccardia',\'entomologie','herb','coccidé,cochenille','vivant');
+		INSERT INTO verbe VALUES('taccardia','entomologie','herb','coccidé,cochenille','vivant');
 		
   
    
@@ -32690,27 +32710,27 @@
 		
   
    
-		INSERT INTO verbe VALUES('tachina',\'entomologie','sang','tachinidé,mouche,-hine','vivant');
+		INSERT INTO verbe VALUES('tachina','entomologie','sang','tachinidé,mouche,-hine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachinaire',\'entomologie','sang','tachinidé,mouche,-hina','vivant');
+		INSERT INTO verbe VALUES('tachinaire','entomologie','sang','tachinidé,mouche,-hina','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachine',\'entomologie','sang','tachinidé,mouche,-hinus','vivant');
+		INSERT INTO verbe VALUES('tachine','entomologie','sang','tachinidé,mouche,-hinus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachinidé',\'entomologie','sang','tel tachine,tachinaire','vivant');
+		INSERT INTO verbe VALUES('tachinidé','entomologie','sang','tel tachine,tachinaire','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachinus',\'entomologie','sang','tachinidé,mouche,-hine','vivant');
+		INSERT INTO verbe VALUES('tachinus','entomologie','sang','tachinidé,mouche,-hine','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachydromia',\'entomologie','sang',\'empididé,mouche','vivant');
+		INSERT INTO verbe VALUES('tachydromia','entomologie','sang','empididé,mouche','vivant');
 		
   
    
@@ -32718,11 +32738,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tachyporus',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('tachyporus','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tachytes',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('tachytes','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -32738,7 +32758,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('taeniocampa',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('taeniocampa','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
@@ -32842,19 +32862,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('tanusia',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('tanusia','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tanypus',\'entomologie','sang','chironomidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('tanypus','entomologie','sang','chironomidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tanytarsus',\'entomologie','sang','chironomidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('tanytarsus','entomologie','sang','chironomidé,moucheron','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('taon',\'entomologie','sang','tabanidé,mouche,malot','vivant');
+		INSERT INTO verbe VALUES('taon','entomologie','sang','tabanidé,mouche,malot','vivant');
 		
   
    
@@ -32866,7 +32886,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tape-marteau',\'entomologie','végé','élatéridé,taupin','vivant');
+		INSERT INTO verbe VALUES('tape-marteau','entomologie','végé','élatéridé,taupin','vivant');
 		
   
    
@@ -32878,7 +32898,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tapinome',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('tapinome','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
@@ -32980,11 +33000,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('taupe-grillon',\'entomologie','carn','gryllotalpidé,insecte','vivant');
+		INSERT INTO verbe VALUES('taupe-grillon','entomologie','carn','gryllotalpidé,insecte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('taupin',\'entomologie','végé','élatéridé,agriote','vivant');
+		INSERT INTO verbe VALUES('taupin','entomologie','végé','élatéridé,agriote','vivant');
 		
   
    
@@ -33048,25 +33068,25 @@
 		
   
    
-		INSERT INTO verbe VALUES('tegeticula',\'entomologie','sang','tinéidé,teigne Amér','vivant');
+		INSERT INTO verbe VALUES('tegeticula','entomologie','sang','tinéidé,teigne Amér','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('teichomyza',\'entomologie','sang','éphydridé,mouche','vivant');
+		INSERT INTO verbe VALUES('teichomyza','entomologie','sang','éphydridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('teigne',\'entomologie','suc','tinéidé,papillon','vivant');
+		INSERT INTO verbe VALUES('teigne','entomologie','suc','tinéidé,papillon','vivant');
 		
    
-		INSERT INTO verbe VALUES('teigne',\'entomologie','sang','tinéidé,mite','vivant');
+		INSERT INTO verbe VALUES('teigne','entomologie','sang','tinéidé,mite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('teigne',\'entomologie','suc','tinéidé,papillon','vivant');
+		INSERT INTO verbe VALUES('teigne','entomologie','suc','tinéidé,papillon','vivant');
 		
    
-		INSERT INTO verbe VALUES('teigne',\'entomologie','sang','tinéidé,mite','vivant');
+		INSERT INTO verbe VALUES('teigne','entomologie','sang','tinéidé,mite','vivant');
 		
   
    
@@ -33074,7 +33094,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('teinopalpe',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('teinopalpe','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
@@ -33094,7 +33114,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('téléas',\'entomologie','suc','proctotrypidé,hyménoptè','vivant');
+		INSERT INTO verbe VALUES('téléas','entomologie','suc','proctotrypidé,hyménoptè','vivant');
 		
   
    
@@ -33114,11 +33134,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('téléphore',\'entomologie','herb','téléphoridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('téléphore','entomologie','herb','téléphoridé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('téléphoridé',\'entomologie','herb','tel téléphore,cantharis','vivant');
+		INSERT INTO verbe VALUES('téléphoridé','entomologie','herb','tel téléphore,cantharis','vivant');
 		
   
    
@@ -33142,11 +33162,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ténébrion',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('ténébrion','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ténébrionidé',\'entomologie','herb','tel blaps,pimélie','vivant');
+		INSERT INTO verbe VALUES('ténébrionidé','entomologie','herb','tel blaps,pimélie','vivant');
 		
   
    
@@ -33178,15 +33198,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('tenthrède',\'entomologie','suc','tenthrédinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('tenthrède','entomologie','suc','tenthrédinidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('téphritidé',\'entomologie','sang','tel trypeta,mouche','vivant');
+		INSERT INTO verbe VALUES('téphritidé','entomologie','sang','tel trypeta,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('téphronie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('téphronie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
@@ -33210,7 +33230,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('térébrant',\'entomologie','suc','tel cynipidé,hyménoptèr','vivant');
+		INSERT INTO verbe VALUES('térébrant','entomologie','suc','tel cynipidé,hyménoptèr','vivant');
 		
   
    
@@ -33222,23 +33242,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('termite',\'entomologie','végé','termitidé,isoptère','vivant');
+		INSERT INTO verbe VALUES('termite','entomologie','végé','termitidé,isoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('termitidé',\'entomologie','végé','tel grp termite isoptèr','vivant');
+		INSERT INTO verbe VALUES('termitidé','entomologie','végé','tel grp termite isoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('termitophage',\'entomologie','carn','animal q ali termites','vivant');
+		INSERT INTO verbe VALUES('termitophage','entomologie','carn','animal q ali termites','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('termitophile',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('termitophile','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('termitoxénie',\'entomologie','sang','phoridé,diptère','vivant');
+		INSERT INTO verbe VALUES('termitoxénie','entomologie','sang','phoridé,diptère','vivant');
 		
   
    
@@ -33298,7 +33318,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tête-de-mort',\'entomologie','suc','sphingidé,sphinx','vivant');
+		INSERT INTO verbe VALUES('tête-de-mort','entomologie','suc','sphingidé,sphinx','vivant');
 		
   
    
@@ -33338,11 +33358,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tetramorium',\'entomologie','suc','formicidé,fourmi','vivant');
+		INSERT INTO verbe VALUES('tetramorium','entomologie','suc','formicidé,fourmi','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tetraneura',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('tetraneura','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -33394,7 +33414,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tetrastichus',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('tetrastichus','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -33402,7 +33422,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tétrix',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('tétrix','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
@@ -33410,19 +33430,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('tettigie',\'entomologie','suc','cicadidé,cigale','vivant');
+		INSERT INTO verbe VALUES('tettigie','entomologie','suc','cicadidé,cigale','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tettigomètre',\'entomologie','végé','tettigométridé,fulgore','vivant');
+		INSERT INTO verbe VALUES('tettigomètre','entomologie','végé','tettigométridé,fulgore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tettigonie',\'entomologie','végé','locustidé,sauterelle','vivant');
+		INSERT INTO verbe VALUES('tettigonie','entomologie','végé','locustidé,sauterelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tettigoniidé',\'entomologie','végé','tel tettigonie','vivant');
+		INSERT INTO verbe VALUES('tettigoniidé','entomologie','végé','tel tettigonie','vivant');
 		
   
    
@@ -33430,7 +33450,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('thaïs',\'entomologie','suc','papilionidé,diane','vivant');
+		INSERT INTO verbe VALUES('thaïs','entomologie','suc','papilionidé,diane','vivant');
 		
   
    
@@ -33474,15 +33494,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('thamnotettix',\'entomologie','suc','jassidé,cicadelle','vivant');
+		INSERT INTO verbe VALUES('thamnotettix','entomologie','suc','jassidé,cicadelle','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thanaos',\'entomologie','suc','hespéridé,nisomiades','vivant');
+		INSERT INTO verbe VALUES('thanaos','entomologie','suc','hespéridé,nisomiades','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thanasime',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('thanasime','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
@@ -33490,7 +33510,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('thaumétopée',\'entomologie','lépi','chenille processionnell','vivant');
+		INSERT INTO verbe VALUES('thaumétopée','entomologie','lépi','chenille processionnell','vivant');
 		
   
    
@@ -33502,7 +33522,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('thecla',\'entomologie','suc','lycénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('thecla','entomologie','suc','lycénidé,papillon','vivant');
 		
   
    
@@ -33526,11 +33546,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('théobaldia',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('théobaldia','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('théobaldie',\'entomologie','sang','culicidé,moustique','vivant');
+		INSERT INTO verbe VALUES('théobaldie','entomologie','sang','culicidé,moustique','vivant');
 		
   
    
@@ -33538,7 +33558,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('théope',\'entomologie','suc','lépidoptère,papillon','vivant');
+		INSERT INTO verbe VALUES('théope','entomologie','suc','lépidoptère,papillon','vivant');
 		
   
    
@@ -33582,7 +33602,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('therioplectes',\'entomologie','sang','tabanidé,taon des bois','vivant');
+		INSERT INTO verbe VALUES('therioplectes','entomologie','sang','tabanidé,taon des bois','vivant');
 		
   
    
@@ -33654,7 +33674,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('thoracanthe',\'entomologie','suc',\'eucharidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('thoracanthe','entomologie','suc','eucharidé,hyménoptère','vivant');
 		
   
    
@@ -33678,11 +33698,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('thripidé',\'entomologie','végé','tel thrips,thysanoptère','vivant');
+		INSERT INTO verbe VALUES('thripidé','entomologie','végé','tel thrips,thysanoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thrips',\'entomologie','suc','thripidé,thysanoptère','vivant');
+		INSERT INTO verbe VALUES('thrips','entomologie','suc','thripidé,thysanoptère','vivant');
 		
   
    
@@ -33706,19 +33726,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('thysanie',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('thysanie','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thysanoptère',\'entomologie','suc','tel thripidé,suceur','vivant');
+		INSERT INTO verbe VALUES('thysanoptère','entomologie','suc','tel thripidé,suceur','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thysanoptéroïde',\'entomologie','sang','térébrant/tubulifère','vivant');
+		INSERT INTO verbe VALUES('thysanoptéroïde','entomologie','sang','térébrant/tubulifère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('thysanoure',\'entomologie','carn',\'ectotrophe','vivant');
+		INSERT INTO verbe VALUES('thysanoure','entomologie','carn','ectotrophe','vivant');
 		
   
    
@@ -33782,7 +33802,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('timarche',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('timarche','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -33802,7 +33822,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tinéidé',\'entomologie','suc','tel teigne,papillon','vivant');
+		INSERT INTO verbe VALUES('tinéidé','entomologie','suc','tel teigne,papillon','vivant');
 		
   
    
@@ -33810,11 +33830,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tingidé',\'entomologie','sang','tel tingis,punaise','vivant');
+		INSERT INTO verbe VALUES('tingidé','entomologie','sang','tel tingis,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tingis',\'entomologie','sang','tingidé,punaise','vivant');
+		INSERT INTO verbe VALUES('tingis','entomologie','sang','tingidé,punaise','vivant');
 		
   
    
@@ -33822,11 +33842,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tiphie',\'entomologie','suc','vespidé,guêpe parasite','vivant');
+		INSERT INTO verbe VALUES('tiphie','entomologie','suc','vespidé,guêpe parasite','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tipule',\'entomologie','sang','culicidé,trichocère','vivant');
+		INSERT INTO verbe VALUES('tipule','entomologie','sang','culicidé,trichocère','vivant');
 		
   
    
@@ -33834,7 +33854,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tiquet',\'entomologie','végé','chrysomélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('tiquet','entomologie','végé','chrysomélidé,coléoptère','vivant');
 		
   
    
@@ -33854,7 +33874,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('titan',\'entomologie','végé','cérambycidé,capricorne','vivant');
+		INSERT INTO verbe VALUES('titan','entomologie','végé','cérambycidé,capricorne','vivant');
 		
   
    
@@ -33914,7 +33934,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tomaspis',\'entomologie','suc','cercopidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('tomaspis','entomologie','suc','cercopidé,homoptère','vivant');
 		
   
    
@@ -33922,7 +33942,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tomocerus',\'entomologie','herb',\'entomobryidé,collemboll','vivant');
+		INSERT INTO verbe VALUES('tomocerus','entomologie','herb','entomobryidé,collemboll','vivant');
 		
   
    
@@ -33942,7 +33962,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('torcel',\'entomologie','sang','larve mouche','vivant');
+		INSERT INTO verbe VALUES('torcel','entomologie','sang','larve mouche','vivant');
 		
   
    
@@ -33962,7 +33982,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tordeuse',\'entomologie','végé','phaloniidé,chenille','vivant');
+		INSERT INTO verbe VALUES('tordeuse','entomologie','végé','phaloniidé,chenille','vivant');
 		
   
    
@@ -33982,21 +34002,21 @@
 		
   
    
-		INSERT INTO verbe VALUES('tortricidé',\'entomologie','végé','tel tordeuse,péronée','vivant');
+		INSERT INTO verbe VALUES('tortricidé','entomologie','végé','tel tordeuse,péronée','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('tortue','reptiles','rept','chélonien','vivant');
 		
    
-		INSERT INTO verbe VALUES('tortue',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('tortue','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
 		INSERT INTO verbe VALUES('tortue','reptiles','rept','chélonien','vivant');
 		
    
-		INSERT INTO verbe VALUES('tortue',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('tortue','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
@@ -34008,11 +34028,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('toryme',\'entomologie','suc','torymidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('toryme','entomologie','suc','torymidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('torymidé',\'entomologie','suc','tel chalcidien','vivant');
+		INSERT INTO verbe VALUES('torymidé','entomologie','suc','tel chalcidien','vivant');
 		
   
    
@@ -34024,7 +34044,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('toto',\'entomologiep','sang','pédiculidé,pou','vivant');
+		INSERT INTO verbe VALUES('toto','entomologiep','sang','pédiculidé,pou','vivant');
 		
   
    
@@ -34148,11 +34168,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('trachys',\'entomologie','végé','buprestidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trachys','entomologie','végé','buprestidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trachyscelis',\'entomologie','herb','ténébrionidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trachyscelis','entomologie','herb','ténébrionidé,coléoptère','vivant');
 		
   
    
@@ -34168,7 +34188,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('traîne-bûches',\'entomologie','carn','larve phrygane','vivant');
+		INSERT INTO verbe VALUES('traîne-bûches','entomologie','carn','larve phrygane','vivant');
 		
   
    
@@ -34180,7 +34200,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trama',\'entomologie','sang','aphididé,puceron','vivant');
+		INSERT INTO verbe VALUES('trama','entomologie','sang','aphididé,puceron','vivant');
 		
   
    
@@ -34188,7 +34208,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trapezonotus',\'entomologie','sang','lygéidé,punaise','vivant');
+		INSERT INTO verbe VALUES('trapezonotus','entomologie','sang','lygéidé,punaise','vivant');
 		
   
    
@@ -34196,7 +34216,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tréchus',\'entomologie','carn','carabidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('tréchus','entomologie','carn','carabidé,coléoptère','vivant');
 		
   
    
@@ -34228,7 +34248,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tremex',\'entomologie','suc','siricidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('tremex','entomologie','suc','siricidé,hyménoptère','vivant');
 		
   
    
@@ -34248,11 +34268,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('triatome',\'entomologie','sang','hétéroptère,punaise','vivant');
+		INSERT INTO verbe VALUES('triatome','entomologie','sang','hétéroptère,punaise','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tribolium',\'entomologie','herb','ténébrionidé ravageur','vivant');
+		INSERT INTO verbe VALUES('tribolium','entomologie','herb','ténébrionidé ravageur','vivant');
 		
   
    
@@ -34264,7 +34284,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trichie',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('trichie','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -34272,14 +34292,14 @@
 		
   
    
-		INSERT INTO verbe VALUES('trichiure',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('trichiure','entomologie','suc','lasiocampidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('trichiure','poisson','tric','trichiuridé,téléostéen','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichiure',\'entomologie','suc','lasiocampidé,papillon','vivant');
+		INSERT INTO verbe VALUES('trichiure','entomologie','suc','lasiocampidé,papillon','vivant');
 		
    
 		INSERT INTO verbe VALUES('trichiure','poisson','tric','trichiuridé,téléostéen','vivant');
@@ -34294,19 +34314,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('trichocère',\'entomologie','sang','trichocéridé,tipule','vivant');
+		INSERT INTO verbe VALUES('trichocère','entomologie','sang','trichocéridé,tipule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichocéridé',\'entomologie','sang','tel tipule','vivant');
+		INSERT INTO verbe VALUES('trichocéridé','entomologie','sang','tel tipule','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichodecte',\'entomologie','sang','mallophage,pou','vivant');
+		INSERT INTO verbe VALUES('trichodecte','entomologie','sang','mallophage,pou','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichodes',\'entomologie','herb','cléridé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trichodes','entomologie','herb','cléridé,coléoptère','vivant');
 		
   
    
@@ -34314,7 +34334,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trichogramme',\'entomologie','suc','chalcididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('trichogramme','entomologie','suc','chalcididé,hyménoptère','vivant');
 		
   
    
@@ -34338,15 +34358,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('trichoptère',\'entomologie','carn','holométabole,phrygane','vivant');
+		INSERT INTO verbe VALUES('trichoptère','entomologie','carn','holométabole,phrygane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichoptérygidé',\'entomologie','herb','tel phrygane,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trichoptérygidé','entomologie','herb','tel phrygane,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trichoptilus',\'entomologie','suc','ptérophoridé,papillon','vivant');
+		INSERT INTO verbe VALUES('trichoptilus','entomologie','suc','ptérophoridé,papillon','vivant');
 		
   
    
@@ -34358,7 +34378,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tricondyle',\'entomologie','herb','cicindélidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('tricondyle','entomologie','herb','cicindélidé,coléoptère','vivant');
 		
   
    
@@ -34370,11 +34390,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tricténotome',\'entomologie','herb','tricténotomidé,coléoptè','vivant');
+		INSERT INTO verbe VALUES('tricténotome','entomologie','herb','tricténotomidé,coléoptè','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tricyphona',\'entomologie','sang','limnobiidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('tricyphona','entomologie','sang','limnobiidé,moucheron','vivant');
 		
   
    
@@ -34382,7 +34402,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tridactyle',\'entomologie','suc','gryllidé,grillon','vivant');
+		INSERT INTO verbe VALUES('tridactyle','entomologie','suc','gryllidé,grillon','vivant');
 		
   
    
@@ -34390,7 +34410,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('triecphora',\'entomologie','suc','homoptère','vivant');
+		INSERT INTO verbe VALUES('triecphora','entomologie','suc','homoptère','vivant');
 		
   
    
@@ -34410,7 +34430,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trigone',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('trigone','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -34450,7 +34470,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('triongulin',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('triongulin','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
@@ -34462,7 +34482,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trioza',\'entomologie','suc','homoptère','vivant');
+		INSERT INTO verbe VALUES('trioza','entomologie','suc','homoptère','vivant');
 		
   
    
@@ -34470,11 +34490,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('triphène',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('triphène','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tripoxylon',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('tripoxylon','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
@@ -34524,7 +34544,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trochilium',\'entomologie','suc','sésiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('trochilium','entomologie','suc','sésiidé,papillon','vivant');
 		
   
    
@@ -34544,11 +34564,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('troctomorphe',\'entomologie','sang','psocoptère,tel pou','vivant');
+		INSERT INTO verbe VALUES('troctomorphe','entomologie','sang','psocoptère,tel pou','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trogiomorphe',\'entomologie','sang','psocoptère,tel atropos','vivant');
+		INSERT INTO verbe VALUES('trogiomorphe','entomologie','sang','psocoptère,tel atropos','vivant');
 		
   
    
@@ -34568,7 +34588,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trogoderme',\'entomologie','herb','dermestidé,dermeste','vivant');
+		INSERT INTO verbe VALUES('trogoderme','entomologie','herb','dermestidé,dermeste','vivant');
 		
   
    
@@ -34580,19 +34600,19 @@
 		
   
    
-		INSERT INTO verbe VALUES('trogonoptère',\'entomologie','suc','papilionidé,papillon','vivant');
+		INSERT INTO verbe VALUES('trogonoptère','entomologie','suc','papilionidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trogophloeus',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trogophloeus','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trogosite',\'entomologie','herb','ostomatidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('trogosite','entomologie','herb','ostomatidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('troilus',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('troilus','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -34608,7 +34628,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trophamnios',\'entomologie','suc','cytoplasme hyménoptère','vivant');
+		INSERT INTO verbe VALUES('trophamnios','entomologie','suc','cytoplasme hyménoptère','vivant');
 		
   
    
@@ -34616,7 +34636,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tropicoris',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('tropicoris','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -34632,7 +34652,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tropinote',\'entomologie','herb','scarabéidé,cétoine','vivant');
+		INSERT INTO verbe VALUES('tropinote','entomologie','herb','scarabéidé,cétoine','vivant');
 		
   
    
@@ -34652,7 +34672,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('trox',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('trox','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -34680,23 +34700,23 @@
 		
   
    
-		INSERT INTO verbe VALUES('trypeta',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('trypeta','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trypétidé',\'entomologie','sang','tel trypeta,mouche','vivant');
+		INSERT INTO verbe VALUES('trypétidé','entomologie','sang','tel trypeta,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trypetocera',\'entomologie','sang','tétanocéridé,mouche','vivant');
+		INSERT INTO verbe VALUES('trypetocera','entomologie','sang','tétanocéridé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('trypoxylon',\'entomologie','suc','sphégidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('trypoxylon','entomologie','suc','sphégidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tsé-tsé',\'entomologie','sang','glossine,diptère,mouche','vivant');
+		INSERT INTO verbe VALUES('tsé-tsé','entomologie','sang','glossine,diptère,mouche','vivant');
 		
   
    
@@ -34720,7 +34740,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tubulifère',\'entomologie','suc','chysididé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('tubulifère','entomologie','suc','chysididé,hyménoptère','vivant');
 		
   
    
@@ -34812,7 +34832,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('tychius',\'entomologie','herb','curculionidé,charançon','vivant');
+		INSERT INTO verbe VALUES('tychius','entomologie','herb','curculionidé,charançon','vivant');
 		
   
    
@@ -34832,11 +34852,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('typhaea',\'entomologie','herb','mycétophagidé,coléoptèr','vivant');
+		INSERT INTO verbe VALUES('typhaea','entomologie','herb','mycétophagidé,coléoptèr','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('typhlocyba',\'entomologie','suc','typhlocibidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('typhlocyba','entomologie','suc','typhlocibidé,homoptère','vivant');
 		
   
    
@@ -34872,11 +34892,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('tyria',\'entomologie','suc','arctiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('tyria','entomologie','suc','arctiidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('tyroglyphe',\'entomologie','sang','acarien,ciron','vivant');
+		INSERT INTO verbe VALUES('tyroglyphe','entomologie','sang','acarien,ciron','vivant');
 		
   
    
@@ -34900,11 +34920,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('ula',\'entomologie','sang','limnobiidé diptère','vivant');
+		INSERT INTO verbe VALUES('ula','entomologie','sang','limnobiidé diptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ulididé',\'entomologie','sang','tel chrysomyza,mouche','vivant');
+		INSERT INTO verbe VALUES('ulididé','entomologie','sang','tel chrysomyza,mouche','vivant');
 		
   
    
@@ -34916,7 +34936,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('umbonie',\'entomologie','suc','membracidé,homoptère','vivant');
+		INSERT INTO verbe VALUES('umbonie','entomologie','suc','membracidé,homoptère','vivant');
 		
   
    
@@ -34938,7 +34958,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('unaspis',\'entomologie','suc','diaspidinée,homoptère','vivant');
+		INSERT INTO verbe VALUES('unaspis','entomologie','suc','diaspidinée,homoptère','vivant');
 		
   
    
@@ -34966,7 +34986,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('uranie',\'entomologie','suc','uraniidé,papillon','vivant');
+		INSERT INTO verbe VALUES('uranie','entomologie','suc','uraniidé,papillon','vivant');
 		
   
    
@@ -34978,11 +34998,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('uraptéryx',\'entomologie','suc','géométridé,grde phalène','vivant');
+		INSERT INTO verbe VALUES('uraptéryx','entomologie','suc','géométridé,grde phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('urbec',\'entomologie','herb','rinchyte,cigarier','vivant');
+		INSERT INTO verbe VALUES('urbec','entomologie','herb','rinchyte,cigarier','vivant');
 		
   
    
@@ -34998,7 +35018,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('urocère',\'entomologie','suc','stricidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('urocère','entomologie','suc','stricidé,hyménoptère','vivant');
 		
   
    
@@ -35026,7 +35046,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('urodon',\'entomologie','herb','bruchidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('urodon','entomologie','herb','bruchidé,coléoptère','vivant');
 		
   
    
@@ -35042,7 +35062,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('urophore',\'entomologie','sang','trypétidé,mouche','vivant');
+		INSERT INTO verbe VALUES('urophore','entomologie','sang','trypétidé,mouche','vivant');
 		
   
    
@@ -35078,15 +35098,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('urussu',\'entomologie','suc','apidé,mélipone Brésil','vivant');
+		INSERT INTO verbe VALUES('urussu','entomologie','suc','apidé,mélipone Brésil','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('usia',\'entomologie','sang','bombylidé,mouche','vivant');
+		INSERT INTO verbe VALUES('usia','entomologie','sang','bombylidé,mouche','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('utetheisa',\'entomologie','suc','arctiidé,papillon','vivant');
+		INSERT INTO verbe VALUES('utetheisa','entomologie','suc','arctiidé,papillon','vivant');
 		
   
    
@@ -35138,7 +35158,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('valgue',\'entomologie','herb','scarabéidé,scarabée','vivant');
+		INSERT INTO verbe VALUES('valgue','entomologie','herb','scarabéidé,scarabée','vivant');
 		
   
    
@@ -35158,7 +35178,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('vanesse',\'entomologie','suc','nymphalidé,vulcain','vivant');
+		INSERT INTO verbe VALUES('vanesse','entomologie','suc','nymphalidé,vulcain','vivant');
 		
   
    
@@ -35248,7 +35268,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('vélie',\'entomologie','sang','véliidé,punaise d eau','vivant');
+		INSERT INTO verbe VALUES('vélie','entomologie','sang','véliidé,punaise d eau','vivant');
 		
   
    
@@ -35288,11 +35308,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('vénilie',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('vénilie','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('ventileuse',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('ventileuse','entomologie','suc','apidé,abeille','vivant');
 		
   
    
@@ -35307,10 +35327,10 @@
 		INSERT INTO verbe VALUES('ver','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver','OMB','ver','annélide,lombric','vivant');
@@ -35319,7 +35339,7 @@
 		INSERT INTO verbe VALUES('ver','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver','OMB','ver','cestode,ver parasite','vivant');
@@ -35329,10 +35349,10 @@
 		INSERT INTO verbe VALUES('ver','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver','OMB','ver','annélide,lombric','vivant');
@@ -35341,7 +35361,7 @@
 		INSERT INTO verbe VALUES('ver','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver','OMB','ver','cestode,ver parasite','vivant');
@@ -35351,10 +35371,10 @@
 		INSERT INTO verbe VALUES('ver blanc','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver blanc',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver blanc','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver blanc',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver blanc','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver blanc','OMB','ver','annélide,lombric','vivant');
@@ -35363,7 +35383,7 @@
 		INSERT INTO verbe VALUES('ver blanc','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver blanc',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver blanc','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver blanc','OMB','ver','cestode,ver parasite','vivant');
@@ -35373,10 +35393,10 @@
 		INSERT INTO verbe VALUES('ver de terre','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de terre',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver de terre','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de terre',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver de terre','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver de terre','OMB','ver','annélide,lombric','vivant');
@@ -35385,7 +35405,7 @@
 		INSERT INTO verbe VALUES('ver de terre','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de terre',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver de terre','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver de terre','OMB','ver','cestode,ver parasite','vivant');
@@ -35395,10 +35415,10 @@
 		INSERT INTO verbe VALUES('ver de vase','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de vase',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver de vase','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de vase',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver de vase','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver de vase','OMB','ver','annélide,lombric','vivant');
@@ -35407,7 +35427,7 @@
 		INSERT INTO verbe VALUES('ver de vase','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver de vase',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver de vase','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver de vase','OMB','ver','cestode,ver parasite','vivant');
@@ -35417,10 +35437,10 @@
 		INSERT INTO verbe VALUES('ver luisant','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver luisant',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver luisant','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver luisant',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver luisant','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver luisant','OMB','ver','annélide,lombric','vivant');
@@ -35429,7 +35449,7 @@
 		INSERT INTO verbe VALUES('ver luisant','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver luisant',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver luisant','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver luisant','OMB','ver','cestode,ver parasite','vivant');
@@ -35439,10 +35459,10 @@
 		INSERT INTO verbe VALUES('ver solitaire','OMB','ver','animal pluricellulaire','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver solitaire',\'entomologie','herb','larve d insecte','vivant');
+		INSERT INTO verbe VALUES('ver solitaire','entomologie','herb','larve d insecte','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver solitaire',\'entomologie','herb','larve d hanneton','vivant');
+		INSERT INTO verbe VALUES('ver solitaire','entomologie','herb','larve d hanneton','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver solitaire','OMB','ver','annélide,lombric','vivant');
@@ -35451,7 +35471,7 @@
 		INSERT INTO verbe VALUES('ver solitaire','OMB','ver','annélide,tubifex','vivant');
 		
    
-		INSERT INTO verbe VALUES('ver solitaire',\'entomologie','herb','lampyridé,lampyre','vivant');
+		INSERT INTO verbe VALUES('ver solitaire','entomologie','herb','lampyridé,lampyre','vivant');
 		
    
 		INSERT INTO verbe VALUES('ver solitaire','OMB','ver','cestode,ver parasite','vivant');
@@ -35470,7 +35490,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('véreau',\'entomologie','végé','chenille cérostome','vivant');
+		INSERT INTO verbe VALUES('véreau','entomologie','végé','chenille cérostome','vivant');
 		
   
    
@@ -35478,7 +35498,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('verlion',\'entomologie','sang','leptidé,lampromyie','vivant');
+		INSERT INTO verbe VALUES('verlion','entomologie','sang','leptidé,lampromyie','vivant');
 		
   
    
@@ -35490,7 +35510,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('vermileo',\'entomologie','sang','leptidé,lampromyie','vivant');
+		INSERT INTO verbe VALUES('vermileo','entomologie','sang','leptidé,lampromyie','vivant');
 		
   
    
@@ -35510,7 +35530,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('versicolore',\'entomologie','suc',\'endromididé,endromis','vivant');
+		INSERT INTO verbe VALUES('versicolore','entomologie','suc','endromididé,endromis','vivant');
 		
   
    
@@ -35518,11 +35538,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('vésicant',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('vésicant','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('vespère',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('vespère','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
@@ -35538,11 +35558,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('vesperus',\'entomologie','végé','cérambycidé,longicorne','vivant');
+		INSERT INTO verbe VALUES('vesperus','entomologie','végé','cérambycidé,longicorne','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('vespidé',\'entomologie','suc','guêpe,insecte social','vivant');
+		INSERT INTO verbe VALUES('vespidé','entomologie','suc','guêpe,insecte social','vivant');
 		
   
    
@@ -35584,7 +35604,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('villa',\'entomologie','sang','bombylidé,mouche','vivant');
+		INSERT INTO verbe VALUES('villa','entomologie','sang','bombylidé,mouche','vivant');
 		
   
    
@@ -35592,7 +35612,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('vinaigrier',\'entomologie','carn','carabidé,carabe doré','vivant');
+		INSERT INTO verbe VALUES('vinaigrier','entomologie','carn','carabidé,carabe doré','vivant');
 		
   
    
@@ -35636,11 +35656,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('virginale',\'entomologie','suc','géométridé,papillon','vivant');
+		INSERT INTO verbe VALUES('virginale','entomologie','suc','géométridé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('virgine',\'entomologie','suc','aphididé,puceron femell','vivant');
+		INSERT INTO verbe VALUES('virgine','entomologie','suc','aphididé,puceron femell','vivant');
 		
   
    
@@ -35724,7 +35744,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('volucelle',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('volucelle','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
@@ -35756,11 +35776,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('vrillette',\'entomologie','herb','anobiidé,anobie','vivant');
+		INSERT INTO verbe VALUES('vrillette','entomologie','herb','anobiidé,anobie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('vulcain',\'entomologie','suc','nymphalidé,vanesse','vivant');
+		INSERT INTO verbe VALUES('vulcain','entomologie','suc','nymphalidé,vanesse','vivant');
 		
   
    
@@ -35812,7 +35832,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('wohlfarhrtia',\'entomologie','sang','calliphoridé,mouche','vivant');
+		INSERT INTO verbe VALUES('wohlfarhrtia','entomologie','sang','calliphoridé,mouche','vivant');
 		
   
    
@@ -35840,11 +35860,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('xanthia',\'entomologie','suc','noctuidé,mantelée,-thie','vivant');
+		INSERT INTO verbe VALUES('xanthia','entomologie','suc','noctuidé,mantelée,-thie','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xanthie',\'entomologie','suc','noctuidé,mantelée,-thia','vivant');
+		INSERT INTO verbe VALUES('xanthie','entomologie','suc','noctuidé,mantelée,-thia','vivant');
 		
   
    
@@ -35852,7 +35872,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('xantholinus',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('xantholinus','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
@@ -35880,7 +35900,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('xénocoeloma','crustacé',\'ento',\'entomostracé,copépode','vivant');
+		INSERT INTO verbe VALUES('xénocoeloma','crustacé','ento','entomostracé,copépode','vivant');
 		
   
    
@@ -35908,11 +35928,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('xenopsylla',\'entomologie','sang','siphonaptère,puce d rat','vivant');
+		INSERT INTO verbe VALUES('xenopsylla','entomologie','sang','siphonaptère,puce d rat','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xenos',\'entomologie','sang','xénidé,strepsiptère','vivant');
+		INSERT INTO verbe VALUES('xenos','entomologie','sang','xénidé,strepsiptère','vivant');
 		
   
    
@@ -35948,41 +35968,41 @@
 		
   
    
-		INSERT INTO verbe VALUES('xiphydrie',\'entomologie','suc','siricidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('xiphydrie','entomologie','suc','siricidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xyleborus',\'entomologie','herb','scolytidé,scolyte','vivant');
+		INSERT INTO verbe VALUES('xyleborus','entomologie','herb','scolytidé,scolyte','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xylène',\'entomologie','suc','noctuidé,papillon','vivant');
+		INSERT INTO verbe VALUES('xylène','entomologie','suc','noctuidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xylocope',\'entomologie','suc','apidé,abeille','vivant');
+		INSERT INTO verbe VALUES('xylocope','entomologie','suc','apidé,abeille','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xylodrèpe',\'entomologie','herb','silphidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('xylodrèpe','entomologie','herb','silphidé,coléoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xylophage',\'entomologie','végé','tel bostrychidé,mouche','vivant');
+		INSERT INTO verbe VALUES('xylophage','entomologie','végé','tel bostrychidé,mouche','vivant');
 		
    
-		INSERT INTO verbe VALUES('xylophage',\'entomologie','végé','bois,lignivore','vivant');
-		
-  
-   
-		INSERT INTO verbe VALUES('xylophage',\'entomologie','végé','tel bostrychidé,mouche','vivant');
-		
-   
-		INSERT INTO verbe VALUES('xylophage',\'entomologie','végé','bois,lignivore','vivant');
+		INSERT INTO verbe VALUES('xylophage','entomologie','végé','bois,lignivore','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('xylota',\'entomologie','sang','syrphidé,mouche','vivant');
+		INSERT INTO verbe VALUES('xylophage','entomologie','végé','tel bostrychidé,mouche','vivant');
+		
+   
+		INSERT INTO verbe VALUES('xylophage','entomologie','végé','bois,lignivore','vivant');
+		
+  
+   
+		INSERT INTO verbe VALUES('xylota','entomologie','sang','syrphidé,mouche','vivant');
 		
   
    
@@ -36002,7 +36022,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('yama-maï',\'entomologie','carn','ver à soie,chenille','vivant');
+		INSERT INTO verbe VALUES('yama-maï','entomologie','carn','ver à soie,chenille','vivant');
 		
   
    
@@ -36034,15 +36054,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('yponomeute',\'entomologie','suc','hyponomeutidé','vivant');
+		INSERT INTO verbe VALUES('yponomeute','entomologie','suc','hyponomeutidé','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zabre',\'entomologie','carn','carabidé,zabrus','vivant');
+		INSERT INTO verbe VALUES('zabre','entomologie','carn','carabidé,zabrus','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zabrus',\'entomologie','carn','carabidé,zabre','vivant');
+		INSERT INTO verbe VALUES('zabrus','entomologie','carn','carabidé,zabre','vivant');
 		
   
    
@@ -36090,11 +36110,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('zeiraphère',\'entomologie','végé','tortricidé,tordeuse','vivant');
+		INSERT INTO verbe VALUES('zeiraphère','entomologie','végé','tortricidé,tordeuse','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zelmira',\'entomologie','sang','mycétophilidé,moucheron','vivant');
+		INSERT INTO verbe VALUES('zelmira','entomologie','sang','mycétophilidé,moucheron','vivant');
 		
   
    
@@ -36102,15 +36122,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('zérène',\'entomologie','suc','géométridé,phalène','vivant');
+		INSERT INTO verbe VALUES('zérène','entomologie','suc','géométridé,phalène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zerynthia',\'entomologie','suc','papilionidé,thaïs,diane','vivant');
+		INSERT INTO verbe VALUES('zerynthia','entomologie','suc','papilionidé,thaïs,diane','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zethus',\'entomologie','suc','vespidé,guêpe','vivant');
+		INSERT INTO verbe VALUES('zethus','entomologie','suc','vespidé,guêpe','vivant');
 		
   
    
@@ -36118,11 +36138,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('zeuxévanie',\'entomologie','suc','évaniidé,hyménoptère','vivant');
+		INSERT INTO verbe VALUES('zeuxévanie','entomologie','suc','évaniidé,hyménoptère','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zeuzère',\'entomologie','suc','cossidé,papillon','vivant');
+		INSERT INTO verbe VALUES('zeuzère','entomologie','suc','cossidé,papillon','vivant');
 		
   
    
@@ -36130,7 +36150,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zicrone',\'entomologie','sang','pentatomidé,punaise','vivant');
+		INSERT INTO verbe VALUES('zicrone','entomologie','sang','pentatomidé,punaise','vivant');
 		
   
    
@@ -36142,7 +36162,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zizi','oiseau','pass',\'embérizidé,bruant','vivant');
+		INSERT INTO verbe VALUES('zizi','oiseau','pass','embérizidé,bruant','vivant');
 		
   
    
@@ -36162,7 +36182,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zodion',\'entomologie','sang','conopidé,mouche','vivant');
+		INSERT INTO verbe VALUES('zodion','entomologie','sang','conopidé,mouche','vivant');
 		
   
    
@@ -36182,7 +36202,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zonabris',\'entomologie','herb','méloïdé,mylabre','vivant');
+		INSERT INTO verbe VALUES('zonabris','entomologie','herb','méloïdé,mylabre','vivant');
 		
   
    
@@ -36190,7 +36210,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zonitis',\'entomologie','herb','méloïdé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('zonitis','entomologie','herb','méloïdé,coléoptère','vivant');
 		
   
    
@@ -36202,7 +36222,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zoolée',\'entomologie','carn','dictyoptère,mante','vivant');
+		INSERT INTO verbe VALUES('zoolée','entomologie','carn','dictyoptère,mante','vivant');
 		
   
    
@@ -36234,7 +36254,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zophomyia',\'entomologie','sang','tachinidé,mouche','vivant');
+		INSERT INTO verbe VALUES('zophomyia','entomologie','sang','tachinidé,mouche','vivant');
 		
   
    
@@ -36242,7 +36262,7 @@
 		
   
    
-		INSERT INTO verbe VALUES('zoraptère',\'entomologie','végé','paurométabole pt','vivant');
+		INSERT INTO verbe VALUES('zoraptère','entomologie','végé','paurométabole pt','vivant');
 		
   
    
@@ -36262,15 +36282,15 @@
 		
   
    
-		INSERT INTO verbe VALUES('zygène',\'entomologie','suc','zygénidé,papillon','vivant');
+		INSERT INTO verbe VALUES('zygène','entomologie','suc','zygénidé,papillon','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zygénidé',\'entomologie','suc','tel zygène','vivant');
+		INSERT INTO verbe VALUES('zygénidé','entomologie','suc','tel zygène','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zygina',\'entomologie','suc','jassidé pte cicadelle','vivant');
+		INSERT INTO verbe VALUES('zygina','entomologie','suc','jassidé pte cicadelle','vivant');
 		
   
    
@@ -36278,11 +36298,11 @@
 		
   
    
-		INSERT INTO verbe VALUES('zygoptère',\'entomologie','carn','odonate,tel leste','vivant');
+		INSERT INTO verbe VALUES('zygoptère','entomologie','carn','odonate,tel leste','vivant');
 		
   
    
-		INSERT INTO verbe VALUES('zyras',\'entomologie','herb','staphylinidé,coléoptère','vivant');
+		INSERT INTO verbe VALUES('zyras','entomologie','herb','staphylinidé,coléoptère','vivant');
 		
   
    
